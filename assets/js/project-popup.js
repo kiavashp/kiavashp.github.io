@@ -6,6 +6,7 @@ window.projectPopup = (() => {
     const close = () => {
         if (popupOpen) {
             document.body.style.overflow = '';
+            document.body.style.touchAction = '';
             popupOpen.parentElement.removeChild(popupOpen);
             popupOpen = null;
         }
@@ -39,6 +40,8 @@ window.projectPopup = (() => {
         close();
 
         document.body.style.overflow = 'hidden';
+        document.body.style.touchAction = 'none;
+        popup.style.touchAction = 'auto';
 
         popupOpen = popup;
 
