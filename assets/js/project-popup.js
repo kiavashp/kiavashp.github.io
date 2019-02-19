@@ -40,7 +40,7 @@ window.projectPopup = (() => {
         close();
 
         document.body.style.overflow = 'hidden';
-        document.body.style.touchAction = 'none';
+        document.body.style.touchAction = 'manipulation';
         popup.style.touchAction = 'auto';
 
         popupOpen = popup;
