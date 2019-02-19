@@ -1,0 +1,88 @@
+[
+  {
+    "title": "Teaspoon",
+    "description": "made from Birch",
+    "images": [
+      "teaspoon-1.JPG",
+      "teaspoon-2.JPG",
+      "teaspoon-3.JPG",
+      "teaspoon-4.JPG"
+    ]
+  },
+  {
+    "title": "Indian Motorcycle",
+    "description": "made from Basswood",
+    "images": [
+      "motorcycle-1.JPG",
+      "motorcycle-2.JPG"
+    ]
+  },
+  {
+    "title": "Fountain Pen",
+    "description": "made from African Padauk",
+    "images": [
+      "fountain-pen-1.JPG",
+      "fountain-pen-2.JPG"
+    ]
+  },
+  {
+    "title": "Jack Skellington",
+    "description": "made from Maple",
+    "images": [
+      "jack-1.JPG",
+      "jack-2.JPG",
+      "jack-3.JPG"
+    ]
+  },
+  {
+    "title": "Knot Necklace",
+    "description": "made from a wooden spoon",
+    "images": [
+      "knot-necklace-1.JPG",
+      "knot-necklace-2.JPG"
+    ]
+  },
+  {
+    "title": "Spike Necklace",
+    "description": "made from wooden spoon",
+    "images": [
+      "spike-necklace-1.JPG",
+      "spike-necklace-2.JPG"
+    ]
+  },
+  {
+    "title": "Mug",
+    "description": "made from Birch",
+    "images": [
+      "mug-1.JPG",
+      "mug-2.JPG",
+      "mug-3.JPG",
+      "mug-4.JPG"
+    ]
+  },
+  {
+    "title": "Phone Holder",
+    "description": "made from Pine 2x4",
+    "images": [
+      "phone-holder-1.JPG",
+      "phone-holder-2.JPG"
+    ]
+  },
+  {
+    "title": "Shark Tooth",
+    "description": "made from Cherry",
+    "images": [
+      "shark-tooth-1.JPG",
+      "shark-tooth-2.JPG",
+      "shark-tooth-3.JPG"
+    ]
+  },
+  {
+    "title": "Stirring Spoon",
+    "description": "made from Maple",
+    "images": [
+      "stirring-spoon-1.JPG",
+      "stirring-spoon-2.JPG"
+    ]
+  }
+]
