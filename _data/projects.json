@@ -14,7 +14,8 @@
     "description": "made from Basswood",
     "images": [
       "motorcycle-1.JPG",
-      "motorcycle-2.JPG"
+      "motorcycle-2.JPG",
+      "motorcycle-3.JPG"
     ]
   },
   {
@@ -32,6 +33,24 @@
       "jack-1.JPG",
       "jack-2.JPG",
       "jack-3.JPG"
+    ]
+  },
+  {
+    "title": "Split Ring",
+    "description": "made from Cherry, Maple and Resin",
+    "images": [
+      "split-ring-1.JPG",
+      "split-ring-2.JPG",
+      "split-ring-3.JPG"
+    ]
+  },
+  {
+    "title": "Shark Tooth",
+    "description": "made from Cherry",
+    "images": [
+      "shark-tooth-1.JPG",
+      "shark-tooth-2.JPG",
+      "shark-tooth-3.JPG"
     ]
   },
   {
@@ -66,15 +85,6 @@
     "images": [
       "phone-holder-1.JPG",
       "phone-holder-2.JPG"
-    ]
-  },
-  {
-    "title": "Shark Tooth",
-    "description": "made from Cherry",
-    "images": [
-      "shark-tooth-1.JPG",
-      "shark-tooth-2.JPG",
-      "shark-tooth-3.JPG"
     ]
   },
   {
