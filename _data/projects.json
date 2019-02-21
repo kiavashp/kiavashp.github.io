@@ -1,41 +1,5 @@
 [
   {
-    "title": "Teaspoon",
-    "description": "made from Birch",
-    "images": [
-      "teaspoon-1.JPG",
-      "teaspoon-2.JPG",
-      "teaspoon-3.JPG",
-      "teaspoon-4.JPG"
-    ]
-  },
-  {
-    "title": "Indian Motorcycle",
-    "description": "made from Basswood",
-    "images": [
-      "motorcycle-1.JPG",
-      "motorcycle-2.JPG",
-      "motorcycle-3.JPG"
-    ]
-  },
-  {
-    "title": "Fountain Pen",
-    "description": "made from African Padauk",
-    "images": [
-      "fountain-pen-1.JPG",
-      "fountain-pen-2.JPG"
-    ]
-  },
-  {
-    "title": "Jack Skellington",
-    "description": "made from Maple",
-    "images": [
-      "jack-1.JPG",
-      "jack-2.JPG",
-      "jack-3.JPG"
-    ]
-  },
-  {
     "title": "Split Ring",
     "description": "made from Cherry, Maple and Resin",
     "images": [
@@ -54,19 +18,20 @@
     ]
   },
   {
-    "title": "Knot Necklace",
-    "description": "made from a wooden spoon",
+    "title": "Phone Holder",
+    "description": "made from Pine 2x4",
     "images": [
-      "knot-necklace-1.JPG",
-      "knot-necklace-2.JPG"
+      "phone-holder-1.JPG",
+      "phone-holder-2.JPG"
     ]
   },
   {
-    "title": "Spike Necklace",
-    "description": "made from wooden spoon",
+    "title": "Indian Motorcycle",
+    "description": "made from Basswood",
     "images": [
-      "spike-necklace-1.JPG",
-      "spike-necklace-2.JPG"
+      "motorcycle-1.JPG",
+      "motorcycle-2.JPG",
+      "motorcycle-3.JPG"
     ]
   },
   {
@@ -80,11 +45,21 @@
     ]
   },
   {
-    "title": "Phone Holder",
-    "description": "made from Pine 2x4",
+    "title": "Fountain Pen",
+    "description": "made from African Padauk",
     "images": [
-      "phone-holder-1.JPG",
-      "phone-holder-2.JPG"
+      "fountain-pen-1.JPG",
+      "fountain-pen-2.JPG"
+    ]
+  },
+  {
+    "title": "Teaspoon",
+    "description": "made from Birch",
+    "images": [
+      "teaspoon-1.JPG",
+      "teaspoon-2.JPG",
+      "teaspoon-3.JPG",
+      "teaspoon-4.JPG"
     ]
   },
   {
@@ -93,6 +68,31 @@
     "images": [
       "stirring-spoon-1.JPG",
       "stirring-spoon-2.JPG"
+    ]
+  },
+  {
+    "title": "Jack Skellington",
+    "description": "made from Maple",
+    "images": [
+      "jack-1.JPG",
+      "jack-2.JPG",
+      "jack-3.JPG"
+    ]
+  },
+  {
+    "title": "Knot Necklace",
+    "description": "made from a wooden spoon",
+    "images": [
+      "knot-necklace-1.JPG",
+      "knot-necklace-2.JPG"
+    ]
+  },
+  {
+    "title": "Spike Necklace",
+    "description": "made from wooden spoon",
+    "images": [
+      "spike-necklace-1.JPG",
+      "spike-necklace-2.JPG"
     ]
   }
 ]
