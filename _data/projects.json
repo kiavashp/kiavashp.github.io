@@ -9,12 +9,22 @@
     ]
   },
   {
+    "title": "Maple Chopsticks",
+    "description": "made from this Maple tree",
+    "images": [
+      "maple-chopsticks-1.jpg",
+      "maple-chopsticks-2.jpg",
+      "maple-chopsticks-3.jpg"
+    ]
+  },
+  {
     "title": "Split Ring",
     "description": "made from Cherry, Maple and Resin",
     "images": [
       "split-ring-1.JPG",
       "split-ring-2.JPG",
-      "split-ring-3.JPG"
+      "split-ring-3.JPG",
+      "split-ring-4.JPG"
     ]
   },
   {
@@ -22,8 +32,7 @@
     "description": "made from Cherry",
     "images": [
       "shark-tooth-1.JPG",
-      "shark-tooth-2.JPG",
-      "shark-tooth-3.JPG"
+      "shark-tooth-2.JPG"
     ]
   },
   {
@@ -84,8 +93,7 @@
     "description": "made from Maple",
     "images": [
       "jack-1.JPG",
-      "jack-2.JPG",
-      "jack-3.JPG"
+      "jack-2.JPG"
     ]
   },
   {
