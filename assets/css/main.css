@@ -45,7 +45,7 @@ nav {
 }
 
 main {
-    padding: 10px 5px;
+    padding: 10px 0px;
     max-width: 1400px;
     margin: 0 auto;
 }
@@ -157,6 +157,16 @@ main {
     padding-bottom: 10px;
 }
 
+.popup-close {
+    float: right;
+    width: 70px;
+    height: 70px;
+    font-size: 40px;
+    line-height: 70px;
+    text-align: center;
+    color: #444;
+}
+
 .popup-title {
     padding: 20px 20px 5px;
 }
@@ -173,6 +183,10 @@ main {
 }
 
 @media only screen and (max-width: 980px) {
+    main {
+        padding: 10px 5px;
+    }
+
     .column-1 {
         display: none;
     }
