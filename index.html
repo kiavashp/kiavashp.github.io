@@ -28,7 +28,7 @@ layout: default
     {% if i3 == 0 %}
         {% assign column3Three = column3Three | push: project %}
     {% endif %}
-    {% include project.html project=project %}
+    {% include project.html project=project nopopup=true %}
 {% endfor %}
 </div>
 
