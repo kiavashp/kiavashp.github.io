@@ -45,7 +45,7 @@ nav {
 }
 
 main {
-    padding: 10px 0px;
+    padding: 10px 5px;
     max-width: 1400px;
     margin: 0 auto;
 }
@@ -183,10 +183,6 @@ main {
 }
 
 @media only screen and (max-width: 980px) {
-    main {
-        padding: 10px 5px;
-    }
-
     .column-1 {
         display: none;
     }
@@ -201,6 +197,10 @@ main {
 }
 
 @media only screen and (max-width: 580px) {
+    main {
+        padding: 10px 0px;
+    }
+
     .column-1 {
         display: block;
     }
