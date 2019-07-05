@@ -1,5 +1,33 @@
 [
   {
+    "title": "Whale Coffee Scoop",
+    "description": "made from Mulberry",
+    "images": [
+      "whale-spoon-1.JPG",
+      "whale-spoon-2.JPG",
+      "whale-spoon-3.JPG"
+    ]
+  },
+  {
+    "title": "Cracked Eating Spoon",
+    "description": "made from cracked Mulberry branch",
+    "images": [
+      "eating-spoon-1.JPG",
+      "eating-spoon-2.JPG",
+      "eating-spoon-3.JPG",
+      "eating-spoon-4.JPG"
+    ]
+  },
+  {
+    "title": "Large Eating Spoon",
+    "description": "made from Birch",
+    "images": [
+      "large-spoon-1.JPG",
+      "large-spoon-2.JPG",
+      "large-spoon-3.JPG"
+    ]
+  },
+  {
     "title": "Ogre Spoon",
     "description": "made from Maple",
     "images": [
