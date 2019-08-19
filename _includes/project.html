@@ -1,8 +1,12 @@
-<div class="entry"
+<a class="entry"
+    data-hash="{{ include.project.title | slugify }}"
     {% if include.nopopup == true %}
+        data-popup="false"
         onclick='projectRotate(this, {{ include.project | jsonify }})'
     {% else %}
-        onclick='projectPopup({{ include.project | jsonify }})'
+        data-popup="true"
+        data-json='{{ include.project | jsonify }}'
+        href="#{{ include.project.title | slugify }}"
     {% endif %}><!--
     --><img class="entry-image" src="/assets/{{ include.project.images[0] }}"/><!--
     -->{% if include.nopopup == true %}<!--
@@ -16,4 +20,4 @@
         --><div class="entry-hover-title">{{ include.project.title }}</div><!--
         --><div class="entry-hover-description">{{ include.project.description }}</div><!--
     --></div><!--
---></div>
+--></a>

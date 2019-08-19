@@ -2,12 +2,14 @@
 
 window.projectPopup = (() => {
     let popupOpen = null;
+    const projects = {};
 
     const close = () => {
         if (popupOpen) {
             document.body.style.overflow = '';
             popupOpen.parentElement.removeChild(popupOpen);
             popupOpen = null;
+            location.hash = '';
         }
     };
 
@@ -17,7 +19,22 @@ window.projectPopup = (() => {
         }
     });
 
-    return project => {
+    document.addEventListener('DOMContentLoaded', () => {
+        const entries = document.querySelectorAll('.entry');
+
+        for (let entry of entries) {
+            const hash = entry.getAttribute('data-hash');
+            const entryData = JSON.parse(entry.getAttribute('data-json'));
+            projects[hash] = entryData;
+        }
+    });
+
+    return hash => {
+        if (!projects.hasOwnProperty(hash)) {
+            console.warn(`unknown project hash: ${hash}`);
+            return;
+        }
+        const project = projects[hash];
         window.closePopup = close;
 
         const popup = document.createElement('div');
@@ -47,4 +64,15 @@ window.projectPopup = (() => {
 
         document.body.appendChild(popup);
     };
+})();
+
+(() => {
+    const onHashChange = () => {
+        if (location.hash) {
+            projectPopup(location.hash.slice(1));
+        }
+    };
+
+    document.addEventListener('DOMContentLoaded', onHashChange);
+    window.addEventListener('hashchange', onHashChange);
 })();
