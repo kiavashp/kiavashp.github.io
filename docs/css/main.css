@@ -181,7 +181,15 @@ main {
     display: flex;
     justify-content: space-between;
     overflow-x: scroll;
-    padding: 10px 40px;
+    padding: 20px 40px;
+}
+
+.panel-content:after {
+    content: "";
+    display: block;
+    width: 40px;
+    flex-shrink: 0;
+    flex-grow: 0;
 }
 
 .panel-preview {
