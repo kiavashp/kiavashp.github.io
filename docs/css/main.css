@@ -16,6 +16,18 @@ body {
     min-width: 420px;
 }
 
+input {
+    font-family: inherit;
+    font-weight: inherit;
+}
+
+::placeholder,
+:-ms-input-placeholder,
+::-ms-input-placeholder {
+  color: #b8b1ab;
+  opacity: 1;
+}
+
 .noselect {
     -webkit-touch-callout: none;
     -webkit-user-select: none;
@@ -277,8 +289,44 @@ footer {
     display: block;
 }
 
-.footer-mailinglist {
+.footer-email > a {
+    text-decoration: underline;
+}
 
+form.footer-mailinglist {
+
+}
+
+.footer-mailinglist > input[type="text"] {
+    -webkit-appearance: none;
+    border: 2px solid transparent;
+    background: #fffaf4;
+    padding: 7px 12px;
+    font-size: 14px;
+    border-radius: 4px;
+    outline: none;
+    caret-color: #4b3a2c;
+    color: #6b5a4c;
+}
+
+.footer-mailinglist.input-error > input[type="text"] {
+    border-color: #fb9a8c;
+}
+
+.footer-mailinglist > input[type="text"]:focus {
+    background: #fffef8;
+}
+
+.footer-mailinglist > input[type="submit"] {
+    -webkit-appearance: none;
+    border: 2px solid transparent;
+    background: #dfdad4;
+    color: #4b3a2c;
+    line-height: 18px;
+    padding: 7px 12px;
+    font-size: 14px;
+    border-radius: 4px;
+    outline: none;
 }
 
 .footer-copyright {

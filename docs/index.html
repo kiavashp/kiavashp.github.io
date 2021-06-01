@@ -15,9 +15,10 @@ navnohome: true
     --></div>
 </div>
 
+{% if site.words.size > 0 %}
 <div class="panel">
     <div class="panel-header"><!--
-        --><div class="panel-title">Words</div><!--
+    --><div class="panel-title">Writing</div><!--
         --><a class="panel-action" href="/poems">view all ›</a>
     </div>
     <div class="panel-content">
@@ -42,7 +43,9 @@ navnohome: true
         {% endfor %}
     </div>
 </div>
+{% endif %}
 
+{% if site.wood.size > 0 %}
 <div class="panel">
     <div class="panel-header"><!--
         --><div class="panel-title">Wood</div><!--
@@ -55,7 +58,9 @@ navnohome: true
         <div class="panel-preview panel-preview-wood"></div>
     </div>
 </div>
+{% endif %}
 
+{% if site.code.size > 0 %}
 <div class="panel">
     <div class="panel-header">
         <div class="panel-title">Code</div>
@@ -66,3 +71,4 @@ navnohome: true
         <div class="panel-preview panel-preview-code"></div>
     </div>
 </div>
+{% endif %}
