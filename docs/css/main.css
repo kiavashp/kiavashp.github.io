@@ -1,9 +1,18 @@
+html {
+    height: 100%;
+}
+
 body {
     background: #fffaf4;
-    color: #bbbbbb;
+    color: #404040;
     font-family: Monaco, monospace, sans-serif;
+    font-size: 16px;
     cursor: default;
     margin: 0px;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    min-width: 640px;
 }
 
 .noselect {
@@ -24,9 +33,24 @@ a:active {
     color: #606060;
 }
 
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+img {
+    animation: fadein 0.5s ease-in;
+}
+
+/* nav */
+
 nav {
+    flex-shrink: 0;
+    flex-grow: 0;
     display: flex;
     padding: 30px 60px;
+    box-sizing: border-box;
+    width: 100%;
     height: 50px;
     line-height: 50px;
 }
@@ -75,23 +99,166 @@ nav {
     line-height: 50px;
 }
 
+/* main */
+
 main {
-    padding: 10px 0;
+    flex-grow: 1;
+    box-sizing: border-box;
+    width: 100%;
+    padding: 10px 80px;
 }
+
+
+/* main/hero */
+
+.hero {
+    display: flex;
+    max-width: 800px;
+    margin: 40px auto;
+}
+
+.hero-logo {
+    flex-shrink: 0;
+}
+
+.hero-logo-placeholder {
+    position: absolute;
+}
+
+.hero-logo-image {
+    position: relative;
+}
+
+.hero-right {
+    flex: 1;
+    padding-left: 40px;
+    font-size: 0;
+}
+
+.hero-title {
+    font-size: 36px;
+}
+
+.hero-bio {
+    font-size: 18px;
+    padding-top: 20px
+}
+
+.hero-social {
+
+}
+
+/* main/panel */
+
+.panel {
+    margin: 0 auto;
+    margin-top: 80px;
+    max-width: 1000px;
+}
+
+.panel-header {
+    display: flex;
+    height: 60px;
+    line-height: 60px;
+    margin-bottom: 40px
+}
+
+.panel-title {
+    display: inline-block;
+    font-size: 36px;
+    flex-grow: 1;
+}
+
+.panel-action {
+    display: inline-block;
+    font-size: 24px;
+    text-align: right;
+}
+
+.panel-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.panel-preview {
+    background: #ffffff;
+    border-radius: 4px;
+    margin: 0 10px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    flex-shrink: 0;
+    flex-grow: 0;
+}
+
+.panel-preview-words {
+    width: 125px;
+    height: 200px;
+}
+
+.panel-preview-wood {
+    width: 160px;
+    height: 160px;
+}
+
+.panel-preview-code {
+    width: 400px;
+    height: 300px;
+}
+
+
+/* footer */
 
 footer {
-    display: flex;
-    padding: 0 10px;
+    flex-shrink: 0;
+    flex-grow: 0;
+    margin-top: 80px;
+    box-sizing: border-box;
+    width: inherit;
+    height: 240px;
+    background: #f5f0ea;
 }
 
-.footer-link {
-    display: inline-block;
-    padding: 10px;
-    font-size: 14px;
+.footer-content {
+    display: flex;
+    padding: 0 80px;
+    padding-top: 80px;
+    margin: 0 auto;
+    max-width: 1000px;
+}
+
+.footer-left {
+    flex-shrink: 0;
+    flex-grow: 1;
+}
+
+.footer-right {
+    flex-shrink: 0;
+    flex-grow: 1;
+}
+
+.footer-header {
+    display: block;
+    font-size: 24px;
+    padding-bottom: 10px;
+}
+
+.footer-email {
+    display: block;
+}
+
+.footer-mailinglist {
+
+}
+
+.footer-left {
+
+}
+
+.footer-left {
+
 }
 
 @media only screen and (max-width: 740px) {
-    
+
 }
 
 @media only screen and (max-width: 600px) {
