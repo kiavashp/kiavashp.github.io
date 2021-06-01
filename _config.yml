@@ -1,4 +1,4 @@
-source:          ./
+source:          ./site
 destination:     ./.site
 
 defaults:
