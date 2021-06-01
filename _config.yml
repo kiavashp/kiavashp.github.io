@@ -1,6 +1,11 @@
 source:          ./docs
 destination:     ./.site
 
+collections:
+  words:
+    output: true
+    permalink: /words/:name
+
 defaults:
   -
     scope:

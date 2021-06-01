@@ -1,0 +1,23 @@
+---
+layout: default
+title: Poems
+---
+
+<link rel="stylesheet" href="/css/words.css" />
+
+<div class="page-carousel">
+    <a class="carousel-item" href="/essays">Essays</a>
+    <span class="carousel-item current">Poems</span>
+    <a class="carousel-item" href="/stories">Stories</a>
+</div>
+
+<div class="page-content">
+    {% for word in site.words %}
+        {% if word.layout == "poem" %}
+            <a class="page-cell noselect" href="{{ word.url }}">
+                <span class="cell-title">{{ word.title }}</span>
+                <img class="cell-icon" src="/assets/icons/{{ word.title | slugify }}.svg" />
+            </a>
+        {% endif %}
+    {% endfor %}
+</div>

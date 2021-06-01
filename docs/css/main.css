@@ -13,7 +13,7 @@ body {
     display: flex;
     flex-direction: column;
     height: 100%;
-    min-width: 640px;
+    min-width: 420px;
 }
 
 .noselect {
@@ -188,6 +188,7 @@ main {
     content: "";
     display: block;
     width: 40px;
+    margin-right: -40px;
     flex-shrink: 0;
     flex-grow: 0;
 }
@@ -196,7 +197,7 @@ main {
     background: #ffffff;
     border-radius: 4px;
     margin: 0 10px;
-    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.1);
     flex-shrink: 0;
     flex-grow: 0;
 }
@@ -204,6 +205,21 @@ main {
 .panel-preview-words {
     width: 125px;
     height: 200px;
+    text-align: center;
+}
+
+.panel-preview-words > .preview-title {
+    display: block;
+    font-size: 20px;
+    margin: 20px 10px 30px;
+    word-break: break-word;
+}
+
+.panel-preview-words > .preview-image {
+    display: block;
+    width: 70px;
+    max-height: 80px;
+    margin: 0 auto;
 }
 
 .panel-preview-wood {
@@ -225,16 +241,20 @@ footer {
     margin-top: 80px;
     box-sizing: border-box;
     width: inherit;
-    height: 240px;
+    min-height: 240px;
     background: #f5f0ea;
 }
 
 .footer-content {
     display: flex;
-    padding: 0 80px;
-    padding-top: 80px;
+    flex-wrap: wrap;
+    padding: 40px 80px;
     margin: 0 auto;
     max-width: 1000px;
+}
+
+.footer-left, .footer-right {
+    padding: 40px 0;
 }
 
 .footer-left {
@@ -244,13 +264,13 @@ footer {
 
 .footer-right {
     flex-shrink: 0;
-    flex-grow: 1;
+    flex-grow: 0;
 }
 
 .footer-header {
     display: block;
     font-size: 24px;
-    padding-bottom: 10px;
+    padding-bottom: 20px;
 }
 
 .footer-email {
@@ -261,12 +281,12 @@ footer {
 
 }
 
-.footer-left {
-
-}
-
-.footer-left {
-
+.footer-copyright {
+    display: block;
+    font-size: 10px;
+    text-align: right;
+    color: #b8b1ab;
+    padding-top: 20px;
 }
 
 @media only screen and (max-width: 740px) {
