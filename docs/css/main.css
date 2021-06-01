@@ -1,0 +1,99 @@
+body {
+    background: #fffaf4;
+    color: #bbbbbb;
+    font-family: Monaco, monospace, sans-serif;
+    cursor: default;
+    margin: 0px;
+}
+
+.noselect {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+a, a:link, a:visited, a:hover {
+    color: #404040;
+    text-decoration: none;
+}
+
+a:active {
+    color: #606060;
+}
+
+nav {
+    display: flex;
+    padding: 30px 60px;
+    height: 50px;
+    line-height: 50px;
+}
+
+.nav-home {
+    display: inline-block;
+    padding-right: 10px;
+    font-size: 0px;
+    flex-shrink: 0;
+}
+
+.nav-logo {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.nav-logo-placeholder {
+    display: inline-block;
+    position: absolute;
+}
+
+.nav-logo-image {
+    display: inline-block;
+    position: relative;
+}
+
+.nav-title {
+    display: inline-block;
+    line-height: 50px;
+    font-size: 18px;
+    padding: 0 15px;
+}
+
+.nav-right {
+    display: flex;
+    justify-content: flex-end;
+    flex: 1;
+    text-align: right;
+    font-size: 0px;
+}
+
+.nav-link {
+    display: inline-block;
+    padding: 0 10px;
+    font-size: 14px;
+    line-height: 50px;
+}
+
+main {
+    padding: 10px 0;
+}
+
+footer {
+    display: flex;
+    padding: 0 10px;
+}
+
+.footer-link {
+    display: inline-block;
+    padding: 10px;
+    font-size: 14px;
+}
+
+@media only screen and (max-width: 740px) {
+    
+}
+
+@media only screen and (max-width: 600px) {
+
+}
