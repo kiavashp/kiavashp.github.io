@@ -3,7 +3,8 @@ html {
 }
 
 body {
-    background: #fffaf4;
+    background-color: #fffaf4;
+    background-image: url("/assets/paper-50s.png");
     color: #404040;
     font-family: Monaco, monospace, sans-serif;
     font-size: 16px;
@@ -248,13 +249,14 @@ main {
 /* footer */
 
 footer {
+    background-color: #f5f0ea;
+    background-image: url("/assets/paper-50s.png");
     flex-shrink: 0;
     flex-grow: 0;
     margin-top: 80px;
     box-sizing: border-box;
     width: inherit;
     min-height: 240px;
-    background: #f5f0ea;
 }
 
 .footer-content {
