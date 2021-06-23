@@ -5,8 +5,18 @@
     font-size: 36px;
 }
 
+.page-carousel:after {
+    content: "";
+    display: block;
+    padding-top: 60px;
+    margin: 0 auto;
+    width: 60px;
+    height: 1px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1)
+}
+
 .carousel-item {
-    margin: 0 20px;
+    margin: 0 40px;
 }
 
 .carousel-item:not(.current) {
@@ -39,7 +49,7 @@
 .cell-icon {
     display: block;
     margin: 0 auto;
-    height: 60px;
+    height: 64px;
 }
 
 .words-section-break {
@@ -54,13 +64,30 @@
     font-weight: normal;
 }
 
-/* list */
+/* Content Pages */
+
+.back-to {
+    display: block;
+    max-width: 800px;
+    padding-left: 60px;
+    margin: 0 auto;
+    color: #8a8a8a;
+}
+
+.back-to > a {
+    display: inline-block;
+    padding: 10px 0;
+    text-decoration: underline;
+    color: #8a8a8a;
+}
+
+/* Content - list */
 
 .page-listitem {
     display: block;
     max-width: 800px;
     padding: 0 80px;
-    margin-top: 40px;
+    margin-bottom: 40px;
 }
 
 .listitem-header {
@@ -116,7 +143,7 @@
     -webkit-box-orient: vertical;
 }
 
-/* poem */
+/* Content/poem */
 
 .poem-image {
     display: block;
@@ -128,6 +155,7 @@
 .poem-title {
     display: block;
     text-align: center;
+    max-width: 800px;
     margin: 0 auto;
     margin-top: 40px;
     font-size: 36px;
@@ -136,6 +164,7 @@
 .poem-author {
     display: block;
     text-align: center;
+    max-width: 800px;
     margin: 0 auto;
     margin-top: 10px;
     font-size: 16px;
@@ -153,11 +182,12 @@
 }
 
 .poem-content > p {
+    padding: 0 80px;
     margin: 16px 0;
     font-size: 16px;
 }
 
-/* story */
+/* Content/story */
 
 .story-image {
     display: block;
@@ -202,7 +232,7 @@
     tab-size: 4;
 }
 
-/* essay */
+/* Content/essay */
 
 .essay-header {
     display: block;

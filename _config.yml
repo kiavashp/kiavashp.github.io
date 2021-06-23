@@ -4,7 +4,7 @@ destination:     ./.site
 collections:
   words:
     output: true
-    permalink: /words/:name
+    permalink: /:categories/:name
 
 defaults:
   -

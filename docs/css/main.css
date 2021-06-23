@@ -13,7 +13,7 @@ body {
     margin: 0;
     display: flex;
     flex-direction: column;
-    height: 100%;
+    min-height: 100%;
     min-width: 420px;
 }
 
@@ -62,11 +62,47 @@ nav {
     flex-shrink: 0;
     flex-grow: 0;
     display: flex;
+    position: relative;
     padding: 30px 60px;
     box-sizing: border-box;
     width: 100%;
     height: 110px;
     line-height: 50px;
+    background: inherit;
+    transition: box-shadow 0.1s ease-in-out;
+}
+
+body.scrolled > nav:not(.nohome) {
+    position: fixed;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    z-index: 1;
+    box-shadow: 0 1px 0 0 rgba(4,13,33,.1),
+        0 6.6501px 5.32008px rgba(0,0,0,.04317),
+        0 12.5216px 10.0172px rgba(0,0,0,.0339075),
+        0 22.3363px 17.869px rgba(0,0,0,.0282784),
+        0 41.7776px 33.4221px rgba(0,0,0,.0235573),
+        0 100px 80px rgba(0,0,0,.0174624);
+}
+
+nav > .scroll-progress {
+    display: block;
+    width: 0%;
+    height: 2px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background: #5F9FAA;
+    visibility: hidden;
+}
+
+body.scrolled > nav > .scroll-progress {
+    visibility: unset;
+}
+
+nav.nohome > .nav-home {
+    display: none;
 }
 
 .nav-home {
@@ -189,6 +225,8 @@ main {
     font-size: 24px;
     text-align: right;
 }
+
+/* main/panel/content */
 
 .panel-content {
     display: flex;

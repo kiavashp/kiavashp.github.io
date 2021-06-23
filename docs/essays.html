@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Essays
+navnoscroll: true
 ---
 
 <link rel="stylesheet" href="/css/words.css" />
@@ -12,7 +13,7 @@ title: Essays
 </div>
 
 <div class="page-content">
-    {% for word in site.words %}
+    {% for word in site.words reversed %}
         {% if word.layout == "essay" %}
             <div class="page-listitem noselect"><!--
                 --><a class="listitem-header" href="{{ word.url }}"><!--

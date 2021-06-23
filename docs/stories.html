@@ -1,6 +1,7 @@
 ---
 layout: default
-title: Poems
+title: Stories
+navnoscroll: true
 ---
 
 <link rel="stylesheet" href="/css/words.css" />
@@ -10,9 +11,8 @@ title: Poems
     <a class="carousel-item" href="/poems">Poems</a>
     <span class="carousel-item current">Stories</span>
 </div>
-
 <div class="page-content">
-    {% for word in site.words %}
+    {% for word in site.words reversed %}
         {% if word.layout == "story" %}
             <div class="page-listitem noselect">
                 <a class="listitem-header nowrap" href="{{ word.url }}">

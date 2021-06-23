@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Poems
+navnoscroll: true
 ---
 
 <link rel="stylesheet" href="/css/words.css" />
@@ -12,7 +13,7 @@ title: Poems
 </div>
 
 <div class="page-content">
-    {% for word in site.words %}
+    {% for word in site.words reversed %}
         {% if word.layout == "poem" %}
             <a class="page-cell noselect" href="{{ word.url }}">
                 <span class="cell-title">{{ word.title }}</span>
