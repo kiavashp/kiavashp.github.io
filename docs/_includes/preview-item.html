@@ -1,0 +1,43 @@
+{% if include.word %}
+
+    {% assign addFields = include.addFields | default: "summary,type,date" | split: "," %}
+
+    {% assign url = include.word.url %}
+    {% assign image = include.word.image %}
+    {% assign title = include.word.title %}
+    {% assign layout = include.word.layout %}
+    {% if addFields contains "summary" %}
+        {% assign summary = include.word.summary | default: include.word.excerpt %}
+    {% endif %}
+    {% if addFields contains "type" %}
+        {% assign type = layout | capitalize %}
+    {% endif %}
+    {% if addFields contains "date" %}
+        {% assign date = include.word.date | date: "%-m/%-d/%y" %}
+    {% endif %}
+
+
+    {% if date or type %}
+        {% capture dateType %}{% if type %}{{ type }}{% if date %} - {% endif %}{% endif %}{% if date %}{{ date }}{% endif %}{% endcapture %}
+    {% endif %}
+
+    <div class="list-preview">
+        <a class="list-preview-header" href="{{ url }}">
+            {% if image %}
+                <div class="list-preview-image"><img src="/assets/content-images/{{ image }}" /></div>
+            {% endif %}
+            <div class="list-preview-text">
+                <span class="list-preview-title">{{ title }}</span>
+                {% if dateType %}<span class="list-preview-date">{{ dateType }}</span>{% endif %}
+            </div>
+        </a>
+        {% if summary %}
+            {% if layout == "story" or layout == "essay" %}
+                <div class="list-preview-excerpt">{{ summary }}</div>
+            {% endif %}
+        {% endif %}
+    </div>
+
+{% else %}
+<!-- error rendering: include.word is not defined -->
+{% endif %}

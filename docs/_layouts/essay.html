@@ -2,11 +2,9 @@
 layout: default
 ---
 
-<link rel="stylesheet" href="/css/words.css" />
-
-<div class="back-to"><a href="/essays">Essays</a> / {{ page.title }}</div>
-<div class="essay-header"><!--
-    --><div class="essay-title">{{ page.title }}</div><!--
-    --><div class="essay-date">{{ page.date | date: "%b %e, %Y" }}</div><!--
---></div><!--
---><div class="essay-content">{{ content }}</div>
+<div class="words-page">
+    {% if page.image %}<img class="words-image" src="/assets/content-images/{{ page.image }}"/>{% endif %}
+    <div class="words-title">{{ page.title }}</div>
+    <div class="words-date">{{ page.date | date: "%b %e, %Y" }}</div>
+    <div class="words-content">{{ content }}</div>
+</div>

@@ -1,26 +1,14 @@
 ---
 layout: default
 title: Stories
+navtype: "carousel"
 navnoscroll: true
 ---
 
-<link rel="stylesheet" href="/css/words.css" />
-
-<div class="page-carousel">
-    <a class="carousel-item" href="/essays">Essays</a>
-    <a class="carousel-item" href="/poems">Poems</a>
-    <span class="carousel-item current">Stories</span>
-</div>
-<div class="page-content">
+<div class="panel">
     {% for word in site.words reversed %}
         {% if word.layout == "story" %}
-            <div class="page-listitem noselect">
-                <a class="listitem-header nowrap" href="{{ word.url }}">
-                    <img class="listitem-icon" src="/assets/icons/{{ word.title | slugify }}.svg" />
-                    <span class="listitem-title">{{ word.title }}</span>
-                </a>
-                <div class="listitem-excerpt">{{ word.summary | default: word.excerpt }}</div>
-            </div>
+            {% include preview-item.html word=word addFields="summary" %}
         {% endif %}
     {% endfor %}
 </div>

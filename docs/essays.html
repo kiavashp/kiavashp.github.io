@@ -1,27 +1,14 @@
 ---
 layout: default
 title: Essays
+navtype: "carousel"
 navnoscroll: true
 ---
 
-<link rel="stylesheet" href="/css/words.css" />
-
-<div class="page-carousel">
-    <span class="carousel-item current">Essays</span>
-    <a class="carousel-item" href="/poems">Poems</a>
-    <a class="carousel-item" href="/stories">Stories</a>
-</div>
-
-<div class="page-content">
+<div class="panel">
     {% for word in site.words reversed %}
         {% if word.layout == "essay" %}
-            <div class="page-listitem noselect"><!--
-                --><a class="listitem-header" href="{{ word.url }}"><!--
-                    --><span class="listitem-title">{{ word.title }}</span><!--
-                    --><span class="listitem-date">{{ word.date | date: "%b %e, %Y" }}</span><!--
-                --></a><!--
-                --><div class="listitem-excerpt">{{ word.excerpt }}</div><!--
-            --></div>
+            {% include preview-item.html word=word addFields="summary,date" %}
         {% endif %}
     {% endfor %}
 </div>
