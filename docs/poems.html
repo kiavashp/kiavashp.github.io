@@ -1,22 +1,17 @@
 ---
 layout: default
 title: Poems
+navtype: "carousel"
+navnoscroll: true
 ---
 
-<link rel="stylesheet" href="/css/words.css" />
-
-<div class="page-carousel">
-    <a class="carousel-item" href="/essays">Essays</a>
-    <span class="carousel-item current">Poems</span>
-    <a class="carousel-item" href="/stories">Stories</a>
-</div>
-
-<div class="page-content">
-    {% for word in site.words %}
+<div class="panel preview-poems">
+    {% for word in site.words reversed %}
         {% if word.layout == "poem" %}
-            <a class="page-cell noselect" href="{{ word.url }}">
-                <span class="cell-title">{{ word.title }}</span>
-                <img class="cell-icon" src="/assets/icons/{{ word.title | slugify }}.svg" />
+            {% assign defaultImage = word.title | slugify | append: '.svg' %}
+            <a class="poem-preview noselect" href="{{ word.url }}">
+                <img class="poem-preview-image" src="/assets/content-images/{{ word.image | default: defaultImage }}" />
+                <span class="poem-preview-title">{{ word.title }}</span>
             </a>
         {% endif %}
     {% endfor %}

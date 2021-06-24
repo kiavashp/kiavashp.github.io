@@ -13,7 +13,7 @@ body {
     margin: 0;
     display: flex;
     flex-direction: column;
-    height: 100%;
+    min-height: 100%;
     min-width: 420px;
 }
 
@@ -56,22 +56,83 @@ img {
     animation: fadein 0.5s ease-in;
 }
 
+main {
+    flex-grow: 1;
+    box-sizing: border-box;
+    width: 100%;
+}
+
+/* social */
+
+.social-link {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    padding: 10px;
+    margin-right: 10px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 50px auto;
+    background-size: contain;
+}
+
+.medium-social {
+    background-image: url(/assets/social/medium.svg);
+}
+
+.wattpad-social {
+    background-image: url(/assets/social/wattpad.png);
+}
+
 /* nav */
 
 nav {
     flex-shrink: 0;
     flex-grow: 0;
     display: flex;
+    position: relative;
     padding: 30px 60px;
     box-sizing: border-box;
     width: 100%;
     height: 110px;
     line-height: 50px;
+    background: inherit;
+    transition: box-shadow 0.1s ease-in-out;
+    background-color: #fffaf4dd;
+    backdrop-filter: blur(2px);
+}
+
+body.scrolled > nav:not(.nohome) {
+    position: fixed;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    z-index: 1;
+    box-shadow: 0 1px 0 0 rgba(4,13,33,.1),
+        0 6.6501px 5.32008px rgba(0,0,0,.04317),
+        0 12.5216px 10.0172px rgba(0,0,0,.0339075),
+        0 22.3363px 17.869px rgba(0,0,0,.0282784),
+        0 41.7776px 33.4221px rgba(0,0,0,.0235573),
+        0 100px 80px rgba(0,0,0,.0174624);
+}
+
+nav > .scroll-progress {
+    display: block;
+    width: 0%;
+    height: 2px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background: #5F9FAA;
+    visibility: hidden;
+}
+
+body.scrolled > nav > .scroll-progress {
+    visibility: unset;
 }
 
 .nav-home {
     display: inline-block;
-    padding-right: 10px;
     font-size: 0px;
     flex-shrink: 0;
 }
@@ -98,36 +159,51 @@ nav {
     padding: 0 15px;
 }
 
-.nav-right {
-    display: flex;
-    justify-content: flex-end;
-    flex: 1;
-    text-align: right;
-    font-size: 0px;
+.nav-breadcrumb {
+    font-size: 16px;
+    color: #8a8a8a;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
 }
 
-.nav-link {
-    display: inline-block;
-    padding: 0 10px;
-    font-size: 14px;
-    line-height: 50px;
+.nav-breadcrumb > a {
+    font-size: 16px;
+    color: inherit;
+    text-decoration: underline;
 }
 
-/* main */
-
-main {
-    flex-grow: 1;
-    box-sizing: border-box;
-    width: 100%;
+.carousel {
+    display: block;
+    text-align: center;
+    margin: 40px auto;
+    font-size: 36px;
 }
 
+.carousel:after {
+    content: "";
+    display: block;
+    padding-top: 40px;
+    margin: 0 auto;
+    width: 60px;
+    height: 1px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1)
+}
 
-/* main/hero */
+.carousel-link {
+    padding: 20px;
+}
+
+.carousel-link:not(.current) {
+    color: #9a9a9a;
+}
+
+/* hero */
 
 .hero {
     display: flex;
-    max-width: 800px;
-    padding: 0 80px;
+    max-width: 600px;
+    padding: 40px 80px 0px;
     margin: 40px auto;
 }
 
@@ -143,6 +219,11 @@ main {
     position: relative;
 }
 
+.hero-logo-placeholder, .hero-logo-image {
+    width: 164px;
+    height: 200px;
+}
+
 .hero-right {
     flex: 1;
     padding-left: 40px;
@@ -155,96 +236,199 @@ main {
 
 .hero-bio {
     font-size: 18px;
-    padding-top: 20px
+    padding-top: 20px;
+    color: #808080;
 }
 
 .hero-social {
-
+    padding-top: 25px;
 }
 
-/* main/panel */
+/* panel */
 
 .panel {
     margin: 0 auto;
-    margin-top: 80px;
     max-width: 1000px;
 }
 
-.panel-header {
-    display: flex;
-    height: 60px;
+.panel > h1 {
+    margin-block: unset;
+    font-weight: normal;
+    font-size: 26px;
+    color: #9a9a9a;
     line-height: 60px;
     padding: 0 60px;
     margin-bottom: 40px;
 }
 
-.panel-title {
-    display: inline-block;
-    font-size: 36px;
-    flex-grow: 1;
-}
+/* panel/preview-poems */
 
-.panel-action {
-    display: inline-block;
-    font-size: 24px;
-    text-align: right;
-}
-
-.panel-content {
+.panel.preview-poems {
     display: flex;
-    justify-content: space-between;
-    overflow-x: scroll;
-    padding: 20px 40px;
+    flex-wrap: wrap;
+    padding: 0 60px;
 }
 
-.panel-content:after {
-    content: "";
-    display: block;
-    width: 40px;
-    margin-right: -40px;
+.poem-preview {
+    display: inline-block;
     flex-shrink: 0;
-    flex-grow: 0;
-}
-
-.panel-preview {
-    background: #ffffff;
-    border-radius: 4px;
-    margin: 0 10px;
-    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.1);
-    flex-shrink: 0;
-    flex-grow: 0;
-}
-
-.panel-preview-words {
-    width: 125px;
+    flex-grow: 1;
+    width: 200px;
     height: 200px;
+    padding: 20px;
+    cursor: pointer;
+}
+
+.poem-preview-image {
+    display: block;
+    margin: 0 auto;
+    height: 64px;
+    margin-bottom: 30px;
+}
+
+.poem-preview-title {
+    display: block;
+    font-size: 24px;
     text-align: center;
 }
 
-.panel-preview-words > .preview-title {
+/* panel/preview-wrappable-list */
+.preview-wrappable-list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    font-size: 0;
+}
+
+.list-preview {
     display: block;
-    font-size: 20px;
-    margin: 20px 10px 30px;
+    padding: 0 80px;
+    margin-bottom: 80px;
+    flex-grow: 1;
+}
+
+.list-preview-header {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.list-preview-image {
+    display: block;
+    margin-right: 20px;
+    width: 80px;
+    min-height: 80px;
+    flex-shrink: 0;
+    flex-grow: 0;
+}
+
+.list-preview-image > img {
+    width: 80px;
+    max-height: 120px;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.list-preview-text {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    flex-grow: 1;
     word-break: break-word;
 }
 
-.panel-preview-words > .preview-image {
+.preview-wrappable-list .list-preview-text {
     display: block;
-    width: 70px;
-    max-height: 80px;
+}
+
+.list-preview-title {
+    display: block;
+    font-size: 26px;
+    line-height: 36px;
+    flex-grow: 1;
+    margin-right: 20px;
+}
+
+.list-preview-date {
+    display: block;
+    font-size: 18px;
+    line-height: 36px;
+    color: #afafaf;
+}
+
+.list-preview-excerpt {
+    display: block;
+    font-size: 16px;
+    color: #606060;
+    margin-bottom: 5px;
+}
+
+/* content */
+
+.words-page {
+    display: block;
+    max-width: 800px;
+    padding: 0 80px;
     margin: 0 auto;
 }
 
-.panel-preview-wood {
-    width: 160px;
-    height: 160px;
+.words-page.poem-format {
+    text-align: center;
 }
 
-.panel-preview-code {
-    width: 400px;
-    height: 300px;
+.words-image {
+    display: block;
+    width: 120px;
+    min-height: 120px;
+    margin: 0 auto;
+    margin-top: 40px;
+    border-radius: 5px;
+    overflow: hidden;
 }
 
+.words-title {
+    display: block;
+    margin-top: 40px;
+    font-size: 36px;
+}
+
+.words-author {
+    display: block;
+    margin-top: 10px;
+    font-size: 16px;
+    color: #8a8a8a;
+}
+
+.words-date {
+    display: block;
+    margin-top: 10px;
+    font-size: 16px;
+    color: #8a8a8a;
+}
+
+.words-content {
+    display: block;
+    margin-top: 60px;
+    white-space: pre-wrap;
+    font-size: 0;
+}
+
+.words-content > p {
+    margin: 16px 0;
+    font-size: 16px;
+    tab-size: 4;
+}
+
+.words-section-break {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.words-section-break:before {
+    content: "• • •";
+    font-size: 12px;
+    font-weight: normal;
+}
 
 /* footer */
 
@@ -289,10 +473,15 @@ footer {
 
 .footer-email {
     display: block;
+    font-size: 16px;
 }
 
 .footer-email > a {
     text-decoration: underline;
+}
+
+.footer-social {
+    padding-top: 15px;
 }
 
 form.footer-mailinglist {
@@ -344,5 +533,121 @@ form.footer-mailinglist {
 }
 
 @media only screen and (max-width: 600px) {
+    .nav-title {
+        font-size: 0;
+        padding: 0 10px;
+    }
 
+    .hero {
+        padding: 20px 40px 0px;
+        margin: 30px auto;
+    }
+
+    .hero-logo-placeholder, .hero-logo-image {
+        width: 123px;
+        height: 150px;
+    }
+
+    .hero-title {
+        font-size: 30px;
+    }
+
+    .hero-bio {
+        font-size: 16px;
+        padding-top: 15px;
+    }
+
+    .hero-social {
+        padding-top: 15px;
+    }
+
+    .carousel {
+        font-size: 28px;
+        margin: 20px auto;
+    }
+
+    .carousel:after {
+        padding-top: 30px;
+    }
+
+    .panel > h1 {
+        font-size: 22px;
+        padding: 0 40px;
+        margin-bottom: 20px;
+    }
+
+    .list-preview {
+        padding: 0 40px;
+        margin-bottom: 60px;
+    }
+
+    .list-preview-image {
+        width: 60px;
+        min-height: 60px;
+    }
+
+    .list-preview-image > img {
+        width: 60px;
+        max-height: 90px;
+    }
+
+    .list-preview-title {
+        font-size: 22px;
+        line-height: 30px;
+    }
+
+    .list-preview-date {
+        font-size: 16px;
+        line-height: 30px;
+    }
+
+    .panel.preview-poems {
+        padding: 0 30px;
+    }
+
+    .poem-preview {
+        width: 150px;
+        height: 150px;
+    }
+
+    .poem-preview-image {
+        height: 48px;
+        margin-bottom: 20px;
+    }
+
+    .poem-preview-title {
+        font-size: 20px;
+    }
+
+    .words-page {
+        padding: 0 40px;
+    }
+
+    .words-image {
+        margin-top: 20px;
+    }
+
+    .words-title {
+        font-size: 26px;
+    }
+
+    .words-content {
+        margin-top: 30px;
+    }
+
+    .footer {
+        margin-top: 60px;
+    }
+
+    .footer-content {
+        padding: 20px 40px;
+    }
+
+    .footer-left, .footer-right {
+        padding: 20px 0;
+    }
+
+    .footer-header {
+        font-size: 20px;
+    }
 }

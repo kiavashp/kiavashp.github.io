@@ -4,7 +4,7 @@ destination:     ./.site
 collections:
   words:
     output: true
-    permalink: /words/:name
+    permalink: /:categories/:name
 
 defaults:
   -
@@ -12,3 +12,7 @@ defaults:
       path: "" # an empty string here means all files in the project
     values:
       layout: "default"
+
+
+# global variables
+author: "Kiavash Page"

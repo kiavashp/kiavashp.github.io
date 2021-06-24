@@ -1,74 +1,18 @@
 ---
 layout: default
-navnohome: true
+navtype: "hero"
+navnoscroll: true
 ---
-
-<div class="hero">
-    <div class="hero-logo"><!--
-        --><svg class="hero-logo-placeholder" height="200" viewBox="0 0 164 200" width="164" fill="#928677" xmlns="http://www.w3.org/2000/svg"><path d="m27.5218179 179.99485c46.195184 26.454365 72.0026763 26.915831 100.5424591-2.691584 28.539783-29.607415 55.705957-81.3872061 13.586819-126.8242647-42.1191384-45.43705853-88.4865625-76.7493838-114.1292781-16.6820987-25.64271563 60.0672851-46.195184 119.7435814 0 146.1979474z"/></svg><!--
-        --><img class="hero-logo-image" src="/assets/logo-hero.png" width="164px" height="200px"/><!--
-    --></div>
-    <div class="hero-right"><!--
-    --><div class="hero-title">kiavash.page</div><!--
-        --><div class="hero-bio">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</div><!--
-        --><div class="hero-social"></div><!--
-    --></div>
-</div>
 
 {% if site.words.size > 0 %}
 <div class="panel">
-    <div class="panel-header"><!--
-    --><div class="panel-title">Writing</div><!--
-        --><a class="panel-action" href="/poems">view all ›</a>
-    </div>
-    <div class="panel-content">
+    <h1>Recent Works</h1>
+    <div class="preview-wrappable-list">
         {% for word in site.words reversed %}
             {% if word.spotlight == true %}
-                {% if word.layout == "poem" %}
-                    <a class="panel-preview panel-preview-words" href="{{ word.url }}"><!--
-                        --><span class="preview-title">{{ word.title }}</span><!--
-                        --><img class="preview-image" src="/assets/icons/{{ word.title | slugify }}.svg" /><!--
-                    --></a>
-                {% elsif word.layout == "essay" %}
-                    <a class="panel-preview panel-preview-words" href="{{ word.url }}"><!--
-                        --><span class="preview-title">{{ word.title }}</span><!--
-                    --></a>
-                {% elsif word.layout == "story" %}
-                    <a class="panel-preview panel-preview-words" href="{{ word.url }}"><!--
-                        --><span class="preview-title">{{ word.title }}</span><!--
-                        --><img class="preview-image" src="/assets/icons/{{ word.title | slugify }}.svg" /><!--
-                    --></a>
-                {% endif %}
+                {% include preview-item.html word=word addFields="summary,type,date" %}
             {% endif %}
         {% endfor %}
-    </div>
-</div>
-{% endif %}
-
-{% if site.wood.size > 0 %}
-<div class="panel">
-    <div class="panel-header"><!--
-        --><div class="panel-title">Wood</div><!--
-        --><a class="panel-action" href="/wood">view all ›</a><!--
-    --></div>
-    <div class="panel-content">
-        <div class="panel-preview panel-preview-wood"></div>
-        <div class="panel-preview panel-preview-wood"></div>
-        <div class="panel-preview panel-preview-wood"></div>
-        <div class="panel-preview panel-preview-wood"></div>
-    </div>
-</div>
-{% endif %}
-
-{% if site.code.size > 0 %}
-<div class="panel">
-    <div class="panel-header">
-        <div class="panel-title">Code</div>
-        <a class="panel-action" href="/code">view all ›</a>
-    </div>
-    <div class="panel-content">
-        <div class="panel-preview panel-preview-code"></div>
-        <div class="panel-preview panel-preview-code"></div>
     </div>
 </div>
 {% endif %}

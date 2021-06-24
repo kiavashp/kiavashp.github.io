@@ -2,9 +2,9 @@
 layout: default
 ---
 
-<link rel="stylesheet" href="/css/words.css" />
-
-<img class="poem-image" src="/assets/icons/{{ page.title | slugify }}.svg"/><!--
---><div class="poem-title">{{ page.title }}</div><!--
---><div class="poem-author">by Kiavash Page</div><!--
---><div class="poem-content">{{ content }}</div>
+<div class="words-page poem-format">
+    {% if page.image %}<img class="words-image" src="/assets/content-images/{{ page.image }}"/>{% endif %}
+    <div class="words-title">{{ page.title }}</div>
+    <div class="words-author">by {{ site.author }}</div>
+    <div class="words-content">{{ content }}</div>
+</div>
