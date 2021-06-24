@@ -193,7 +193,7 @@ body.scrolled > nav > .scroll-progress {
 
 .carousel-link {
     display: inline-block;
-    padding: 20px;
+    padding: 20px 30px;
     font-size: 36px;
 }
 
@@ -547,7 +547,7 @@ form.footer-mailinglist {
 @media only screen and (max-width: 1000px) {
     .hero {
         display: block;
-        max-width: 400px;
+        max-width: 500px;
         text-align: center;
     }
 
@@ -574,7 +574,7 @@ form.footer-mailinglist {
 
 @media only screen and (max-width: 600px) {
     nav {
-        padding: 20px 40px;
+        padding: 25px 40px;
     }
 
     .nav-title {
@@ -583,7 +583,9 @@ form.footer-mailinglist {
     }
 
     .hero {
+        max-width: 400px;
         padding: 20px 40px 0px;
+        margin-bottom: 30px;
     }
 
     .hero-logo-placeholder, .hero-logo-image {
@@ -687,7 +689,7 @@ form.footer-mailinglist {
 
 @media only screen and (max-width: 460px) {
     nav {
-        padding: 15px 30px;
+        padding: 20px 40px;
     }
 
     .hero {
@@ -700,7 +702,7 @@ form.footer-mailinglist {
     }
 
     .hero-right {
-        padding: 0 30px;
+        padding: 0;
         text-align: center;
     }
 
@@ -741,6 +743,10 @@ form.footer-mailinglist {
 }
 
 @media only screen and (max-width: 380px) {
+    nav {
+        padding: 15px 30px;
+    }
+
     .list-preview-header {
         flex-direction: column;
     }
