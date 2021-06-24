@@ -533,5 +533,121 @@ form.footer-mailinglist {
 }
 
 @media only screen and (max-width: 600px) {
+    .nav-title {
+        font-size: 0;
+        padding: 0 10px;
+    }
 
+    .hero {
+        padding: 20px 40px 0px;
+        margin: 30px auto;
+    }
+
+    .hero-logo-placeholder, .hero-logo-image {
+        width: 123px;
+        height: 150px;
+    }
+
+    .hero-title {
+        font-size: 30px;
+    }
+
+    .hero-bio {
+        font-size: 16px;
+        padding-top: 15px;
+    }
+
+    .hero-social {
+        padding-top: 15px;
+    }
+
+    .carousel {
+        font-size: 28px;
+        margin: 20px auto;
+    }
+
+    .carousel:after {
+        padding-top: 30px;
+    }
+
+    .panel > h1 {
+        font-size: 22px;
+        padding: 0 40px;
+        margin-bottom: 20px;
+    }
+
+    .list-preview {
+        padding: 0 40px;
+        margin-bottom: 60px;
+    }
+
+    .list-preview-image {
+        width: 60px;
+        min-height: 60px;
+    }
+
+    .list-preview-image > img {
+        width: 60px;
+        max-height: 90px;
+    }
+
+    .list-preview-title {
+        font-size: 22px;
+        line-height: 30px;
+    }
+
+    .list-preview-date {
+        font-size: 16px;
+        line-height: 30px;
+    }
+
+    .panel.preview-poems {
+        padding: 0 30px;
+    }
+
+    .poem-preview {
+        width: 150px;
+        height: 150px;
+    }
+
+    .poem-preview-image {
+        height: 48px;
+        margin-bottom: 20px;
+    }
+
+    .poem-preview-title {
+        font-size: 20px;
+    }
+
+    .words-page {
+        padding: 0 40px;
+    }
+
+    .words-image {
+        margin-top: 20px;
+    }
+
+    .words-title {
+        font-size: 26px;
+    }
+
+    .words-content {
+        margin-top: 30px;
+    }
+
+    .footer {
+        margin-top: 60px;
+    }
+
+    .footer-content {
+        padding: 20px 40px;
+    }
+
+    .footer-left, .footer-right {
+        padding: 20px 0;
+    }
+
+    .footer-header {
+        font-size: 20px;
+    }
 }
