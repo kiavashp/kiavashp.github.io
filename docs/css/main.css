@@ -62,6 +62,28 @@ main {
     width: 100%;
 }
 
+/* social */
+
+.social-link {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    padding: 10px;
+    margin-right: 10px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 50px auto;
+    background-size: contain;
+}
+
+.medium-social {
+    background-image: url(/assets/social/medium.svg);
+}
+
+.wattpad-social {
+    background-image: url(/assets/social/wattpad.png);
+}
+
 /* nav */
 
 nav {
@@ -180,9 +202,8 @@ body.scrolled > nav > .scroll-progress {
 
 .hero {
     display: flex;
-    max-width: 800px;
-    padding: 0 80px;
-    padding-top: 40px;
+    max-width: 600px;
+    padding: 40px 80px 0px;
     margin: 40px auto;
 }
 
@@ -198,6 +219,11 @@ body.scrolled > nav > .scroll-progress {
     position: relative;
 }
 
+.hero-logo-placeholder, .hero-logo-image {
+    width: 164px;
+    height: 200px;
+}
+
 .hero-right {
     flex: 1;
     padding-left: 40px;
@@ -210,11 +236,12 @@ body.scrolled > nav > .scroll-progress {
 
 .hero-bio {
     font-size: 18px;
-    padding-top: 20px
+    padding-top: 20px;
+    color: #808080;
 }
 
 .hero-social {
-
+    padding-top: 25px;
 }
 
 /* panel */
@@ -226,8 +253,9 @@ body.scrolled > nav > .scroll-progress {
 
 .panel > h1 {
     margin-block: unset;
+    font-weight: normal;
     font-size: 26px;
-    color: #808080;
+    color: #9a9a9a;
     line-height: 60px;
     padding: 0 60px;
     margin-bottom: 40px;
@@ -238,6 +266,7 @@ body.scrolled > nav > .scroll-progress {
 .panel.preview-poems {
     display: flex;
     flex-wrap: wrap;
+    padding: 0 60px;
 }
 
 .poem-preview {
@@ -444,10 +473,15 @@ footer {
 
 .footer-email {
     display: block;
+    font-size: 16px;
 }
 
 .footer-email > a {
     text-decoration: underline;
+}
+
+.footer-social {
+    padding-top: 15px;
 }
 
 form.footer-mailinglist {

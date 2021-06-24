@@ -5,6 +5,6 @@ layout: default
 <div class="words-page poem-format">
     {% if page.image %}<img class="words-image" src="/assets/content-images/{{ page.image }}"/>{% endif %}
     <div class="words-title">{{ page.title }}</div>
-    <div class="words-author">by Kiavash Page</div>
+    <div class="words-author">by {{ site.author }}</div>
     <div class="words-content">{{ content }}</div>
 </div>
