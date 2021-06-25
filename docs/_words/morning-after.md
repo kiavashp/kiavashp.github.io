@@ -1,0 +1,18 @@
+---
+layout: poem
+category: poem
+title:  "Morning After"
+image: morning-after.svg
+date: 2019-12-06
+---
+
+I lay here in the windows glare
+I gasp to breathe the morning air
+
+I wait for you, silence pursues
+the thought of what we didn’t do
+
+the reckless in the open space
+control of what we didn’t waste
+
+I’m thankful for our current place
