@@ -21,3 +21,4 @@ The sun was beginning to set on a day that felt like a lifetime. The man sat on 
 	The dog lifted its head, in no hurry at all, as if the sound of the man's voice—the most exciting thing around—was still mostly uninteresting. The man slid his phone in his pocket and walked the gravel path past his companion. The dog groaned as he made his way from blades to pebbles, but then his effort faded. His legs trudged forward more slowly now, as if being dragged through mud or, it seemed, propelled by an inability to stand.
 	"What’s the matter Wolf?" Said the man.
 	Wolf bobbed his heavy head, then prepared again to stumble and hope that he missed the ground.
+    "I know bud... I know."
