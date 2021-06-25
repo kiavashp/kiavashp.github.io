@@ -302,11 +302,12 @@ body.scrolled > nav > .scroll-progress {
     flex-direction: row;
     flex-wrap: wrap;
     font-size: 0;
+    padding: 0 40px;
 }
 
 .list-preview {
     display: block;
-    padding: 0 80px;
+    padding: 0 40px;
     margin-bottom: 80px;
     flex-grow: 1;
 }
@@ -364,6 +365,20 @@ body.scrolled > nav > .scroll-progress {
     font-size: 16px;
     color: #606060;
     margin-bottom: 5px;
+}
+
+.list-preview-excerpt > p {
+    display: block;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    word-wrap: break-word;
+    overflow: hidden;
+    max-height: 4.2em;
+    line-height: 1.4em;
+
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
 }
 
 /* content */
@@ -445,34 +460,29 @@ footer {
     box-sizing: border-box;
     width: inherit;
     min-height: 240px;
+    color: #606060;
 }
 
 .footer-content {
     display: flex;
     flex-wrap: wrap;
-    padding: 40px 80px;
+    justify-content: space-between;
+    padding: 80px 70px 40px;
     margin: 0 auto;
     max-width: 1000px;
 }
 
-.footer-left, .footer-right {
-    padding: 40px 0;
-}
-
-.footer-left {
-    flex-shrink: 0;
+.footer-section {
     flex-grow: 1;
-}
-
-.footer-right {
-    flex-shrink: 1;
-    flex-grow: 0;
+    padding-bottom: 40px;
+    margin: 0 10px;
 }
 
 .footer-header {
     display: block;
     font-size: 24px;
     padding-bottom: 20px;
+    color: #9a9a9a;
 }
 
 .footer-email {
@@ -482,6 +492,7 @@ footer {
 
 .footer-email > a {
     text-decoration: underline;
+    color: inherit;
 }
 
 .footer-social {
@@ -533,6 +544,13 @@ form.footer-mailinglist {
     flex-grow: 1;
 }
 
+a.sitemap-link {
+    display: block;
+    font-size: 14px;
+    line-height: 150%;
+    color: inherit;
+}
+
 .footer-copyright {
     display: block;
     font-size: 10px;
@@ -560,15 +578,19 @@ form.footer-mailinglist {
         padding-left: 0;
         padding-right: 0;
     }
+
+    .footer-content {
+        padding: 60px 50px 30px;
+    }
 }
 
 @media only screen and (max-width: 740px) {
     .footer-content {
-        padding: 30px 50px;
+        padding: 40px 30px 10px;
     }
 
-    .footer-left, .footer-right {
-        padding: 30px 0;
+    .footer-section {
+        padding-bottom: 30px;
     }
 }
 
@@ -675,11 +697,7 @@ form.footer-mailinglist {
     }
 
     .footer-content {
-        padding: 20px 40px;
-    }
-
-    .footer-left, .footer-right {
-        padding: 20px 0;
+        padding: 30px 20px 10px;
     }
 
     .footer-header {
@@ -740,6 +758,10 @@ form.footer-mailinglist {
     .words-content > p {
         font-size: 14px;
     }
+
+    .footer-section.sitemap {
+        display: none;
+    }
 }
 
 @media only screen and (max-width: 380px) {
@@ -766,6 +788,10 @@ form.footer-mailinglist {
 
     .list-preview-text, .list-preview-excerpt {
         text-align: center;
+    }
+
+    .list-preview-title {
+        margin-right: 0;
     }
 
     .words-image {
