@@ -1,5 +1,6 @@
 document.addEventListener('DOMContentLoaded', function () {
     const scrollProgressElement = document.querySelector('nav:not(.noscroll) > .scroll-progress');
+    const footer = document.querySelector('footer');
     const debounceScroll = (fn) => {
         let frame;
         let lastreturn;
@@ -36,7 +37,7 @@ document.addEventListener('DOMContentLoaded', function () {
         let scrollHeight = document.body.scrollHeight || document.documentElement.scrollHeight;
         let clientHeight = document.documentElement.clientHeight;
 
-        scrollProgressElement.style.width = `${(scrollTop / (scrollHeight - clientHeight)) * 100}%`;
+        scrollProgressElement.style.width = `${(scrollTop / (scrollHeight - clientHeight - footer.clientHeight)) * 100}%`;
     };
 
     if (!scrollProgressElement) {

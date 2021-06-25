@@ -5,12 +5,12 @@
     {% assign url = include.word.url %}
     {% assign image = include.word.image %}
     {% assign title = include.word.title %}
-    {% assign layout = include.word.layout %}
+    {% assign category = include.word.category %}
     {% if addFields contains "summary" %}
         {% assign summary = include.word.summary | default: include.word.excerpt %}
     {% endif %}
     {% if addFields contains "type" %}
-        {% assign type = layout | capitalize %}
+        {% assign type = category | capitalize %}
     {% endif %}
     {% if addFields contains "date" %}
         {% assign date = include.word.date | date: "%-m/%-d/%y" %}
@@ -32,7 +32,7 @@
             </div>
         </a>
         {% if summary %}
-            {% if layout == "story" or layout == "essay" %}
+            {% if category == "story" or category == "essay" %}
                 <div class="list-preview-excerpt">{{ summary }}</div>
             {% endif %}
         {% endif %}

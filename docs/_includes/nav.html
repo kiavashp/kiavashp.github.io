@@ -1,3 +1,7 @@
+{% assign poemCount = site.words | where: "category", "poem" | size %}
+{% assign storyCount = site.words | where: "category", "story" | size %}
+{% assign essayCount = site.words | where: "category", "essay" | size %}
+
 {% if include.navtype == "hero" %}
 
     <div class="hero">
@@ -38,9 +42,15 @@
 {% if include.navtype == "hero" or include.navtype == "carousel" %}
 
     <div class="carousel">
-        {% if page.url == "/poems.html" %}<span class="carousel-link current">Poems</span>{% else %}<a class="carousel-link" href="/poems">Poems</a>{% endif %}
-        {% if page.url == "/stories.html" %}<span class="carousel-link current">Stories</span>{% else %}<a class="carousel-link" href="/stories">Stories</a>{% endif %}
-        {% if page.url == "/essays.html" %}<span class="carousel-link current">Essays</span>{% else %}<a class="carousel-link" href="/essays">Essays</a>{% endif %}
+        {% if poemCount > 0 %}
+            {% if page.url == "/poems.html" %}<span class="carousel-link current">Poems</span>{% else %}<a class="carousel-link" href="/poems">Poems</a>{% endif %}
+        {% endif %}
+        {% if storyCount > 0 %}
+            {% if page.url == "/stories.html" %}<span class="carousel-link current">Stories</span>{% else %}<a class="carousel-link" href="/stories">Stories</a>{% endif %}
+        {% endif %}
+        {% if essayCount > 0 %}
+            {% if page.url == "/essays.html" %}<span class="carousel-link current">Essays</span>{% else %}<a class="carousel-link" href="/essays">Essays</a>{% endif %}
+        {% endif %}
     </div>
 
 {% endif %}
