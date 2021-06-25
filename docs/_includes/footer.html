@@ -6,7 +6,7 @@
     <div class="footer-content">
         <div class="footer-section contact">
             <span class="footer-header">Contact</span>
-            <span class="footer-email"><a href="mailto:contact@kiavash.page">contact@kiavash.page</a></span>
+            <span class="footer-email"><a href="mailto:{{ site.contactemail }}">{{ site.contactemail }}</a></span>
             <div class="footer-social">{% include social.html %}</div>
         </div>
         <!-- <div class="footer-section mailinglist">
@@ -40,6 +40,6 @@
             {% endfor %}
         </div>
         {% endif %}
-        <span class="footer-copyright">All work is copyright <span style="font-family: sans-serif;">&#169;</span> Kiavash Page 2012-{{ "now" | date: "%Y" }}</span>
+        <span class="footer-copyright">All work is copyright <span style="font-family: sans-serif;">&#169;</span> {{ site.author }} 2012-{{ "now" | date: "%Y" }}</span>
     </div>
 </footer>

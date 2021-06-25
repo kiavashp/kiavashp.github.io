@@ -15,4 +15,9 @@ defaults:
 
 
 # global variables
+navtitle: "kiavash.page"
+sitename: "Kiavash Page"
+sitedescription: "Kiavash Page: Writer of fiction, poetry, and essays."
+contactemail: "contact@kiavash.page"
 author: "Kiavash Page"
+bio: "Writer of fiction, poetry and the occassional essay."

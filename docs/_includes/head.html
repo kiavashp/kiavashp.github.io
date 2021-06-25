@@ -1,17 +1,19 @@
+{% capture pagetitle %}{% if page.title %}{{ page.title }} - {% endif %}{{ site.sitename }}{% endcapture %}
+
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="author" content="Kiavash Page">
+    <meta name="author" content="{{ site.author }}">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no" />
     <meta property="og:url" content="https://kiavash.page/" />
-    <meta property="og:site_name" content="Kiavash Page">
-    <meta property="og:title" content="Kiavash Page">
+    <meta property="og:site_name" content="{{ site.sitename }}">
+    <meta property="og:title" content="{{ pagetitle }}">
     <meta property="og:type" content="website">
     <meta property="og:image" content="/assets/logo-hero.svg">
-    <meta property="og:image:alt" content="Kiavash Page: Writer of fiction, poetry, and essays.">
-    <meta property="og:description" content="Kiavash Page: Writer of fiction, poetry, and essays.">
+    <meta property="og:image:alt" content="{{ site.sitedescription }}">
+    <meta property="og:description" content="{{ site.sitedescription }}">
     <meta property="og:locale" content="en_US">
-    <title>{% if page.title %}{{ page.title }} - {% endif %}Kiavash Page</title>
+    <title>{{ pagetitle }}</title>
     <link rel="shortcut icon" href="/assets/favicon.ico">
     <link rel="stylesheet" href="/css/main.css" />
     <script type="application/javascript" src="/scripts/scroll-control.js"></script>
