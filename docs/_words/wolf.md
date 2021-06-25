@@ -4,6 +4,7 @@ category: story
 title:  "Wolf"
 date: 2021-06-24
 summary: "A man in the park is on the phone with an old sick friend."
+spotlight: true
 ---
 
 The sun was beginning to set on a day that felt like a lifetime. The man sat on a boulder on the edge of the path, with his phone pressed against his ear.

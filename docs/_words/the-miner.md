@@ -4,7 +4,6 @@ category: poem
 title:  "The Miner"
 image: the-miner.svg
 date: 2021-02-14
-spotlight: true
 ---
 
 Quarantine is a miner and I followed it down

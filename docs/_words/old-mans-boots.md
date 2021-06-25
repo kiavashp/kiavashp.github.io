@@ -3,7 +3,7 @@ layout: story
 category: story
 title:  "Old Man's Boots"
 date: 2020-11-01
-summary: "Must've been seven years I'd been working on that boat, damn near worked myself dead. It was my old man's, before he sailed off all those years ago. \"I'll be back now, you hear? Before you know it, with enough gold for a hundred lifetimes!\""
+summary: "He never wanted to be like his father. The old man who left him with nothing but a rotting frame of an unfinished boat."
 spotlight: true
 ---
 
