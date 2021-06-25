@@ -229,7 +229,7 @@ body.scrolled > nav > .scroll-progress {
 
 .hero-right {
     flex: 1;
-    padding-top: 40px;
+    padding-top: 20px;
     padding-left: 60px;
     font-size: 0;
 }
@@ -239,7 +239,7 @@ body.scrolled > nav > .scroll-progress {
 }
 
 .hero-bio {
-    font-size: 18px;
+    font-size: 16px;
     padding-top: 20px;
     color: #808080;
 }
@@ -467,7 +467,7 @@ footer {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    padding: 80px 70px 40px;
+    padding: 80px 70px 20px;
     margin: 0 auto;
     max-width: 1000px;
 }
@@ -580,7 +580,7 @@ a.sitemap-link {
     }
 
     .footer-content {
-        padding: 60px 50px 30px;
+        padding: 60px 50px 20px;
     }
 }
 
