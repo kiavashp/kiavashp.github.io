@@ -36,8 +36,10 @@ document.addEventListener('DOMContentLoaded', function () {
         let scrollTop = window.scrollY || document.body.scrollTop || document.documentElement.scrollTop;
         let scrollHeight = document.body.scrollHeight || document.documentElement.scrollHeight;
         let clientHeight = document.documentElement.clientHeight;
+        let scrollPercentDecimal = (scrollTop / (scrollHeight - clientHeight - footer.clientHeight)) * 100;
+        let scrollPercent = Math.max(0, Math.min(scrollPercentDecimal, 100));
 
-        scrollProgressElement.style.width = `${(scrollTop / (scrollHeight - clientHeight - footer.clientHeight)) * 100}%`;
+        scrollProgressElement.style.width = `${scrollPercent}%`;
     };
 
     if (!scrollProgressElement) {
