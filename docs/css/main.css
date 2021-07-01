@@ -485,9 +485,9 @@ footer:before {
     content: "";
     display: block;
     position: absolute;
-    top: -60px;
+    top: -63px;
     width: 100%;
-    height: 60px;
+    height: 64px;
     background-color: #fffaf4;
     background-image: url("/assets/paper-50s.png"), url("/assets/footer-border.svg");
     background-position: bottom;
