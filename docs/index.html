@@ -6,7 +6,7 @@ navnoscroll: true
 
 {% if site.words.size > 0 %}
 <div class="panel">
-    <h1>Recent Works</h1>
+    <h1>{{ site.spotlighttitle }}</h1>
     <div class="preview-wrappable-list">
         {% for word in site.words reversed %}
             {% if word.spotlight == true %}

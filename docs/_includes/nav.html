@@ -12,7 +12,7 @@
         <div class="hero-right"><!--
             --><div class="hero-title">{{ site.navtitle }}</div><!--
             --><div class="hero-bio">{{ site.bio }}</div><!--
-            --><div class="hero-social">{% include social.html %}</div><!--
+            --><div class="hero-social">{% include social.html email=true %}</div><!--
         --></div>
     </div>
 
@@ -43,13 +43,13 @@
 
     <div class="carousel">
         {% if poemCount > 0 %}
-            {% if page.url == "/poems.html" %}<span class="carousel-link current">Poems</span>{% else %}<a class="carousel-link" href="/poems">Poems</a>{% endif %}
+            {% if page.url == "/poems.html" %}<span class="carousel-link current" data-count="{{ poemCount }}">Poems</span>{% else %}<a class="carousel-link" data-count="{{ poemCount }}" href="/poems">Poems</a>{% endif %}
         {% endif %}
         {% if storyCount > 0 %}
-            {% if page.url == "/stories.html" %}<span class="carousel-link current">Stories</span>{% else %}<a class="carousel-link" href="/stories">Stories</a>{% endif %}
+            {% if page.url == "/stories.html" %}<span class="carousel-link current" data-count="{{ storyCount }}">Stories</span>{% else %}<a class="carousel-link" data-count="{{ storyCount }}" href="/stories">Stories</a>{% endif %}
         {% endif %}
         {% if essayCount > 0 %}
-            {% if page.url == "/essays.html" %}<span class="carousel-link current">Essays</span>{% else %}<a class="carousel-link" href="/essays">Essays</a>{% endif %}
+            {% if page.url == "/essays.html" %}<span class="carousel-link current" data-count="{{ essayCount }}">Essays</span>{% else %}<a class="carousel-link" data-count="{{ essayCount }}" href="/essays">Essays</a>{% endif %}
         {% endif %}
     </div>
 
