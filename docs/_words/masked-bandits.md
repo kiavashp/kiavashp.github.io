@@ -28,29 +28,29 @@ and louder does the humming feel
 When it cycles into silence
 I can just make out the distant birds
 like an afterthought, a memory
-of the place this used to be
+of the place this was before
 
 Before the concrete flowed
 Before this land was made featureless
 
-Mountains displaced by
-towers of purified stone
-Cycles now threatened by
-the pursuit of permanence
+Before mountains were displaced
+by towers of purified stone
+Before cycles were threatened
+by the pursuit of permanence
 
 But it wasn't for not, this covering of the earth
 for now I have this box
 which keeps the world outside its walls
 and the musky air in
 
-Where the sun is three rectangles
+Now the sun is three rectangles
 in a white and rigid sky
-and the green that I seek
+and the green I so seek
 comes in planters and frames
 
-I don't want to be here, so why do they?
-my new neighbors
-—the masked bandits
+I don't want to be here
+so why do they?
+the masked bandits
 who play beneath the floor
 
 Living amongst the foundation
@@ -59,4 +59,4 @@ fighting for a way into the world
 we've covered theirs with
 
 A world we've created without them
-or without ourselves
+and maybe, without ourselves
