@@ -6,7 +6,7 @@ image: morning-after.svg
 date: 2019-12-06
 ---
 
-I lay here in the windows glare
+Laying in the windows glare
 I gasp to breathe the morning air
 
 I wait for you, silence pursues
