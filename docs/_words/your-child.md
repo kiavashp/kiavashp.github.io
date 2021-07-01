@@ -12,14 +12,14 @@ You're not the bowler who decided the direction they threw
 or the scoring machine that ensures it's played fair and true
 
 If you birthed a hiker, destined for the hills
-You are not the trail, but a map, sparsely filled
+you are not the trail, but a map, sparsely filled
 You're a broken compass in a world with many souths
 and norths which are harder to come about
 
 If you're creating a painting, you are the brush
-who may believe their power is just not enough
-whose colors are defined by your seasons
-or a canvas of your own, for no particular reason
+who may believe their power is just not enough;
+whose colors are defined by your shifting seasons
+or the canvas of your own, for no particular reason
 
 You are only the bumpers
 who for a little while
@@ -27,7 +27,7 @@ will guide their wandering roll
 
 You are only the map
 who though wrinkled and wet
-will save them from a trench or two
+will save them from a cliff or two
 
 You are only the brush
 who while feeling you aren't enough

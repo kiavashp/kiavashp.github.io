@@ -8,16 +8,16 @@ spotlight: true
 ---
 
 A plane flies through the alley
-with engines sputtering
-—or at least that's what I hear
+with engines sputtering—
+or at least that's what I hear
 
 Furniture moves beneath the floorboards
 a thump, something scrapes the paper walls
 
-wood fibers fray at the hand of bandits
-—they'll make it through any week now
+Wood fibers fray at the hand of bandits—
+they'll make it through any week now
 
-I hear it all through my feet
+I hear it all through my feet—
 the sounds that fill my corner of the world
 
 The refrigerator hums to stay alive
@@ -43,7 +43,7 @@ for now I have this box
 which keeps the world outside its walls
 and the musky air in
 
-Now the sun is three rectangles
+Where the sun is three rectangles
 in a white and rigid sky
 and the green I so seek
 comes in planters and frames
@@ -55,7 +55,7 @@ who play beneath the floor
 
 Living amongst the foundation
 trying to raise a family
-fighting for a way into the world
+Fighting for a way into the world
 we've covered theirs with
 
 A world we've created without them

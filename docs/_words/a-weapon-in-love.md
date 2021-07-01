@@ -29,10 +29,10 @@ covering all that we ever knew as Us
 
 And what if we find, after so many years
 the Us we knew became the piles we feared
-that our bond is now built from
+that our bond is now built upon
 the times we *didn't* get along
 
 Will this be how our love ends?
 from decades ago between two dear friends
-to watching the dust settle upon
+to watching the dust settle on
 the love we had told ourselves was strong

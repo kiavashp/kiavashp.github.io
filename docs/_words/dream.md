@@ -10,10 +10,10 @@ spotlight: true
 Lost in a bold and colored place
 of pictures yet unseen
 
-unreal to my waking mind
+Unreal to my waking mind
 forgotten with a blink
 
-lost control, a foreign world
+Lost control, a foreign world
 it feels, but never true
 
 for it’s my dream, but in its wake

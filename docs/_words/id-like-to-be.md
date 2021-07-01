@@ -12,8 +12,8 @@ or the moon
 when starlight isn’t enough
 
 I’d like to be a licorice fern
-perched high on a maple tree
-Or a leaf above its humble roots
+perched on a maple tree
+or a leaf above its humble roots
 falling to meet them slowly
 
 I’d like to be a songbird
@@ -21,14 +21,14 @@ waiting for Spring
 or the forest floor
 when it starts to rain
 
-or the moss that climbs
+The moss that climbs
 for generations between
 a rotting stump
 and the canopy
 
 a fallen branch
 whose flesh decays
-while it sees the forest
+while seeing the forest
 in a different way
 
 I don’t want these things
@@ -37,4 +37,4 @@ to know their pain
 or for novelty
 
 but to feel a little more deeply
-the earth beneath our feet
+the earth, as it shifts beneath our feet

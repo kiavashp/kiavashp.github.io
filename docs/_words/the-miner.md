@@ -6,11 +6,19 @@ image: the-miner.svg
 date: 2021-02-14
 ---
 
-Quarantine is a miner and I followed it down
-a pit of despair, now a cave under ground
+Quarantine is a miner
+and I followed it down
 
-the miner moved on and I am now left
-with unfamiliar thoughts and no tools to be found
+A pit of despair,
+now a cave under ground
 
-the walls do not budge, the roof is closed to the sky
+The miner moved on
+and I am now left
+
+with unfamiliar thoughts
+and no tools to be found
+
+The walls do not budge;
+the roof is closed to the sky
+
 and now I must learn to dig
