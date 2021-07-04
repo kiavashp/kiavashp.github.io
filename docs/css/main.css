@@ -630,7 +630,7 @@ a.sitemap-link {
         padding: 25px 40px;
     }
 
-    .nav-title {
+    nav:not(.nobreadcrumb) > .nav-title {
         font-size: 0;
         padding: 0 10px;
     }

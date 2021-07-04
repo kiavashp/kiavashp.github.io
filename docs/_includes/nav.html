@@ -22,13 +22,14 @@
 {% else %}
 
     {% capture noscroll %}{% if include.noscroll == true %} noscroll{% endif %}{% endcapture %}
+    {% capture nobreadcrumb %}{% if include.nobreadcrumb == true %} nobreadcrumb{% endif %}{% endcapture %}
     {% capture navpath %}
         {% if include.category == "poem" %}/ <a href="/poems">Poems</a> {% endif %}
         {% if include.category == "story" %}/ <a href="/stories">Stories</a> {% endif %}
         {% if include.category == "essay" %}/ <a href="/essays">Essays</a> {% endif %}
     {% endcapture %}
 
-    <nav class="noselect{{ noscroll }}">
+    <nav class="noselect{{ noscroll }}{{ nobreadcrumb }}">
         <a class="nav-home" href="/">
             <div class="nav-logo">
                 <svg class="nav-logo-placeholder" width="41px" height="50px" fill="#928677"><path d="M6.61382067,43.9159115 C17.6439134,50.2951928 23.8060067,50.406472 30.6204931,43.2668554 C37.4349795,36.1272388 43.9214873,23.6409119 33.864638,12.6840898 C23.8077888,1.72726766 12.73657,-5.82347592 6.61382067,8.66132084 C0.491071348,23.1461176 -4.41627207,37.5366301 6.61382067,43.9159115 Z"></path></svg>
@@ -36,7 +37,9 @@
             </div>
             <span class="nav-title">{{ site.navtitle }}</span>
         </a>
+        {%- if include.nobreadcrumb != true -%}
         <span class="nav-breadcrumb">{{ navpath }}/ {{ include.title }}</span>
+        {%- endif -%}
         <div class="scroll-progress"></div>
     </nav>
 
