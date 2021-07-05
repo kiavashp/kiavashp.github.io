@@ -18,7 +18,7 @@
         </div> -->
         {% if poems.size > 0 %}
         <div class="footer-section sitemap">
-            <span class="footer-header">Poems</span>
+            <a href="/poems"><span class="footer-header">Poems</span></a>
             {% for item in poems %}
                 <a class="sitemap-link" href="{{ item.url }}">{{ item.title }}</a>
             {% endfor %}
@@ -26,7 +26,7 @@
         {% endif %}
         {% if stories.size > 0 %}
         <div class="footer-section sitemap">
-            <span class="footer-header">Stories</span>
+            <a href="/stories"><span class="footer-header">Stories</span></a>
             {% for item in stories %}
                 <a class="sitemap-link" href="{{ item.url }}">{{ item.title }}</a>
             {% endfor %}
@@ -34,7 +34,7 @@
         {% endif %}
         {% if essays.size > 0 %}
         <div class="footer-section sitemap">
-            <span class="footer-header">Essays</span>
+            <a href="/essays"><span class="footer-header">Essays</span></a>
             {% for item in essays %}
                 <a class="sitemap-link" href="{{ item.url }}">{{ item.title }}</a>
             {% endfor %}

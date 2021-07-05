@@ -6,7 +6,7 @@ body {
     background-color: #fffaf4;
     background-image: url("/assets/paper-50s.png");
     color: #404040;
-    font-family: Monaco, monospace, sans-serif;
+    font-family: "Open Sans", Monaco, monospace, sans-serif;
     font-size: 16px;
     cursor: default;
     padding: 0;
@@ -70,25 +70,28 @@ main {
     vertical-align: top;
     width: 40px;
     height: 40px;
+    border-radius: 15px;
     margin-right: 20px;
     background-repeat: no-repeat;
     background-position: center;
     background-size: 50px auto;
     background-size: contain;
+    box-shadow: rgba(0, 0, 0, 0.1) 2px 2px;
 }
 
 .email-social {
     background-image: url(/assets/social/email.svg);
+    background-color: #505050;
 }
 
 .medium-social {
     background-image: url(/assets/social/medium.svg);
     background-color: #282828;
-    border-radius: 10px;
 }
 
 .wattpad-social {
-    background-image: url(/assets/social/wattpad.png);
+    background-image: url(/assets/social/wattpad-white.png);
+    background-color: #ff5008;
 }
 
 /* nav */
