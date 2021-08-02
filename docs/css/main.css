@@ -298,6 +298,7 @@ header {
 .hero-social {
     padding-top: 25px;
     text-align: center;
+    font-size: 0;
 }
 
 /* carousel */
@@ -601,6 +602,7 @@ footer:before {
 
 .footer-social {
     margin: 5px 0;
+    font-size: 0;
 }
 
 .footer-social > .email-social {
