@@ -3,7 +3,9 @@ layout: poem
 category: poem
 title:  "A Weapon in Love"
 image: a-weapon-in-love.svg
+image-invertable: true
 date: 2021-05-30
+summary: "\"And what if we find, after so many years<br>the Us we know became the piles we feared...\""
 spotlight: true
 ---
 

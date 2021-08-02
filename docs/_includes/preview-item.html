@@ -1,42 +1,59 @@
 {% if include.word %}
 
-    {% assign addFields = include.addFields | default: "summary,type,date" | split: "," %}
+    {% assign layout = include.layout | default: "standard" %}
+
+    {% assign addFields = include.addFields | default: "summary,type,date" | remove: " " | split: "," %}
 
     {% assign url = include.word.url %}
     {% assign image = include.word.image %}
     {% assign title = include.word.title %}
     {% assign category = include.word.category %}
     {% if addFields contains "summary" %}
-        {% assign summary = include.word.summary | default: include.word.excerpt %}
+        {% assign summary = include.word.summary | strip %}
     {% endif %}
     {% if addFields contains "type" %}
         {% assign type = category | capitalize %}
+        {% assign type_url = "/" | append: site.category_paths[category] %}
+        {% assign type_link_text = site.category_paths[category] | capitalize %}
     {% endif %}
     {% if addFields contains "date" %}
         {% assign date = include.word.date | date: "%-m/%-d/%y" %}
+        {% assign dateExtended = include.word.date | date: "%b %-d, %Y" %}
     {% endif %}
 
 
-    {% if date or type %}
-        {% capture dateType %}{% if type %}{{ type }}{% if date %} - {% endif %}{% endif %}{% if date %}{{ date }}{% endif %}{% endcapture %}
-    {% endif %}
+    {% if layout == "extended" %}
 
-    <div class="list-preview">
-        <a class="list-preview-header" href="{{ url }}">
-            {% if image %}
-                <div class="list-preview-image"><img src="/assets/content-images/{{ image }}" /></div>
-            {% endif %}
-            <div class="list-preview-text">
-                <span class="list-preview-title">{{ title }}</span>
-                {% if dateType %}<span class="list-preview-date">{{ dateType }}</span>{% endif %}
+        <div class="list-preview extended">
+            <div class="list-preview-header">
+                {% if type %}<a class="list-preview-category" href="{{ type_url }}">{{ type_link_text }} /</a>{% endif %}<!--
+                --><a class="list-preview-title" href="{{ url }}">{{ title }}</a>
             </div>
-        </a>
-        {% if summary %}
-            {% if category == "story" or category == "essay" %}
+            {%- if summary -%}
                 <div class="list-preview-excerpt">{{ summary }}</div>
-            {% endif %}
-        {% endif %}
-    </div>
+            {%- endif -%}
+            <div class="list-preview-footer">
+                {%- if dateExtended -%}<div class="list-preview-date">{{ dateExtended }}</div>{%- endif -%}<!--
+                --><a class="list-preview-continuereading" href="{{ url }}">Continue Reading ›</a>
+            </div>
+        </div>
+
+    {% else %}
+
+        <div class="list-preview">
+            <span class="list-preview-header">
+                {%- if type -%}<a class="list-preview-category" href="{{ type_url }}">{{ type_link_text }} /</a>{%- endif -%}<!--
+                --><a class="list-preview-title" href="{{ url }}">{{ title }}</a>
+            </span>
+            {%- if summary -%}
+                <div class="list-preview-excerpt">{{ summary }}</div>
+            {%- endif -%}
+            <div class="list-preview-footer">
+                {% if dateExtended %}<div class="list-preview-date">{{ dateExtended }}</div>{% endif %}
+            </div>
+        </div>
+
+    {% endif %}
 
 {% else %}
 <!-- error rendering: include.word is not defined -->

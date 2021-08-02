@@ -3,6 +3,7 @@ layout: poem
 category: poem
 title:  "Human"
 image: human.svg
+image-invertable: true
 date: 2021-05-14
 ---
 

@@ -1,45 +1,28 @@
-{% assign poems = site.words | reverse | where: "category", "poem" %}
-{% assign stories = site.words | reverse | where: "category", "story" %}
-{% assign essays = site.words | reverse | where: "category", "essay" %}
-
 <footer>
     <div class="footer-content">
         <div class="footer-section contact">
             <span class="footer-header">Contact</span>
-            <span class="footer-email"><a href="mailto:{{ site.contactemail }}">{{ site.contactemail }}</a></span>
-            <div class="footer-social">{% include social.html %}</div>
+            <!-- <div class="footer-joinbutton">Join Mailing List</div> -->
+            <!-- <span class="footer-email"><a href="mailto:{{ site.contactemail }}">{{ site.contactemail }}</a></span> -->
+            <div class="footer-social">{% include social.html email=true %}</div>
         </div>
-        <!-- <div class="footer-section mailinglist">
-            <span class="footer-header">Mailing List</span>
-            <form class="footer-mailinglist">
-                <input class="input-field" name="email" type="text" placeholder="example@email.com"></input>
-                <input class="input-button" type="submit"></input>
-            </form>
-        </div> -->
-        {% if poems.size > 0 %}
-        <div class="footer-section sitemap">
-            <a href="/poems"><span class="footer-header">Poems</span></a>
-            {% for item in poems %}
-                <a class="sitemap-link" href="{{ item.url }}">{{ item.title }}</a>
-            {% endfor %}
-        </div>
-        {% endif %}
-        {% if stories.size > 0 %}
-        <div class="footer-section sitemap">
-            <a href="/stories"><span class="footer-header">Stories</span></a>
-            {% for item in stories %}
-                <a class="sitemap-link" href="{{ item.url }}">{{ item.title }}</a>
-            {% endfor %}
-        </div>
-        {% endif %}
-        {% if essays.size > 0 %}
-        <div class="footer-section sitemap">
-            <a href="/essays"><span class="footer-header">Essays</span></a>
-            {% for item in essays %}
-                <a class="sitemap-link" href="{{ item.url }}">{{ item.title }}</a>
-            {% endfor %}
-        </div>
-        {% endif %}
+
+        {% for category in site.category_names %}
+            {% assign cat_items = site.words | reverse | where: "category", category %}
+            {% assign cat_count = cat_items | size %}
+            {% assign cat_link = "/" | append: site.category_paths[category] %}
+            {% assign cat_link_text = site.category_paths[category] | capitalize %}
+
+            {% if cat_count > 0 %}
+                <div class="footer-section sitemap">
+                    <a href="{{ cat_link }}"><span class="footer-header">{{ cat_link_text }}</span></a>
+                    {% for item in cat_items %}
+                        <a class="sitemap-link" href="{{ item.url }}">{{ item.title }}</a>
+                    {% endfor %}
+                </div>
+            {% endif %}
+        {% endfor %}
+
         <span class="footer-copyright">All work is copyright <span style="font-family: sans-serif;">&#169;</span> {{ site.author }} 2012-{{ "now" | date: "%Y" }}</span>
     </div>
 </footer>

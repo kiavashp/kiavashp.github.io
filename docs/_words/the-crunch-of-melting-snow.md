@@ -3,6 +3,7 @@ layout: story
 category: story
 title:  "The Crunch of Melting Snow"
 image: the-crunch-of-melting-snow.svg
+image-invertable: true
 date: 2021-03-26
 summary: "Snow covers the ground. The sun is falling lower in the sky. The store has been quiet all day, but the first and last customer is on his way."
 published: false

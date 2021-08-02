@@ -1,14 +1,14 @@
 ---
 layout: default
 title: Stories
-navtype: "carousel"
+headertype: "carousel"
 navnoscroll: true
 ---
 
 <div class="panel">
     {% for word in site.words reversed %}
         {% if word.layout == "story" %}
-            {% include preview-item.html word=word addFields="summary" %}
+            {% include preview-item.html word=word addFields="summary,date" %}
         {% endif %}
     {% endfor %}
 </div>

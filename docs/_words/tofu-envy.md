@@ -3,6 +3,7 @@ layout: story
 category: story
 title:  "Tofu Envy"
 image: tofu-envy.svg
+image-invertable: true
 date: 2021-03-26
 summary: "Date night is going great, but there's something Debra hasn't mentioned yet."
 spotlight: true

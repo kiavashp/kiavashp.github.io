@@ -1,0 +1,101 @@
+{% if include.headertype != "hero" %}
+
+    {% capture noscroll %}{% if include.noscroll == true %} noscroll{% endif %}{% endcapture %}
+    {% capture nobreadcrumb %}{% if include.nobreadcrumb == true %} nobreadcrumb{% endif %}{% endcapture %}
+    {% capture navpath %}
+        {% if include.category %}/ <a href="/{{ site.category_paths[include.category] }}">{{ site.category_paths[include.category] | capitalize }}</a> {% endif %}
+    {% endcapture %}
+
+    <nav class="noselect{{ noscroll }}{{ nobreadcrumb }}">
+        <a class="nav-home" href="/">
+            <div class="nav-logo">
+                <svg class="nav-logo-placeholder" style="margin-left: -1px;" width="43px" height="58px" fill="#567D99"><path d="M6.55899366,43.2529347 C17.5890864,49.6322161 23.7511797,49.7434953 30.5656661,42.6038787 C37.3801525,35.464262 43.8666603,22.9779352 33.809811,12.0211131 C23.7529618,1.06429095 12.681743,-6.48645263 6.55899366,7.99834412 C0.436244337,22.4831409 -4.47109908,36.8736534 6.55899366,43.2529347 Z"></path></svg>
+                <svg class="nav-logo-placeholder" width="39px" height="48px" fill="#928677"><path d="M6.55899366,43.2529347 C17.5890864,49.6322161 23.7511797,49.7434953 30.5656661,42.6038787 C37.3801525,35.464262 43.8666603,22.9779352 33.809811,12.0211131 C23.7529618,1.06429095 12.681743,-6.48645263 6.55899366,7.99834412 C0.436244337,22.4831409 -4.47109908,36.8736534 6.55899366,43.2529347 Z"></path></svg>
+                <img class="nav-logo-image" src="/assets/logo-nav.png" width="39px" height="48px"/>
+            </div>
+            <span class="nav-title">{{ site.navtitle }}</span>
+        </a>
+        {%- if include.nobreadcrumb != true -%}
+        <span class="nav-breadcrumb">{{ navpath }}/ {{ include.title }}</span>
+        {%- endif -%}
+        <div class="scroll-progress"></div>
+    </nav>
+
+{% endif %}
+
+{% capture carousel %}
+    <div class="carousel">
+        {% for category in site.category_names %}
+            {% assign cat_count = site.words | where: "category", category | size %}
+            {% assign cat_link = "/" | append: site.category_paths[category] %}
+            {% assign cat_link_text = site.category_paths[category] | capitalize %}
+            {% assign cat_url_match = cat_link | append: ".html" %}
+
+            {% if cat_count > 0 %}
+                {% if page.url == cat_url_match %}<span class="carousel-link current" data-count="{{ cat_count }}">{{ cat_link_text }}</span>{% else %}<a class="carousel-link" data-count="{{ cat_count }}" href="{{ cat_link }}">{{ cat_link_text }}</a>{% endif %}
+            {% endif %}
+        {% endfor %}
+    </div>
+{% endcapture %}
+
+<header style="position: relative;">
+
+    {% if include.headertype == "hero" %}
+
+        <div class="hero">
+            <div class="hero-top">
+                <div class="hero-text"><!--
+                    --><div class="hero-title">{{ site.sitename }}</div><!--
+                    --><div class="hero-bio">{{ site.bio }}</div><!--
+                    --><!--<div class="hero-joinbutton">Join Mailing List</div>--><!--
+                --></div>
+                <div class="hero-logo"><!--
+                    --><svg class="hero-logo-placeholder" viewBox="0 0 174 212" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                        <path fill="#567D99" d="M29.2632025,191.033795 C78.4743855,219.208955 105.966802,219.700438 136.369895,188.167131 C166.772988,156.633824 195.712792,101.48588 150.843772,53.0932494 C105.974752,4.70061836 56.5800841,-28.6484991 29.2632025,35.3260199 C1.94632089,99.3005389 -19.9479805,162.858636 29.2632025,191.033795 Z"></path>
+                        <path fill="#928677" d="M31.5218179,183.99485 C77.7170019,210.449215 103.524494,210.910681 132.064277,181.303266 C160.60406,151.695851 187.770234,99.9160599 145.651096,54.4790013 C103.531958,9.04194277 57.1645335,-22.2703825 31.5218179,37.7969026 C5.87910227,97.8641877 -14.6733661,157.540484 31.5218179,183.99485 Z"></path>
+                    </svg><!--
+                    --><img class="hero-logo-image" src="/assets/logo-hero.png"/><!--
+                --></div>
+            </div>
+            <div class="hero-bottom">
+                <div class="hero-social">{% include social.html email=true %}</div>
+            </div>
+        </div>
+
+        {{ carousel }}
+
+    {% elsif include.headertype == "carousel" %}
+
+        {{ carousel }}
+
+    {% elsif include.headertype == "content" %}
+
+        {% if page.image-invertable == true %}
+            {% assign invert = " invert" %}
+        {% else %}
+            {% assign invert = "" %}
+        {% endif %}
+
+        {% if page.category == "poem" %}
+            <div class="words-header poem-format">
+                {% if page.image %}<img class="words-image{{ invert }}" src="/assets/content-images/{{ page.image }}"/>{% endif %}
+                <div class="words-title">{{ page.title }}</div>
+                <div class="words-author">by {{ site.author }}</div>
+            </div>
+        {% elsif page.category == "story" %}
+            <div class="words-header">
+                {% if page.image %}<img class="words-image{{ invert }}" src="/assets/content-images/{{ page.image }}"/>{% endif %}
+                <div class="words-title">{{ page.title }}</div>
+                <div class="words-author">by {{ site.author }}</div>
+            </div>
+        {% elsif page.category == "essay" %}
+            <div class="words-header">
+                {% if page.image %}<img class="words-image{{ invert }}" src="/assets/content-images/{{ page.image }}"/>{% endif %}
+                <div class="words-title">{{ page.title }}</div>
+                <div class="words-date">{{ page.date | date: "%b %e, %Y" }}</div>
+            </div>
+        {% endif %}
+
+    {% endif %}
+
+</header>

@@ -3,7 +3,9 @@ layout: poem
 category: poem
 title:  "Climb"
 image: climb.svg
+image-invertable: true
 date: 2020-06-25
+summary: "\"I start in a room on the bottom floor<br>and climb until I can climb no more...\""
 spotlight: true
 ---
 
