@@ -6,7 +6,7 @@ navnoscroll: true
 
 {% if site.words.size > 0 %}
 <div class="panel">
-    <h1>{{ site.spotlighttitle }}</h1>
+    <h1 class="panel-header">{{ site.spotlighttitle }}</h1>
     {% for word in site.words reversed %}
         {% if word.spotlight == true %}
             {% include preview-item.html word=word addFields="summary,type,date" %}

@@ -339,7 +339,8 @@ header {
     max-width: 800px;
 }
 
-.panel > h1 {
+.panel-header {
+    display: block;
     margin-block: unset;
     font-weight: normal;
     font-size: 24px;
@@ -575,7 +576,7 @@ footer:before {
 .footer-section {
     flex-grow: 1;
     padding-bottom: 40px;
-    margin: 0 10px;
+    margin: 0 20px;
 }
 
 .footer-header {
@@ -717,8 +718,8 @@ a.sitemap-link {
         padding-bottom: 100px;
     }
 
-    .panel > h1 {
-        font-size: 20px;
+    .panel-header {
+        font-size: 30px;
         padding: 0 40px;
         margin-bottom: 20px;
     }
@@ -793,7 +794,7 @@ a.sitemap-link {
         font-size: 22px;
     }
 
-    .panel > h1 {
+    .panel-header {
         font-size: 18px;
         padding: 0 40px;
     }
