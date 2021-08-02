@@ -12,7 +12,12 @@ defaults:
       path: "" # an empty string here means all files in the project
     values:
       layout: "default"
-
+  -
+    scope:
+        path: ""
+        type: "words"
+    values:
+        headertype: "content"
 
 # global variables
 navtitle: "kiavash.page"
@@ -23,4 +28,14 @@ author: "Kiavash Page"
 bio: "I write as a way of reminding myself to remain present in life — that our uncertain existence is meant to be experienced, not won or solved.
 <br><br>Here's a collection of my work.
 <br>I hope you enjoy!"
-spotlighttitle: "Recent Highlights"
+# <br><br>Join mailing list below to be updated when I post something new!"
+spotlighttitle: "Recently Published"
+
+category_names:
+  - "poem"
+  - "story"
+  - "essay"
+category_paths:
+    poem: "poems"
+    story: "stories"
+    essay: "essays"

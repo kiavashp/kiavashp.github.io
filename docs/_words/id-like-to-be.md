@@ -3,6 +3,7 @@ layout: poem
 category: poem
 title:  "I'd Like to Be"
 image: id-like-to-be.svg
+image-invertable: true
 date: 2020-11-10
 ---
 

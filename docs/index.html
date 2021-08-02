@@ -1,18 +1,16 @@
 ---
 layout: default
-navtype: "hero"
+headertype: "hero"
 navnoscroll: true
 ---
 
 {% if site.words.size > 0 %}
 <div class="panel">
     <h1>{{ site.spotlighttitle }}</h1>
-    <div class="preview-wrappable-list">
-        {% for word in site.words reversed %}
-            {% if word.spotlight == true %}
-                {% include preview-item.html word=word addFields="summary,type,date" %}
-            {% endif %}
-        {% endfor %}
-    </div>
+    {% for word in site.words reversed %}
+        {% if word.spotlight == true %}
+            {% include preview-item.html word=word addFields="summary,type,date" %}
+        {% endif %}
+    {% endfor %}
 </div>
 {% endif %}

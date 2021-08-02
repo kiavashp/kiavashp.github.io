@@ -3,6 +3,7 @@ layout: poem
 category: poem
 title:  "Morning After"
 image: morning-after.svg
+image-invertable: true
 date: 2019-12-06
 ---
 

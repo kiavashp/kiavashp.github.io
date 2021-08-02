@@ -2,7 +2,7 @@
 <html lang="en-us">
     {% include head.html %}
     <body class="noselect">
-        {% include nav.html category=page.category title=page.title navtype=page.navtype noscroll=page.navnoscroll nobreadcrumb=page.navnobreadcrumb %}
+        {% include header.html category=page.category title=page.title headertype=page.headertype noscroll=page.navnoscroll nobreadcrumb=page.navnobreadcrumb %}
         <main>{{ content }}</main>
         {% include footer.html %}
     </body>
