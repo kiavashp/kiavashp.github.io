@@ -132,15 +132,19 @@ main {
 nav {
     flex-shrink: 0;
     flex-grow: 0;
-    display: flex;
-    position: relative;
-    padding: 30px 60px;
-    box-sizing: border-box;
+    display: block;
     width: 100%;
-    line-height: 50px;
-    background-color: #75a0bd;
-    background: linear-gradient(#75a0bd, #719CB9);
+    background-color: #6C98B5;
+    background: linear-gradient(#75a0bd, #6C98B5);
     transition: box-shadow 0.1s ease-in-out;
+}
+
+.nav-content {
+    display: flex;
+    max-width: 800px;
+    padding: 30px 80px;
+    line-height: 50px;
+    margin: 0 auto;
 }
 
 body.scrolled nav:not(.nohome) {
@@ -161,9 +165,7 @@ nav > .scroll-progress {
     display: block;
     width: 0%;
     height: 2px;
-    position: absolute;
-    bottom: 0;
-    left: 0;
+    margin-top: -2px;
     background: #3f5e74;
     visibility: hidden;
 }
@@ -220,8 +222,13 @@ body.scrolled nav > .scroll-progress {
 /* header */
 
 header {
-    background: #6690ae;
-    background: linear-gradient(#719CB9, #6690ae);
+    position: relative;
+    background: #6C98B5;
+    background: linear-gradient(#75a0bd, #6690ae);
+}
+
+header.shortgradient {
+    background: linear-gradient(#6C98B5, #6690ae);
 }
 
 /* hero */
@@ -229,7 +236,7 @@ header {
 .hero {
     display: block;
     max-width: 600px;
-    padding: 60px 80px;
+    padding: 80px 80px 60px;
     margin: 0 auto;
 }
 
@@ -337,7 +344,7 @@ header {
 
 .panel {
     margin: 0 auto;
-    max-width: 800px;
+    max-width: 1000px;
 }
 
 .panel-header {
@@ -395,7 +402,7 @@ header {
 
 .list-preview {
     display: block;
-    padding: 0 60px;
+    padding: 0 80px;
     max-width: 800px;
     margin: 20px auto 80px;
 }
@@ -403,7 +410,6 @@ header {
 .list-preview-header {
     display: block;
     font-size: 28px;
-    margin-bottom: 15px;
 }
 
 a.list-preview-category {
@@ -680,13 +686,13 @@ a.sitemap-link {
 }
 
 @media only screen and (max-width: 600px) {
-    nav {
+    .nav-content {
         padding: 25px 40px;
     }
 
-    nav:not(.nobreadcrumb) .nav-title {
+    .nav-content:not(.nobreadcrumb) .nav-title {
         font-size: 0;
-        padding: 0 10px;
+        padding: 0 5px;
     }
 
     main {
@@ -775,7 +781,7 @@ a.sitemap-link {
 }
 
 @media only screen and (max-width: 460px) {
-    nav {
+    .nav-content {
         padding: 20px 40px;
     }
 
@@ -841,10 +847,6 @@ a.sitemap-link {
 }
 
 @media only screen and (max-width: 380px) {
-    nav {
-        padding: 15px 30px;
-    }
-
     .hero-joinbutton {
         font-size: 16px;
     }
