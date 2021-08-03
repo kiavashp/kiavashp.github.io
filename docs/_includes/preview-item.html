@@ -30,7 +30,7 @@
                 --><a class="list-preview-title" href="{{ url }}">{{ title }}</a>
             </div>
             {%- if summary -%}
-                <div class="list-preview-excerpt">{{ summary }}</div>
+                <a href="{{ url }}"><div class="list-preview-excerpt">{{ summary }}</div></a>
             {%- endif -%}
             <div class="list-preview-footer">
                 {%- if dateExtended -%}<div class="list-preview-date">{{ dateExtended }}</div>{%- endif -%}<!--
@@ -46,7 +46,7 @@
                 --><a class="list-preview-title" href="{{ url }}">{{ title }}</a>
             </span>
             {%- if summary -%}
-                <div class="list-preview-excerpt">{{ summary }}</div>
+                <a href="{{ url }}"><div class="list-preview-excerpt">{{ summary }}</div></a>
             {%- endif -%}
             <div class="list-preview-footer">
                 {% if dateExtended %}<div class="list-preview-date">{{ dateExtended }}</div>{% endif %}
