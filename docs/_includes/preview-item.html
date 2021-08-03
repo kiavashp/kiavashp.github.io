@@ -46,7 +46,7 @@
                 --><a class="list-preview-title" href="{{ url }}">{{ title }}</a>
             </span>
             {%- if summary -%}
-                <a href="{{ url }}"><div class="list-preview-excerpt">{{ summary }}</div></a>
+                <a class="list-preview-excerpt" href="{{ url }}">{{ summary }}</a>
             {%- endif -%}
             <div class="list-preview-footer">
                 {% if dateExtended %}<div class="list-preview-date">{{ dateExtended }}</div>{% endif %}

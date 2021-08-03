@@ -410,17 +410,23 @@ a.list-preview-category {
     display: inline-block;
     font-weight: 300;
     color: #a2988b;
-    margin-right: 0.25em;
 }
 
 a.list-preview-title {
-    display: inline-block;
+    display: block;
     color: #404040;
 }
 
-.list-preview-excerpt {
+a.list-preview-category + a.list-preview-title {
+    display: inline-block;
+    padding: 0 0.25em;
+}
+
+a.list-preview-excerpt {
+    display: block;
     color: #606060;
     font-size: 16px;
+    padding: 15px 0;
 }
 
 .list-preview-excerpt > p {
@@ -434,7 +440,6 @@ a.list-preview-title {
 
 .list-preview-footer {
     font-size: 16px;
-    margin-top: 15px;
     display: flex;
     justify-content: space-between;
 }
