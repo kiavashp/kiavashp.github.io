@@ -281,7 +281,7 @@ header.shortgradient {
     margin-bottom: 30px;
 }
 
-a.hero-joinbutton {
+a.hero-subscribe {
     display: block;
     border-radius: 10px;
     font-size: 18px;
@@ -617,15 +617,26 @@ footer:before {
     background-color: #a59789;
 }
 
-a.footer-joinbutton {
-    display: inline-block;
+a.footer-subscribe {
+    display: block;
+    box-sizing: border-box;
+    max-width: 220px;
     border-radius: 10px;
     color: #ffffff;
     text-align: center;
     padding: 8px 24px;
-    margin-bottom: 25px;
+    margin-bottom: 10px;
     background: #567d99;
     box-shadow: 2px 2px 0 0 #3f5e73;
+}
+
+a.footer-unsubscribe {
+    display: block;
+    max-width: 220px;
+    text-align: center;
+    color: #c8c1bb;
+    font-size: 14px;
+    margin-bottom: 20px;
 }
 
 a.sitemap-link {
