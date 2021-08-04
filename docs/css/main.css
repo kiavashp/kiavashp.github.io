@@ -260,9 +260,6 @@ header.shortgradient {
 .hero-logo-placeholder, .hero-logo-image {
     width: 240px;
     height: 292px;
-
-    width: 205px;
-    height: 250px;
 }
 
 .hero-text {
@@ -284,7 +281,7 @@ header.shortgradient {
     margin-bottom: 30px;
 }
 
-.hero-joinbutton {
+a.hero-joinbutton {
     display: block;
     border-radius: 10px;
     font-size: 18px;
@@ -620,7 +617,7 @@ footer:before {
     background-color: #a59789;
 }
 
-.footer-joinbutton {
+a.footer-joinbutton {
     display: inline-block;
     border-radius: 10px;
     color: #ffffff;
@@ -847,7 +844,7 @@ a.sitemap-link {
 }
 
 @media only screen and (max-width: 380px) {
-    .hero-joinbutton {
+    a.hero-joinbutton {
         font-size: 16px;
     }
 

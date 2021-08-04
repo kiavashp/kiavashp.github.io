@@ -26,10 +26,9 @@ sitedescription: "Kiavash Page: Writer of fiction, poetry, and essays."
 contactemail: "contact@kiavash.page"
 author: "Kiavash Page"
 bio: "I write as a way of reminding myself to remain present in life — that our uncertain existence is meant to be experienced, not won or solved.
-<br><br>Here's a collection of my work.
-<br>I hope you enjoy!"
-# <br><br>Join mailing list below to be updated when I post something new!"
+<br><br>Join mailing list below to be updated when I publish something new!"
 spotlighttitle: "Recently Published"
+mailinglist-form-url: "https://forms.gle/GSKxepE7EPgGcGRC9"
 
 category_names:
   - "poem"
