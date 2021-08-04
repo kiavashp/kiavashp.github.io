@@ -19,12 +19,12 @@ A thump—something scrapes the paper walls
 Wood fibers fray at the hand of bandits—
 they'll make it through any week now
 
-I hear it all through my feet—
-the sounds that fill my corner of the world
+I hear them through my feet
+sounds that fill my corner of the world
 
 The refrigerator hums to stay alive
-ringing in my ear
-and then it clears its throat
+and turns to ringing in my ear
+then it clears its throat
 and louder does the humming feel
 
 When it cycles into silence
@@ -33,12 +33,9 @@ like an afterthought, a memory
 of the place this was before
 
 Before the concrete flowed
-Before this land was made featureless
-
-Before mountains were displaced
-by towers of purified stone
-Before cycles were threatened
-by the pursuit of permanence
+and grew into towers of stone
+Before this land was rid of green
+in the pursuit of permanence
 
 But it wasn't for not, this covering of the earth
 for now I have this box
@@ -47,18 +44,18 @@ and the musky air in
 
 Where the sun is three rectangles
 in a white and rigid sky
-and the green I so seek
-comes in planters and frames
+and the green I thought was lost
+is in planters and frames
 
 I don't want to be here
 so why do they?
 the masked bandits
 who play beneath the floor
 
-Living amongst the foundation
-trying to raise a family
-Fighting for a way into the world
-we've covered theirs with
+Trying to raise a family
+amongst the foundation
+Fighting for a way in
+to our covered world
 
 A world we've created without them
-and maybe, without ourselves
+and perhaps, a part of ourselves
