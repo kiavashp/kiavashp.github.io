@@ -10,6 +10,9 @@
     {% assign category = include.word.category %}
     {% if addFields contains "summary" %}
         {% assign summary = include.word.summary | strip %}
+        {% if summary == "" and category == "poem" %}
+            {% assign summary = include.word.excerpt | strip_html | strip | prepend: '"' | append: '..."' | markdownify %}
+        {% endif %}
     {% endif %}
     {% if addFields contains "type" %}
         {% assign type = category | capitalize %}

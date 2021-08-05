@@ -231,6 +231,14 @@ header.shortgradient {
     background: linear-gradient(#6C98B5, #6690ae);
 }
 
+.header-page-title {
+    display: block;
+    font-size: 40px;
+    font-weight: normal;
+    text-align: center;
+    color: #ffffff;
+}
+
 /* hero */
 
 .hero {
@@ -355,6 +363,14 @@ a.hero-subscribe {
     padding: 0 60px;
     margin: 0 auto;
     margin-bottom: 40px;
+}
+
+a.panel-footer-link {
+    display: block;
+    text-align: center;
+    padding: 10px 60px;
+    color: #a2988b;
+    text-decoration: underline;
 }
 
 /* panel/preview-poems */
@@ -698,13 +714,17 @@ a.sitemap-link {
         padding: 25px 40px;
     }
 
-    .nav-content:not(.nobreadcrumb) .nav-title {
+    .nav:not(.nobreadcrumb) .nav-title {
         font-size: 0;
         padding: 0 5px;
     }
 
     main {
         padding-top: 30px;
+    }
+
+    .header-page-title {
+        font-size: 36px;
     }
 
     .hero {
@@ -791,6 +811,10 @@ a.sitemap-link {
 @media only screen and (max-width: 460px) {
     .nav-content {
         padding: 20px 40px;
+    }
+
+    .header-page-title {
+        font-size: 30px;
     }
 
     .hero-logo-placeholder, .hero-logo-image {

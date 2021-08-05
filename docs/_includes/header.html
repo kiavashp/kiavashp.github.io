@@ -69,6 +69,10 @@
 
     {% elsif include.headertype == "carousel" %}
 
+        {% if include.showtitle %}
+            <h1 class="header-page-title">{{ include.title }}</h1>
+        {% endif %}
+
         {{ carousel }}
 
     {% elsif include.headertype == "content" %}

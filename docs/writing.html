@@ -1,0 +1,16 @@
+---
+layout: default
+title: "All Writing"
+headertype: "carousel"
+headershowtitle: true
+navnobreadcrumb: true
+navnoscroll: true
+---
+
+{% if site.words.size > 0 %}
+<div class="panel">
+    {% for word in site.words reversed %}
+        {% include preview-item.html word=word addFields="summary,type,date" %}
+    {% endfor %}
+</div>
+{% endif %}
