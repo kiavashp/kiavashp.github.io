@@ -1,7 +1,5 @@
 {% if include.word %}
 
-    {% assign layout = include.layout | default: "standard" %}
-
     {% assign addFields = include.addFields | default: "summary,type,date" | remove: " " | split: "," %}
 
     {% assign url = include.word.url %}
@@ -20,43 +18,25 @@
         {% assign type_link_text = site.category_paths[category] | capitalize %}
     {% endif %}
     {% if addFields contains "date" %}
-        {% assign date = include.word.date | date: "%-m/%-d/%y" %}
-        {% assign dateExtended = include.word.date | date: "%b %-d, %Y" %}
+        {% assign date = include.word.date | date: "%b %-d, %Y" %}
     {% endif %}
 
-
-    {% if layout == "extended" %}
-
-        <div class="list-preview extended">
-            <div class="list-preview-header">
-                {% if type %}<a class="list-preview-category" href="{{ type_url }}">{{ type_link_text }} /</a>{% endif %}<!--
-                --><a class="list-preview-title" href="{{ url }}">{{ title }}</a>
-            </div>
-            {%- if summary -%}
-                <a href="{{ url }}"><div class="list-preview-excerpt">{{ summary }}</div></a>
-            {%- endif -%}
-            <div class="list-preview-footer">
-                {%- if dateExtended -%}<div class="list-preview-date">{{ dateExtended }}</div>{%- endif -%}<!--
-                --><a class="list-preview-continuereading" href="{{ url }}">Continue Reading ›</a>
-            </div>
+    <div class="list-preview">
+        <span class="list-preview-header">
+            {%- if type -%}<a class="list-preview-category" href="{{ type_url }}">{{ type_link_text }} /</a>{%- endif -%}<!--
+            --><a class="list-preview-title" href="{{ url }}">{{ title }}</a>
+        </span>
+        {%- if summary -%}
+            <a class="list-preview-excerpt" href="{{ url }}">{{ summary }}</a>
+        {%- endif -%}
+        <div class="list-preview-footer">
+            <a href="{{ url }}" class="list-preview-readmarker" title="Read Status" onclick="event.preventDefault();">
+                <svg viewBox="0 0 847 1058.75"><path d="M291 565l441 -441c9,-9 24,-9 33,0l54 54c9,9 9,24 0,33l-512 512c-9,9 -23,9 -32,0l-248 -248c-8,-8 -8,-23 0,-32l55 -54c9,-9 24,-9 32,0l177 176z"/></svg>
+            </a>
+            {% if date %}<div class="list-preview-date">{{ date }}</div>{% endif %}
+            <!--<a class="list-preview-continuereading" href="{{ url }}">Continue Reading ›</a>-->
         </div>
-
-    {% else %}
-
-        <div class="list-preview">
-            <span class="list-preview-header">
-                {%- if type -%}<a class="list-preview-category" href="{{ type_url }}">{{ type_link_text }} /</a>{%- endif -%}<!--
-                --><a class="list-preview-title" href="{{ url }}">{{ title }}</a>
-            </span>
-            {%- if summary -%}
-                <a class="list-preview-excerpt" href="{{ url }}">{{ summary }}</a>
-            {%- endif -%}
-            <div class="list-preview-footer">
-                {% if dateExtended %}<div class="list-preview-date">{{ dateExtended }}</div>{% endif %}
-            </div>
-        </div>
-
-    {% endif %}
+    </div>
 
 {% else %}
 <!-- error rendering: include.word is not defined -->
