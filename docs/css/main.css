@@ -332,7 +332,7 @@ a.hero-subscribe {
 }
 
 .carousel-link:not(.current) {
-    color: rgba(255, 255, 255, 0.5);
+    color: #ffffff88;
     text-shadow: none;
 }
 
@@ -340,9 +340,13 @@ a.hero-subscribe {
     content: attr(data-count);
     display: inline-block;
     font-size: 18px;
-    vertical-align: super;
-    opacity: 50%;
-    padding-left: 2px;
+    vertical-align: middle;
+    background-color: #56809eaa;
+    color: #ffffffaa;
+    padding: 1px 5px;
+    margin-left: 10px;
+    border-radius: 5px;
+    text-shadow: none;
 }
 
 /* panel */
