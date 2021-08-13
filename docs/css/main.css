@@ -404,6 +404,10 @@ a.panel-footer-link {
     text-align: center;
 }
 
+.panel.preview-poems > a.panel-footer-link {
+    flex-basis: 100%;
+}
+
 /* panel/preview-wrappable-list */
 .preview-wrappable-list {
     display: flex;
