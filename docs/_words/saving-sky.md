@@ -6,8 +6,8 @@ date: 2020-09-20
 summary: "Just a little story about an alien and their pet worm!"
 ---
 
-The ship flew out of darkness to complete another orbit of B-115. Its atmosphere glowed a yellow-green from the chlorine evaporating from the planet's surface.
-    Finley flinched as the sun's blinding rays fell on his resting face.
+Out of darkness the ship flew, completing another orbit of B-115. The planets atmosphere glowed in yellow-green hues from the chlorine evaporating from its surface.
+    Finley flinched as the sun's blinding rays fell on their resting face.
     "All right! All right, I'm awake!" Finley exclaimed, fingers fumbling at the buckles.
     Their eyelid winced in the light as they slid the shade over the window and slipped out of their sleeping bag.
     They floated over to the ship's filtration system and pulled the lever on the spout labeled "edible." Algae colored sludge poured into their bowl.
