@@ -88,7 +88,7 @@ main {
     flex-grow: 1;
     box-sizing: border-box;
     width: 100%;
-    padding-top: 40px;
+    padding-top: 60px;
     padding-bottom: 120px;
 }
 
@@ -237,6 +237,15 @@ header.shortgradient {
     font-weight: normal;
     text-align: center;
     color: #ffffff;
+}
+
+.header-curve {
+    width: 100%;
+    height: auto;
+    min-height: 8px;
+    position: absolute;
+    top: 100%;
+    margin-top: -1px;
 }
 
 /* hero */
@@ -746,7 +755,7 @@ a.sitemap-link {
     }
 
     main {
-        padding-top: 30px;
+        padding-top: 40px;
     }
 
     .header-page-title {
