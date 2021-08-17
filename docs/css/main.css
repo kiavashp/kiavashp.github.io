@@ -364,7 +364,7 @@ a.hero-subscribe {
     color: #cec9c2;
     max-width: 800px;
     line-height: 60px;
-    padding: 0 60px;
+    padding: 0 80px;
     margin: 0 auto;
     margin-bottom: 40px;
 }
@@ -786,9 +786,7 @@ a.sitemap-link {
     }
 
     .panel-header {
-        font-size: 30px;
         padding: 0 40px;
-        margin-bottom: 20px;
     }
 
     .list-preview {
@@ -866,8 +864,7 @@ a.sitemap-link {
     }
 
     .panel-header {
-        font-size: 18px;
-        padding: 0 40px;
+        font-size: 22px;
     }
 
     .preview-wrappable-list {
