@@ -16,6 +16,9 @@ document.addEventListener('DOMContentLoaded', function () {
         let viewHeight = window.visualViewport.height;
 
         if (scrollHeight - viewHeight < 1000) {
+            if (wasScrolled) {
+                document.body.classList.remove('scrolled');
+            }
             return false;
         }
 
@@ -48,6 +51,7 @@ document.addEventListener('DOMContentLoaded', function () {
     }
 
     document.addEventListener('scroll', debounceScroll(isScrolled), { passive: true });
+    window.addEventListener('resize', debounceScroll(isScrolled), { passive: true });
 
     document.addEventListener('scroll', debounceScroll(scrollProgress), { passive: true });
     window.addEventListener('resize', debounceScroll(scrollProgress), { passive: true });
