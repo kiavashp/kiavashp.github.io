@@ -443,7 +443,7 @@ a.panel-footer-link {
 }
 
 a.list-preview-category {
-    display: inline-block;
+    display: inline;
     font-weight: 300;
     color: #a2988b;
 }
@@ -454,7 +454,7 @@ a.list-preview-title {
 }
 
 a.list-preview-category + a.list-preview-title {
-    display: inline-block;
+    display: inline;
     padding: 0 0.25em;
 }
 
