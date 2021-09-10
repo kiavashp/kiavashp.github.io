@@ -22,5 +22,5 @@ The sun was beginning to set on a day that felt like a lifetime. The man sat on 
 	"What do you wanna do?" He said. "Huh Wolf? What should we do?"
     The frail dog lifted his head, in no hurry at all, as if the man's voice was of little interest to him. The man slid the phone into his pocket and walked the gravel path past his companion. The dog groaned as he made his way from grass to gravel. His legs dragged, as if being pulled through mud, or it seemed, propelled by an inability to stand.
 	"What’s the matter Wolf?" Said the man.
-	Wolf bobbed his heavy head, and prepared to stumble again, hoping he'd miss the ground.
+	Wolf bobbed his heavy head, and prepared to stumble again, hoping only miss the ground.
 	"Oh that's enough of that. Come on, let's go home."
