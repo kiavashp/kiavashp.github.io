@@ -3,7 +3,7 @@ layout: story
 category: story
 title:  "Saving Sky"
 date: 2020-09-20
-summary: "Just a little story about an alien and their pet worm!"
+summary: "Aliens have pets too! They're just... different, like space worms and stuff."
 ---
 
 Out of darkness the ship flew, completing another orbit of B-115. The planets atmosphere glowed in yellow-green hues from the chlorine evaporating from its surface.

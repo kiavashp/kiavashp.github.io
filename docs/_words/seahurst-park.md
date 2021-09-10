@@ -3,7 +3,8 @@ layout: story
 category: story
 title:  "Seahurst Park"
 date: 2020-12-25
-summary: "\"What if we are nothing but our minds?\" She started. \"What if our bodies exist only to make our minds more tangible, and the physical world-like a mirror-exists only to help us see and understand ourselves, indirectly?\""
+summary: "\"What if we are nothing but our minds?\" She started. \"What if our bodies exist only to make our minds more tangible, and...\""
+spotlight: true
 ---
 
 The sky was closing in a haze, and so was I.

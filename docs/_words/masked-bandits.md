@@ -47,17 +47,17 @@ for now I have this box
 Where the sun is three squares
 in a white and rigid sky
 
-and traces of green sit
-in planters and frames
+and the green that's left
+sits in planters and frames
 
 I've woken to the sound of
 saws through rotted trunk
 
 They're fighting their way in
-like they can't get enough
+and I struggle to get up
 
-The floor is shaking
-so loud that I forget
+The floor is shaking so loud
+that I almost forget
 
 There's a door, I can leave
 It's not all covered yet
@@ -68,16 +68,19 @@ under this rubble-to-be
 This was once our world too
 something we pretend to still believe
 
-I step outside, the sky it whistles;
-their scratching can barely be heard
+Outside the sky whistles
+My lips quiver in the cold
 
-I stop to listen, take another step
-breathe softly, and hang on every word
+I listen, but their scratching
+can now barely be heard
 
-The deck boards creak and the clawing stops
-my thoughts, they start to slow
+I step closer, the deck creaks
+and their clawing suddenly stops
 
-I breathe the midnight air once more
-then return to sleep, now undisturbed
+I breath deep and finally
+I'm able to slow my thoughts
+
+The quiet of night gently returns and
+I go back to sleep, now undisturbed
 
 Fucking raccoons.
