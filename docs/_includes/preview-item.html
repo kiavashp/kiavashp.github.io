@@ -11,14 +11,20 @@
         {% if summary == "" and category == "poem" %}
             {% assign summary = include.word.excerpt | strip_html | strip | prepend: '"' | append: '..."' | markdownify %}
         {% endif %}
+    {% else %}
+        {% assign summary = false %}
     {% endif %}
     {% if addFields contains "type" %}
         {% assign type = category | capitalize %}
         {% assign type_url = "/" | append: site.category_paths[category] %}
         {% assign type_link_text = site.category_paths[category] | capitalize %}
+    {% else %}
+        {% assign type = false %}
     {% endif %}
     {% if addFields contains "date" %}
         {% assign date = include.word.date | date: "%b %-d, %Y" %}
+    {% else %}
+        {% assign date = false %}
     {% endif %}
 
     <div class="list-preview">
@@ -39,5 +45,5 @@
     </div>
 
 {% else %}
-<!-- error rendering: include.word is not defined -->
+<!-- error rendering: include.word is not defined (addFields={{ include.addFields }}) -->
 {% endif %}

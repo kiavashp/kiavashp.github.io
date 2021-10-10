@@ -541,7 +541,7 @@ a.list-preview-continuereading {
 }
 
 .words-image.invert {
-    filter: invert(1) brightness(2);
+    filter: invert(1) brightness(2) drop-shadow(2px 2px 2px #00000011);
 }
 
 .words-title {
@@ -575,6 +575,7 @@ a.list-preview-continuereading {
 .words-content {
     display: block;
     font-size: 0;
+    margin-bottom: 80px;
 }
 
 .words-content > p, .words-content > div {
@@ -679,7 +680,7 @@ a.footer-subscribe {
     padding: 8px 24px;
     margin-bottom: 10px;
     background: #567d99;
-    box-shadow: 2px 2px 0 0 #3f5e73;
+    box-shadow: 2px 2px 0 0 #506778;
 }
 
 a.footer-unsubscribe {
