@@ -432,6 +432,16 @@ img.list-preview-type {
     box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
 }
 
+.list-preview-category {
+    display: inline;
+    color: #b6aa99;
+    font-size: 16px;
+    padding: 3px 8px;
+    background: #a2988b22;
+    border-radius: 5px;
+    margin-left: 0.5em;
+}
+
 .list-preview-title {
     display: block;
     color: #404040;

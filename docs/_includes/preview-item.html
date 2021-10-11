@@ -49,8 +49,9 @@
         <a class="list-preview-header{% if image_url %} {{ image_type }}{% endif %}" href="{{ url }}">
             {%- if image_url -%}
                 <img class="nofade list-preview-image" src="{{ image_url }}" />
-            {%- endif -%}<!--
-            --><span class="list-preview-title">{{ title }}</span>
+            {%- endif -%}
+            <span class="list-preview-title">{{ title }}</span>
+            {%- if type -%}<span class="list-preview-category">{{ type }}</span>{%- endif -%}
         </a>
         {%- if summary -%}
             <a class="list-preview-excerpt" href="{{ url }}">{{ summary }}</a>
