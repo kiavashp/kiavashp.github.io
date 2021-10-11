@@ -5,14 +5,10 @@ headertype: "carousel"
 navnoscroll: true
 ---
 
-<div class="panel preview-poems">
+<div class="panel preview-grid">
     {% for word in site.words reversed %}
         {% if word.layout == "poem" %}
-            {% assign defaultImage = word.title | slugify | append: '.svg' %}
-            <a class="poem-preview noselect" href="{{ word.url }}">
-                <img class="poem-preview-image" src="/assets/content-images/{{ word.image | default: defaultImage }}" />
-                <span class="poem-preview-title">{{ word.title }}</span>
-            </a>
+            {% include preview-item.html word=word addFields="image" %}
         {% endif %}
     {% endfor %}
     <a class="panel-footer-link" href="/writing">View All Writing</a>

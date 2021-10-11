@@ -4,8 +4,21 @@
 
     {% assign url = include.word.url %}
     {% assign image = include.word.image %}
+    {% assign poster = include.word.poster %}
     {% assign title = include.word.title %}
     {% assign category = include.word.category %}
+    {% if addFields contains "image" %}
+        {% if poster %}
+            {% assign image_url = poster | prepend: "/assets/content-posters/" %}
+            {% assign image_type = "poster" %}
+        {% elsif image %}
+            {% assign image_url = image | prepend: "/assets/content-images/" %}
+            {% assign image_type = "image" %}
+        {% else %}
+            {% assign image_url = false %}
+            {% assign image_type = false %}
+        {% endif %}
+    {% endif %}
     {% if addFields contains "summary" %}
         {% assign summary = include.word.summary | strip %}
         {% if summary == "" and category == "poem" %}
@@ -26,20 +39,27 @@
     {% else %}
         {% assign date = false %}
     {% endif %}
+    {% if addFields contains "noreadmarker" %}
+        {% assign readmarker = false %}
+    {% else %}
+        {% assign readmarker = true %}
+    {% endif %}
 
     <div class="list-preview">
-        <span class="list-preview-header">
-            {%- if type -%}<a class="list-preview-category" href="{{ type_url }}">{{ type_link_text }} /</a>{%- endif -%}<!--
-            --><a class="list-preview-title" href="{{ url }}">{{ title }}</a>
-        </span>
+        <a class="list-preview-header{% if image_url %} {{ image_type }}{% endif %}" href="{{ url }}">
+            {%- if image_url -%}
+                <img class="nofade list-preview-image" src="{{ image_url }}" />
+            {%- endif -%}<!--
+            --><span class="list-preview-title">{{ title }}</span>
+        </a>
         {%- if summary -%}
             <a class="list-preview-excerpt" href="{{ url }}">{{ summary }}</a>
         {%- endif -%}
         <div class="list-preview-footer">
-            <a href="{{ url }}" class="list-preview-readmarker" title="Read Status" onclick="event.preventDefault();">
+            {%- if readmarker -%}<a href="{{ url }}" class="list-preview-readmarker" title="Read Status" onclick="event.preventDefault();">
                 <svg viewBox="0 0 847 1058.75"><path d="M291 565l441 -441c9,-9 24,-9 33,0l54 54c9,9 9,24 0,33l-512 512c-9,9 -23,9 -32,0l-248 -248c-8,-8 -8,-23 0,-32l55 -54c9,-9 24,-9 32,0l177 176z"/></svg>
-            </a>
-            {% if date %}<div class="list-preview-date">{{ date }}</div>{% endif %}
+            </a>{%- endif -%}
+            {%- if date -%}<span class="list-preview-date">{{ date }}</span>{%- endif -%}
             <!--<a class="list-preview-continuereading" href="{{ url }}">Continue Reading ›</a>-->
         </div>
     </div>
