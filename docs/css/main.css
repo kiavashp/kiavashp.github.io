@@ -501,6 +501,14 @@ a.list-preview-readmarker + .list-preview-date {
     color: #d4cec8;
 }
 
+a.list-preview-footer-action {
+    flex: 1;
+    color: #b4aba1;
+    text-decoration: underline;
+    text-align: right;
+    padding-left: 20px;
+}
+
 a.list-preview-continuereading {
     flex: 1;
     color: #b4aba1;

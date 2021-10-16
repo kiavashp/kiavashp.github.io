@@ -3,7 +3,7 @@
     {% capture noscroll %}{% if include.noscroll == true %} noscroll{% endif %}{% endcapture %}
     {% capture nobreadcrumb %}{% if include.nobreadcrumb == true %} nobreadcrumb{% endif %}{% endcapture %}
     {% capture navpath %}
-        {% if include.category %}/ <a href="/{{ site.category_paths[include.category] }}">{{ site.category_paths[include.category] | capitalize }}</a> {% endif %}
+        {% if include.category %}› <a href="/{{ site.category_paths[include.category] }}">{{ site.category_paths[include.category] | capitalize }}</a> {% endif %}
     {% endcapture %}
 
     <nav class="noselect{{ noscroll }}{{ nobreadcrumb }}">
@@ -16,7 +16,7 @@
                 <span class="nav-title">{{ site.navtitle }}</span>
             </a>
             {%- if include.nobreadcrumb != true -%}
-            <span class="nav-breadcrumb">{{ navpath }}/ {{ include.title }}</span>
+            <span class="nav-breadcrumb">{{ navpath }}› {{ include.title }}</span>
             {%- endif -%}
         </div>
         <div class="scroll-progress"></div>

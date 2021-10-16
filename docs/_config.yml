@@ -20,7 +20,7 @@ defaults:
         headertype: "content"
 
 # global variables
-navtitle: "kiavash.page"
+navtitle: "Kiavash Page"
 sitename: "Kiavash Page"
 sitedescription: "Kiavash Page: Writer of fiction, poetry, and essays."
 contactemail: "contact@kiavash.page"
