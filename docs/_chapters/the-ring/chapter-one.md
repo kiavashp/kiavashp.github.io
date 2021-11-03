@@ -32,7 +32,7 @@ The mountains had faded from my consciousness completely by now, and the beep go
 
 A memory—or was it another hallucination, I thought—materialized in my mind; slowly at first, then all at once.
 
-Horns blaring, people talking, the sound of tired on pavement. And the smell. That subtle, ever present smell of trash and animal waste that's been baked for decades between skyscrapers and a seasonal sun. I was headed somewhere, the office maybe. The air was thick but cool. The light shined horizontally between the towering walls of glass and steel. I'm walking past the subway steps, thinking about the research I had planned—some article I was working on—the subject, I failed to recall. An older woman is struggling down there, and begins to scream. I turn and catch a shadow scurrying up the subway stairs and onto the street. Their face is covered. Their clothes, ripped and soiled. I recognize the figure, something about the way they move. A rage builds up inside me, burning through my chest. I drop my briefcase, and throw my legs into a full out sprint. I follow as they weave their way through the crowd. My vision fills with blurred figures passing on both sides. Then everything goes black, and the ringing returns.
+Horns blaring, people talking, the sound of tires on pavement. And the smell. That subtle, ever present smell of trash and animal waste that's been baked for decades between skyscrapers and a seasonal sun. I was headed somewhere, the office maybe. The air was thick but cool. The light shined horizontally between the towering walls of glass and steel. I'm walking past the subway steps, thinking about the research I had planned—some article I was working on—the subject, I failed to recall. An older woman is struggling down there, and begins to scream. I turn and catch a shadow scurrying up the subway stairs and onto the street. Their face is covered. Their clothes, ripped and soiled. I recognize the figure, something about the way they move. A rage builds up inside me, burning through my chest. I drop my briefcase, and throw my legs into a full out sprint. I follow as they weave their way through the crowd. My vision fills with blurred figures passing on both sides. Then everything goes black, and the ringing returns.
 
 Beyond the piercing ring, I hear a voice, distant and muffled. "Sir? Sir! I need you to answer me. How are you feeling? Are you in any pain?"
 
@@ -94,7 +94,7 @@ He smiled, silently, as if to appear amused, and untied my restraints.
 
 "You experienced a traumatic episode this morning." He looked down to confirm. "It says here, around 7am. Does that sound right?" He paused, then continued when I didn't immediately respond. "You may remember feeling overwhelmingly emotional. Often people have reported hearing a loud ringing. And on occasion, like in your case, experience black outs as a result."
 
-I stared at him in confusion and disbelief. His words, my surrounds, all felt dream-like. I was aware of them, but they seemed constructed, and just out of reach.
+I stared at him in confusion and disbelief. His words, my surroundings, all felt dream-like. I was aware of them, but they seemed constructed, and just out of reach.
 
 "We think we can help you Julian. But first I'd like to ask you a few questions, if you don't mind."
 
