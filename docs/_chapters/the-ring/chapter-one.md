@@ -8,7 +8,7 @@ summary: "Julian wakes in a facility; his implant has been removed. His situatio
 complete: false
 ---
 
-From the darkest depths of my unconscious, I slowly began to rise. Liked a bubble too large to surface without wobbling sporadically from side to side. I still remember it like a dream I've had a hundred times. Each moment unfolding in saturated frames.
+From the darkest depths of my unconscious, I slowly began to rise. Like a bubble too large to surface without wobbling sporadically from side to side. I still remember it like a dream I've had a hundred times. Each moment unfolding in saturated frames.
 
 The fluorescent lights penetrate my eyes one ray at a time, painting a vibrant canvas that blurred across my retina, like a camera struggling to keep focus. (How strange it feels to relate to the world through our creations.)
 
