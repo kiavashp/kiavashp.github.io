@@ -1,0 +1,22 @@
+---
+layout: default
+---
+
+<div class="panel">
+    {% assign chapters = site.chapters | sort: "number" %}
+    {%- capture matchPath -%}_{{ chapters.first.collection }}/{{ page.slug }}/{%- endcapture -%}
+    {%- assign matchCount = 0 -%}
+
+    {%- for chapter in chapters -%}
+        {%- if chapter.path contains matchPath -%}
+            {%- assign matchCount = matchCount | plus: 1 -%}
+            {%- include preview-item.html word=chapter addFields="summary,date" -%}
+        {%- endif -%}
+    {%- endfor -%}
+
+    {%- if matchCount == 0 -%}
+        <div class="panel-notice">No Chapters Published</div>
+    {%- elsif page.complete == false -%}
+        <div class="panel-notice">More Chapters Coming Soon</div>
+    {%- endif -%}
+</div>

@@ -378,6 +378,15 @@ a.hero-subscribe {
     margin-bottom: 40px;
 }
 
+.panel-notice {
+    display: block;
+    text-align: center;
+    font-size: 20px;
+    color: #cec9c2;
+    max-width: 800px;
+    margin: 80px auto;
+}
+
 a.panel-footer-link {
     display: block;
     text-align: center;
@@ -413,13 +422,6 @@ img.list-preview-type {
     display: block;
     width: auto;
     height: 40px
-    margin-right: 10px;
-}
-
-img.list-preview-type {
-    display: block;
-    width: auto;
-    height: 40px;
     margin-right: 10px;
 }
 
@@ -492,13 +494,23 @@ a.list-preview-readmarker:visited > svg {
     fill: #a2988b;
 }
 
-a.list-preview-readmarker + .list-preview-date {
+a.list-preview-readmarker + .list-preview-date,
+a.list-preview-readmarker + .list-preview-incomplete {
     margin-left: 15px;
 }
 
 .list-preview-date {
     display: inline-block;
     color: #d4cec8;
+}
+
+.list-preview-incomplete {
+    display: inline-block;
+    color: #d4cec8;
+}
+
+.list-preview-incomplete:before {
+    content: 'In Progress';
 }
 
 a.list-preview-footer-action {
@@ -567,8 +579,7 @@ a.list-preview-continuereading {
     display: block;
     max-width: 800px;
     padding: 0 80px;
-    margin: 0 auto;
-    margin-bottom: 40px;
+    margin: 40px auto;
 }
 
 .poem-format {
@@ -580,7 +591,6 @@ a.list-preview-continuereading {
     width: 120px;
     min-height: 120px;
     margin: 0 auto;
-    margin-top: 40px;
     border-radius: 5px;
     overflow: hidden;
 }
@@ -589,9 +599,15 @@ a.list-preview-continuereading {
     filter: invert(1) brightness(2) drop-shadow(2px 2px 2px #00000011);
 }
 
+.words-suptitle {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 20px;
+    color: #ffffffb0;
+}
+
 .words-title {
     display: block;
-    margin-top: 40px;
     font-size: 36px;
     color: #ffffff;
 }
@@ -641,6 +657,20 @@ a.list-preview-continuereading {
     content: "• • •";
     font-size: 12px;
     font-weight: normal;
+}
+
+.words-footer {
+    display: flex;
+    color: #a2988b;
+    text-decoration: underline;
+}
+
+a.words-next-chapter {
+    display: block;
+    padding: 10px;
+    margin: 0 auto;
+    color: #a2988b;
+    text-decoration: underline;
 }
 
 /* footer */

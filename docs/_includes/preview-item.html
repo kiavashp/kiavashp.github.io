@@ -7,6 +7,7 @@
     {% assign poster = include.word.poster %}
     {% assign title = include.word.title %}
     {% assign category = include.word.category %}
+    {% assign complete = include.word.complete %}
     {% assign readon_name = include.word.readon-name %}
     {% assign readon_link = include.word.readon-link %}
     {% if addFields contains "image" %}
@@ -68,7 +69,13 @@
             {%- if readmarker -%}<a href="{{ url }}" class="list-preview-readmarker" title="Read Status" onclick="event.preventDefault();">
                 <svg viewBox="0 0 847 1058.75"><path d="M291 565l441 -441c9,-9 24,-9 33,0l54 54c9,9 9,24 0,33l-512 512c-9,9 -23,9 -32,0l-248 -248c-8,-8 -8,-23 0,-32l55 -54c9,-9 24,-9 32,0l177 176z"/></svg>
             </a>{%- endif -%}
-            {%- if date -%}<span class="list-preview-date">{{ date }}</span>{%- endif -%}
+            {%- if date -%}
+                {%- if complete -%}
+                    <span class="list-preview-date">{{ date }}</span>
+                {%- else -%}
+                    <span class="list-preview-incomplete"></span>
+                {%- endif -%}
+            {%- endif -%}
             {%- if readon -%}
                 <a class="list-preview-footer-action" href="{{ readon_link }}" target="_blank">Read on {{ readon_name }} ›</a>
             {%- endif -%}

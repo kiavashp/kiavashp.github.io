@@ -5,6 +5,10 @@ collections:
   words:
     output: true
     permalink: /:categories/:name
+  chapters:
+    output: true
+    permalink: /:categories/:path
+    sort_by: number
 
 defaults:
   -
@@ -18,6 +22,17 @@ defaults:
         type: "words"
     values:
         headertype: "content"
+        spotlight: false
+        complete: true
+        list: true
+  -
+    scope:
+        path: ""
+        type: "chapters"
+    values:
+        headertype: "content"
+        complete: true
+        list: true
 
 # global variables
 navtitle: "Kiavash Page"
@@ -35,7 +50,9 @@ category_names:
   - "poem"
   - "story"
   - "essay"
+  - "book"
 category_paths:
     poem: "poems"
     story: "stories"
     essay: "essays"
+    book: "books"

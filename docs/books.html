@@ -1,12 +1,12 @@
 ---
 layout: default
-title: Essays
+title: Books
 headertype: "carousel"
 navnoscroll: true
 ---
 
 <div class="panel">
-    {%- assign words = site.words | where: "category", "essay" | where: "list", true -%}
+    {%- assign words = site.words | where: "category", "book" | where: "list", true -%}
 
     {% if words.size > 0 %}
         {% for word in words reversed %}

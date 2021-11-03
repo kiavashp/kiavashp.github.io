@@ -1,0 +1,32 @@
+---
+layout: default
+---
+
+{%- assign bookPath = page.path | split: "/" | slice: 0, 2 | join: "/" | append: "/" -%}
+{%- assign lastFound = nil -%}
+{%- assign foundSelf = false -%}
+{% assign chapters = site.chapters | sort: "number" %}
+
+{%- for chapter in chapters -%}
+    {%- if chapter == page -%}
+        {%- if lastFound != nil -%}
+            {%- assign previousChapter = chapters[lastFound] -%}
+        {%- endif -%}
+        {%- assign foundSelf = true -%}
+    {%- elsif chapter.path contains bookPath -%}
+        {%- if foundSelf -%}
+            {%- assign nextChapter = chapter -%}
+            {%- break -%}
+        {%- endif -%}
+        {%- assign lastFound = forloop.index0 -%}
+    {%- endif -%}
+{%- endfor -%}
+
+<div class="words-page">
+    <div class="words-content">{{ content }}</div>
+    {%- if nextChapter -%}
+        <div class="words-footer">
+            <a class="words-next-chapter" href="{{ nextChapter.url }}">Next Chapter</a>
+        </div>
+    {%- endif -%}
+</div>

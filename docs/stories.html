@@ -6,10 +6,14 @@ navnoscroll: true
 ---
 
 <div class="panel">
-    {% for word in site.words reversed %}
-        {% if word.layout == "story" %}
+    {%- assign words = site.words | where: "category", "story" | where: "list", true -%}
+
+    {% if words.size > 0 %}
+        {% for word in words reversed %}
             {% include preview-item.html word=word addFields="summary,date" %}
-        {% endif %}
-    {% endfor %}
+        {% endfor %}
+    {%- else -%}
+        <div class="panel-notice">No Published {{ page.title }}</div>
+    {%- endif -%}
     <a class="panel-footer-link" href="/writing">View All Writing</a>
 </div>

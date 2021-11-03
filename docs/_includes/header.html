@@ -1,9 +1,15 @@
+{% if page.collection == "chapters" %}
+    {% assign bookName = page.path | split: "/" | slice: 1 | first%}
+    {% assign book = site.words | where: "slug", bookName | first %}
+{% endif %}
+
 {% if include.headertype != "hero" %}
 
     {% capture noscroll %}{% if include.noscroll == true %} noscroll{% endif %}{% endcapture %}
     {% capture nobreadcrumb %}{% if include.nobreadcrumb == true %} nobreadcrumb{% endif %}{% endcapture %}
     {% capture navpath %}
         {% if include.category %}› <a href="/{{ site.category_paths[include.category] }}">{{ site.category_paths[include.category] | capitalize }}</a> {% endif %}
+        {% if book %}› <a href="{{ book.url }}">{{ book.title }}</a>{% endif %}
     {% endcapture %}
 
     <nav class="noselect{{ noscroll }}{{ nobreadcrumb }}">
@@ -27,7 +33,7 @@
 {% capture carousel %}
     <div class="carousel">
         {% for category in site.category_names %}
-            {% assign cat_count = site.words | where: "category", category | size %}
+            {% assign cat_count = site.words | where: "category", category | where: "list", true | size %}
             {% assign cat_link = "/" | append: site.category_paths[category] %}
             {% assign cat_link_text = site.category_paths[category] | capitalize %}
             {% assign cat_url_match = cat_link | append: ".html" %}
@@ -83,23 +89,36 @@
             {% assign invert = "" %}
         {% endif %}
 
-        {% if page.category == "poem" %}
+        {% if page.layout == "poem" %}
             <div class="words-header poem-format">
                 {% if page.image %}<img class="words-image{{ invert }}" src="/assets/content-images/{{ page.image }}"/>{% endif %}
                 <div class="words-title">{{ page.title }}</div>
                 <div class="words-author">by {{ site.author }}</div>
             </div>
-        {% elsif page.category == "story" %}
+        {% elsif page.layout == "story" %}
             <div class="words-header">
                 {% if page.image %}<img class="words-image{{ invert }}" src="/assets/content-images/{{ page.image }}"/>{% endif %}
                 <div class="words-title">{{ page.title }}</div>
                 <div class="words-author">by {{ site.author }}</div>
             </div>
-        {% elsif page.category == "essay" %}
+        {% elsif page.layout == "essay" %}
             <div class="words-header">
                 {% if page.image %}<img class="words-image{{ invert }}" src="/assets/content-images/{{ page.image }}"/>{% endif %}
                 <div class="words-title">{{ page.title }}</div>
                 <div class="words-date">{{ page.date | date: "%b %e, %Y" }}</div>
+            </div>
+        {% elsif page.layout == "book" %}
+            <div class="words-header">
+                {% if page.image %}<img class="words-image{{ invert }}" src="/assets/content-images/{{ page.image }}"/>{% endif %}
+                <div class="words-title">{{ page.title }}</div>
+                <div class="words-author">by {{ site.author }}</div>
+            </div>
+        {% elsif page.layout == "chapter" %}
+            <div class="words-header">
+                {% if page.image %}<img class="words-image{{ invert }}" src="/assets/content-images/{{ page.image }}"/>{% endif %}
+                <div class="words-suptitle">{{ book.title }}</div>
+                <div class="words-title">{{ page.title }}</div>
+                <div class="words-author">by {{ site.author }}</div>
             </div>
         {% endif %}
 
