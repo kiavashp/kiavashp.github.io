@@ -1,4 +1,4 @@
-{% capture pagetitle %}{% if page.title %}{{ page.title }} - {% endif %}{{ site.sitename }}{% endcapture %}
+{% capture pagetitle %}{% include pagetitle.html %}{% endcapture %}
 
 <head>
     <meta charset="utf-8" />

@@ -1,0 +1,10 @@
+{% assign title = page.title %}
+{% if page.collection == "chapters" %}
+    {% assign bookName = page.path | split: "/" | slice: 1 | first%}
+    {% assign book = site.words | where: "slug", bookName | first %}
+    {% if book %}
+        {% capture title %}{{ page.title }} - {{ book.title }}{% endcapture %}
+    {% endif %}
+{% endif %}
+
+{% if title %}{{ title }} - {% endif %}{{ site.sitename }}
