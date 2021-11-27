@@ -10,7 +10,7 @@ complete: false
 
 I used to think I was more or less immune to doubt, but now I'm not so sure. Doubt is a side effect of a threatened mind, and all I saw were opportunities—I guess I largely had the implant to thank for that. But even still, on this day in early winter, a single question that I wasn't expecting started a chain reaction I at first had no awareness of, and then couldn't stop. I guess that's all it takes now.
 
-The scent of earthy citrus permeating from tree and filling the air. That's what I remember most. It's something I don't think I'll never tire of—not even now. Tabitha was playing her clarinet in the other room. She insisted on it every night, not that we ever had objections. Tonight was something by Telemann I think. She must play incredibly well by now.
+The scent of earthy citrus permeating from the tree and filling the air. That's what I remember most. It's something I don't think I'll ever tire of—not even now. Tabitha was playing her clarinet in the other room. She insisted on it every night, not that we ever had objections. Tonight was something by Telemann I think. She must play incredibly well by now.
 
 I was half way through the sink of dishes, wiping the streaks of curried butternut squash from the pot. I turned to Janet, admiring her. She glowed more radiant each time I looked. I caught her eye between passes of the mop across the tile floor. We smiled at one another.
 
