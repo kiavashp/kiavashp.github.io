@@ -9,7 +9,7 @@
         </div>
 
         {% for category in site.category_names %}
-            {% assign cat_items = site.words | reverse | where: "category", category %}
+            {% assign cat_items = site.words | reverse | where: "category", category | where: "list", true %}
             {% assign cat_count = cat_items | size %}
             {% assign cat_link = "/" | append: site.category_paths[category] %}
             {% assign cat_link_text = site.category_paths[category] | capitalize %}
