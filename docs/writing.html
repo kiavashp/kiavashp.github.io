@@ -9,7 +9,7 @@ navnoscroll: true
 
 {% if site.words.size > 0 %}
 <div class="panel">
-    {% for word in site.words reversed %}
+    {% for word in site.words reversed | where: "list", true %}
         {% include preview-item.html word=word addFields="summary,type,date" %}
     {% endfor %}
 </div>
