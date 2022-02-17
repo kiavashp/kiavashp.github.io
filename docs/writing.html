@@ -7,9 +7,11 @@ navnobreadcrumb: true
 navnoscroll: true
 ---
 
-{% if site.words.size > 0 %}
+{%- assign words = site.words | where: "list", true -%}
+
+{% if words.size > 0 %}
 <div class="panel">
-    {% for word in site.words reversed | where: "list", true %}
+    {% for word in words reversed %}
         {% include preview-item.html word=word addFields="summary,type,date" %}
     {% endfor %}
 </div>
