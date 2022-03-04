@@ -11,7 +11,7 @@ The sun was beginning to set on a day that felt like a lifetime. The man sat on 
 	"Yeah." He bowed his head as he spoke.
 	"Well I'm sorry to hear it Gray." Said the voice on the other end of the call. "I really am. It seemed like you had a good thing going this time."
 	Grayson shrugged to himself. "Oh what's another few years alone? Don't got too many good ones left anyhow."
-	He kicked at the gravel, and looked over at the small dog sitting nearby. The park was quiet. Everyone else had probably gone home for dinner. Some would have families, spouses, waiting. Others might have company, a friend, a date. The whistling wind brought him back from the daydream.
+	He kicked at the gravel, and looked over at the small dog sitting nearby. The park was quiet. Everyone else had probably gone home for dinner. Some would have families, spouses, waiting. Others might have company, a friend, a date. The whistling wind brought him back from his thoughts.
 	"Ya know, at least I don’t have Cancer or nothing. You got the real problems Bob." He looked up at the swaying trees. "You need to take care of yourself now. I mean it."
 	The scrappy white dog sat lethargically in the grass, leash-less but seemingly unaware of this freedom.
 	"Lord knows I'm trying Gray. This shits really kicking my ass though."
