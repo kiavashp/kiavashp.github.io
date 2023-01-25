@@ -1,7 +1,7 @@
 ---
 layout: poem
 category: poem
-title:  "Your Child"
+title: "Your Child"
 image: your-child.svg
 image-invertable: true
 date: 2020-08-24

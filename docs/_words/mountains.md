@@ -1,7 +1,7 @@
 ---
 layout: poem
 category: poem
-title:  "Mountains"
+title: "Mountains"
 image: mountains.svg
 image-invertable: true
 date: 2020-06-24

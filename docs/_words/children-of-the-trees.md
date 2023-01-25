@@ -1,7 +1,7 @@
 ---
 layout: story
 category: story
-title:  "Children of the Trees"
+title: "Children of the Trees"
 date: 2022-01-01
 summary: "Three brothers climb a tree on a late night walk."
 spotlight: true

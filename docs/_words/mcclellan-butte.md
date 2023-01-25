@@ -1,7 +1,7 @@
 ---
 layout: poem
 category: poem
-title:  "McClellan Butte"
+title: "McClellan Butte"
 image: mcclellan-butte.svg
 image-invertable: true
 date: 2020-08-19

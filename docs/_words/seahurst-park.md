@@ -1,7 +1,7 @@
 ---
 layout: story
 category: story
-title:  "Seahurst Park"
+title: "Seahurst Park"
 date: 2020-12-25
 summary: "\"What if we are nothing but our minds?\" She started. \"What if our bodies exist only to make our minds more tangible, and...\""
 spotlight: true

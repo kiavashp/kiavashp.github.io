@@ -1,7 +1,7 @@
 ---
 layout: poem
 category: poem
-title:  "Yes, Honey"
+title: "Yes, Honey"
 image: yes-honey.svg
 image-invertable: true
 date: 2021-09-04

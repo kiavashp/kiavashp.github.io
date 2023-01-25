@@ -1,7 +1,7 @@
 ---
 layout: story
 category: story
-title:  "The Crunch of Melting Snow"
+title: "The Crunch of Melting Snow"
 image: the-crunch-of-melting-snow.svg
 image-invertable: true
 date: 2021-03-26

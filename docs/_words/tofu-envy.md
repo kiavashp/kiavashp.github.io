@@ -1,7 +1,7 @@
 ---
 layout: story
 category: story
-title:  "Tofu Envy"
+title: "Tofu Envy"
 image: tofu-envy.svg
 image-invertable: true
 date: 2021-03-26

@@ -1,7 +1,7 @@
 ---
 layout: poem
 category: poem
-title:  "Climb"
+title: "Climb"
 image: climb.svg
 image-invertable: true
 date: 2020-06-25

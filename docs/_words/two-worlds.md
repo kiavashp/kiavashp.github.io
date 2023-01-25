@@ -1,7 +1,7 @@
 ---
 layout: poem
 category: poem
-title:  "Two Worlds"
+title: "Two Worlds"
 image: two-worlds.svg
 image-invertable: true
 date: 2020-08-06

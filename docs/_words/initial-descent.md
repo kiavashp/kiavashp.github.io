@@ -1,7 +1,7 @@
 ---
 layout: story
 category: story
-title:  "Initial Descent"
+title: "Initial Descent"
 date: 2022-03-26
 summary: "A family lands at their first layover."
 spotlight: true

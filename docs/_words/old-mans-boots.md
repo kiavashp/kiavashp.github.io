@@ -1,7 +1,7 @@
 ---
 layout: story
 category: story
-title:  "Old Man's Boots"
+title: "Old Man's Boots"
 date: 2020-11-01
 summary: "He never wanted to be like his father. The old man who left him with nothing but a rotting frame of an unfinished boat."
 spotlight: true

@@ -1,7 +1,7 @@
 ---
 layout: story
 category: story
-title:  "Wolf"
+title: "Wolf"
 date: 2021-06-24
 summary: "A man in the park is on the phone with an old friend."
 spotlight: true

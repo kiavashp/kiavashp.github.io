@@ -1,7 +1,7 @@
 ---
 layout: story
 category: story
-title:  "Warmth"
+title: "Warmth"
 date: 2022-04-19
 summary: "Beyond the reach of the fires glow, light faded with the hours; but here it remained, as long as there was wood to feed."
 ---

@@ -1,7 +1,7 @@
 ---
 layout: story
 category: story
-title:  "The Last Rose"
+title: "The Last Rose"
 date: 2021-03-31
 published: false
 ---

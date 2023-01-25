@@ -1,7 +1,7 @@
 ---
 layout: story
 category: story
-title:  "Saving Sky"
+title: "Saving Sky"
 date: 2020-09-20
 summary: "Aliens have pets too! They're just... different, like space worms and stuff."
 ---

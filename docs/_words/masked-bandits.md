@@ -1,7 +1,7 @@
 ---
 layout: poem
 category: poem
-title:  "Masked Bandits"
+title: "Masked Bandits"
 image: masked-bandits.svg
 image-invertable: true
 date: 2021-06-23
