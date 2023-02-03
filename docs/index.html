@@ -4,13 +4,13 @@ headertype: "hero"
 navnoscroll: true
 ---
 
+{% assign spotlightposts = site.words | where: "spotlight","true" %}
+
 {% if site.words.size > 0 %}
 <div class="panel">
     <h1 class="panel-header">{{ site.spotlighttitle }}</h1>
-    {% for word in site.words reversed %}
-        {% if word.spotlight == true %}
-            {% include preview-item.html word=word addFields="summary,type,date" %}
-        {% endif %}
+    {% for word in spotlightposts reversed %}
+        {% include preview-item.html word=word addFields="summary,type,date" %}
     {% endfor %}
     <a class="panel-footer-link" href="/writing">View All Writing</a>
 </div>
