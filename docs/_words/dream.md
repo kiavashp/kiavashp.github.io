@@ -6,7 +6,6 @@ image: dream.svg
 image-invertable: true
 date: 2020-07-28
 summary: "\"Lost in a bold and colored place<br>of pictures yet unseen...\""
-spotlight: true
 ---
 
 Lost in a bold and colored place
