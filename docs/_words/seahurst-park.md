@@ -42,7 +42,7 @@ The sky was closing in a haze, and so was I.
 
 <span class="words-section-break"></span>
 
-	I didn't play music on my way home — something I didn't realize at the time. Maybe my thoughts were loud enough. The rain and wind whipped and slapped in eddies through the missing window. My mind curled in on itself, away from a world it decided wasn't worth the effort, and recited propositions of further isolation. <i>This is what happens when you stray too far from home. What you get for having nice things: more to lose.</i>
+I didn't play music on my way home — something I didn't realize at the time. Maybe my thoughts were loud enough. The rain and wind whipped and slapped in eddies through the missing window. My mind curled in on itself, away from a world it decided wasn't worth the effort, and recited propositions of further isolation. <i>This is what happens when you stray too far from home. What you get for having nice things: more to lose.</i>
 	Shards of glass fell from the doorframe, like a gaping maw losing teeth. The growing pile of shattered remains rattled and scraped as the car shifted. A bitter breeze blew across the dark lake, leaving my fingers stiff and dry. I cracked a window to ease the thumping in my ear.
 	I recalled something she said as we'd stood on the shore, looking out at an object floating in the distance: a speck of darkness in the seamless backdrop of grey water fading to hazy skies.
 	"What if we are nothing but our minds?" She started. "And what if our bodies exist only to make our minds more tangible?"
