@@ -245,7 +245,7 @@ My idea: boil as much water as we can and pour it down the side of the line. Whi
 
 I poured and Ingles moved the line. The ice froze quickly, and the line was heavy. We wasted a few liters figuring that out. New plan: when I'm done pouring I'd take over tugging at the line while Ingles grabbed the next liter, so neither of us tired too quickly.
 
-It was working. With every liter the line ran a bit smoother. Ingles brought back a temperature reading each trip — we were well under the rated limit of the probe (which was still working by the way, for now at least). When we couldn't feel any resistance or hear much crunching or crackling, Ingles went for one more, just to be sure, and told Cap to give us more slack in the line. If we knocked twice on the hull it meant to start releasing.
+With every liter the line ran a bit smoother. Ingles brought back a temperature reading each trip — we were well under the rated limit of the probe (which was still working by the way, for now at least). When we couldn't feel any resistance or hear much crunching or crackling, Ingles went for one more, just to be sure, and told Cap to give us more slack in the line. If we knocked twice on the hull it meant to start releasing.
 
 We poured the boiling water and didn't hear any cracking — which we took as a sign that there was a good layer of water between the line and the ice. And the line moved smooth as ever, and even jostled in its little ice tube. I knocked on the hull and the motor started whirring. It was fucking working!
 
