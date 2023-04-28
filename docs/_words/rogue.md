@@ -53,11 +53,11 @@ I stepped back up to the airlock and swung open the door, hanging there for a mo
 
 Even with the amount that sublimates and gets ripped off the planet's surface, the ice is still probably a kilometer thick, if we're lucky. And what we need is underneath it — far beneath it. If we're going to survive our stay here, we're going to need energy, plain and simple. And we don't have the luxury of orbiting a star that's just giving it away for free. Thankfully planets are hot too, and stay that way for billions of years. And there's a pretty good chance this one is still radiating enough. Enough heat to keep the surface ocean liquid somewhere down there. Enough energy to keep us alive — like I said, if we're lucky. When it comes to space travel, you can plan and research all you want, but you're never going to spoil all of the surprises.
 
-How are we going to get through a kilometer of ice you ask? Well on earth, it's actually something we're pretty damn good at. But out here it's a bit of a different story. It's not like we could haul a whole thousands-of-tons drilling rig up with us. We've got some serious time and weight constraints to worry about. And thankfully they had people much smarter than me to solve those problems.
+How are we going to get through a kilometer of ice you ask? Well on earth, it's actually something we're pretty damn good at. But out here it's a bit of a different story. It's not like we could haul a whole thousands-of-tons drilling rig up with us. We've got some serious time and weight constraints to worry about. Thankfully they had people much smarter than me to solve those problems.
 
 The solution? "Burn your way through."
 
-Yeah, the first time I heard it I thought they were kidding too. It's why we have spare fuel, and self securing anchors, to keep us from shooting ourselves back into space. The plan is to hold a slow and gentle burn of the main engine. Just enough to melt and boil, not too much that it rips the anchors out, or melts the ice they're gripping to. Our onboard systems will do the rest: condensing the steam into drinking water (giving us the added benefit of weight to aid our descent), capturing the stray hydrogen and oxygen as fuel (and for breathing), and monitoring the thickness of the ice beneath us, stopping before we melt ourselves through to an alien ocean that's been cut off from the universe for who knows how long.
+Yeah, the first time I heard it I thought they were kidding too. It's why we have spare fuel, and self securing anchors, to keep us from shooting ourselves back into space. The plan is to hold a slow and gentle burn of the main engine. Just enough to melt and boil, not too much that it rips the anchors out or melt the ice walls they're gripping to. Our onboard systems will do the rest: condensing the steam into drinking water (giving us the added benefit of weight to aid our descent), capturing the stray hydrogen and oxygen as fuel (and for breathing), and monitoring the thickness of the ice beneath us, stopping before we melt ourselves through to an alien ocean that's been cut off from the universe for who knows how long.
 
 From there, we do things the old fashioned way: drill through the rest with our carbide bit, drop down our energy harvesting probe — hopefully far enough to reach the ocean floor — then wait it out, just trying to stay alive. If we can get the probe dropped in time (and some rogue planet alien doesn't chomp our line), we should get trickles of thermal power in a matter of minutes. And the ice will refreeze around the line, both protecting it and giving us a thicker floor again (thank you oh cold, cold space).
 
@@ -67,7 +67,7 @@ Once safely inside I started up the thrusters, idling them while we went through
 
 Everything looked good, so I took it out of idle.
 
-The ship shook more violently than I expected. Behind the sound of the rocket and the vibrating hull I heard the faint cracking of ice. Then the ship dropped what felt like meters, but it must just have been a fraction of that. Like I heard some pilot say once, "all the turbulence you've probably ever experienced in a plane is no more than a foot of movement, at most." We dropped again. The anchors screeched like nails on a brittle chalkboard as they worked to re-secure themselves to the ice.
+The ship shook more violently than I expected. Behind the sounds of the rocket and the vibrating hull I heard the faint cracking of ice. Then the ship dropped what felt like meters, but it must just have been a fraction of that. Like I heard some pilot say once, "all the turbulence you've probably ever experienced in a plane is no more than a foot of movement, at most." We dropped again. The anchors screeched like nails on a brittle chalkboard as they worked to re-secure themselves to the ice.
 
 <i>This is going to be a long ride.</i>
 
@@ -77,13 +77,13 @@ It was going to be close. We were burning fuel faster than anticipated, and the 
 
 We're drilling into an unvisited rogue planet, breaking through the ice to a previously undisturbed ocean, and we're doing all this crazy shit a half a light year from home. Rescue missions weren't an option, even if we could get a signal out of the ice-well we're digging ourselves into.
 
-I started pulsing the thrusters in hopes that the residual heat between burns would continue to melt and boil the ice to give us a bit more head room. A one or two percent efficiency boost was all I was hoping for, to make sure we have plenty of fuel, in the best case, or just barely make it there in the worst.
+I started pulsing the thrusters in hopes that the residual heat between burns would continue to melt and boil the ice to give us a bit more head room. A one or two percent efficiency boost was all I was hoping for, to make sure we had plenty of fuel, in the best case, or just barely made it there in the worst.
 
 Every time some problem arises it takes me back to my first years of teaching. When students were rowdy or started a fight. I'd look around for the adult in the room to step in and talk to them. Moments passed, becoming dissociated. Certain my being there was an oversight, some grave mistake. The realization never came gently.
 
 It worked. We were using significantly less fuel, and dropping almost as fast. I'd say it gave us a five percent efficiency boost at least. Which was good, because all that pulsing made our descent a living hell. The anchors shook and creaked as the ship jolted up with each quick burn of the engine, and shrieked as they slid back down in between. I stopped after fifteen minutes, returning to the constant minimum burn.
 
-I was looking out the window at the passing wall of ice, freshly melted and refrozen into a glossy sheen. I started to notice patches of ice that were ever so slightly darker than the surrounding, or had faint black marks across the surface. And I know the ship is airtight but I swear I could smell something too.
+I was looking out the window at the passing wall of ice, freshly melted and refrozen into a glossy sheen, mesmerized. Then I started to notice patches of ice that were ever so slightly darker than the surrounding, or had faint black marks across the surface. And I know the ship is airtight but I swear I could smell something too.
 
 <span class="words-section-break"></span>
 
@@ -93,9 +93,9 @@ Okay, before I continue, I have to say: when I mentioned some hypothetical alien
 
 Now, with that out of the way, at first I honestly didn't think anything of the discolored patches. Firstly, because the only light down there was from the massive flames shooting out the bottom of the ship, which was creating all types of weird shadows and highlights in the ice. And secondly, they were so faint I could barely see them. I could have been imagining it and I would have no way of knowing for sure.
 
-But then I realized those black marks, and what I thought were shadows, looked to be charred. Of course my brain went straight to "organic material burning." Because what the hell else would it be? To be clear: I don't know, I'm not a scientist. Not by training anyway.
+But then I realized those black marks and what I thought were shadows actually looked to be charred. Of course my brain went straight to "organic material burning." Because what the hell else would it be? To be clear: I don't know, I'm not a scientist. Not by training anyway.
 
-Then I started noticing bigger... objects? Pale blobs the size of grapes, and about as smooth too. Some with protrusions, most completely clear but looking to contain internal surfaces that scattered the light in ways the surrounding ice didn't seem to.
+Then I started noticing bigger... objects? Pale blobs the size of grapes, and about as smooth too. Some with protrusions, almost completely clear but looking to contain internal surfaces that scattered the light in ways the surrounding ice didn't.
 
 "Are you seeing this?" I called out, but got no response.
 
@@ -109,9 +109,9 @@ A pause.
 
 "No? Looks like normal ice to me."
 
-I think it was Gil speaking, an Argentinian mountaineer who studied glaciers and shit in his free time. So yeah, not much sense in questioning him.
+I think it was Gil speaking, an Argentinian mountaineer who studied glaciers and shit in his free time. So yeah, the idea of questioning him felt silly.
 
-I started the thrusters again and took a break from looking out the window. And of course, not even a minute later something caught my eye. I shut the engine off again, but the ship screeched lower just as I did, putting it just out of view.
+I started the thrusters again and took a break from looking out the window. And of course, not even a minute later something caught the corner of my eye. I shut the engine off again, but the ship screeched lower just as I did, putting it just out of view.
 
 "Everything okay down there?"
 
@@ -187,7 +187,7 @@ It could be convection currents in the water bringing heat from thermal vents be
 
 I dropped back down to the control room and started the release again, but the probe wouldn't drop lower and the line started bundling up on the ground. I reeled it back up just a touch until the line was taught again. It was stuck, then with some faint crackling broke free. But when I released more of the line again it wouldn't sink further. And there's absolutely no way we hit the bottom already.
 
-Thanks to my extended freak out over the temperature spike, ice was building around the line and was locking it in place. This came with another realization: that I may have already damaged the probe with my pulling it up again. I tried not to scold myself for acting so impulsively, or let hopelessness consume me. Focus. I told myself. Less of what happened. More of what I can do.
+Thanks to my extended freak out over the temperature spike, ice was building around the line and was locking it in place. This came with another realization: that I may have already damaged the probe with my reeling it up again. I tried not to scold myself for acting so impulsively, or let hopelessness consume me. <i>Focus.</i> I told myself. <i>Less of what happened. More of what I can do.</i>
 
 "The water is freezing quick!" I called out.
 
@@ -207,17 +207,17 @@ We had to figure out a way to shed the ice buildup. We couldn't pull up the line
 
 <i>Fuck.</i>
 
-Cap stepped away to refill his tea and paced around the room, but this time it gave me an idea.
+Cap stepped away to refill his tea and paced around the room, and this time it gave me an idea.
 
 "Hey Cap. How much water can we boil with that thing again?"
 
-"Not much. Maybe a liter."
+"Not much. A liter. Maybe two."
 
 "That might be enough."
 
 "For what?"
 
-My idea: boil as much water as we can and pour it down the side of the line. While we did that, alternate between pulling the line up and releasing it again; to work the boiling water down between the line and the tube, and create friction to help prevent the water from refreezing. I knew how dumb it sounded, but if it worked, it worked. Like burning our way through a kilometer of ice: sometimes the right solution sounds like a child came up with it.
+My idea: boil as much water as we can and pour it down the side of the line. While we did that, alternate between pulling the line up and releasing it again; to work the boiling water down between the line and the tube, and create friction to help prevent the water from refreezing. I knew how dumb it sounded, but if it worked, it worked. Like burning our way through a kilometer of ice: sometimes great solutions are hard to distinguish from the musings of a child.
 
 "That'll put a lot of strain on the motor."
 
