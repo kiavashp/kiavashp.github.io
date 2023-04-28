@@ -5,7 +5,7 @@ title: "Alterra 2 (Rogue)"
 date: 2023-04-27
 summary: "Sheets of ice filled our view to the horizon in every direction. We threw on the thrusters and deployed the parachute to soften our descent."
 spotlight: true
-list: false
+list: true
 ---
 
 <span class="words-quote-center">
@@ -43,7 +43,7 @@ I jumped out of the airlock — already in my suit — and started the inspectio
 
 How strange, I thought, noticing ripples in the ice beneath my feet. I followed the rings around the foot of the ship, feeling like an idiot when I realized. The thrusters. Of course. Fuel burning burning at a thousand degrees melted the ice, pushing the water — that didn't immediately evaporate — out in every direction. Which clearly re-froze the instant the burners were off, thanks to the planet's aggressive lack of atmosphere.
 
-Focus. Damnit.
+<i>Focus. Damnit.</i>
 
 I stepped back up to the airlock and swung open the door, hanging there for a moment. I couldn't help but take one last look. Best case it would be twenty-one years until we saw the surface again. Worst case this would be my first and last time. It felt like a shame not to just take it in for a while; this whole other planet that just happened to be in the right place at the right time, with its own history that wouldn't ever be known to a human mind. Our paths, crossing for just a moment before it drifts off to a place we have no use following it to.
 
@@ -69,7 +69,7 @@ Everything looked good, so I took it out of idle.
 
 The ship shook more violently than I expected. Behind the sound of the rocket and the vibrating hull I heard the faint cracking of ice. Then the ship dropped what felt like meters, but it must just have been a fraction of that. Like I heard some pilot say once, "all the turbulence you've probably ever experienced in a plane is no more than a foot of movement, at most." We dropped again. The anchors screeched like nails on a brittle chalkboard as they worked to re-secure themselves to the ice.
 
-This is going to be a long ride.
+<i>This is going to be a long ride.</i>
 
 I watched our fuel consumption while Cap watched our descent. There was no way to know the total thickness of the ice, or any variation in density it may have, but we could guess: between the temperature change in our surroundings (accounting for the shit load of flames being ejected from our ship) and other systems on board like sonar, and the mics that were trained on the resonance of different thicknesses of ice.
 
@@ -157,7 +157,7 @@ We fed the probe through the tube in the center of the drill, and slowly release
 
 Two meters down, 0.3 degrees Celsius; five meters down, 0.4 C. The line was undisturbed. Looking good so far.
 
-Seventeen meters down and the temperature spikes to 13 C. Shit.
+Seventeen meters down and the temperature spikes to 13 C. <i>Shit.</i>
 
 I slam the button to halt the probe's drop, and wait to see if there's a tug. I get this uncontrollable urge to yank it back up, but I know if I do it's more likely to be attacked, or shredded completely — in the case that it's currently in some creature's mouth. That image returns: Giant Squid body, razor sharp teeth. It has x-ray vision now too, so it can watch me squirming, of course.
 
@@ -191,11 +191,7 @@ Thanks to my extended freak out over the temperature spike, ice was building aro
 
 "The water is freezing quick!" I called out.
 
-<span class="words-section-break"></span>
-
-We had to figure out a way to shed the ice buildup. We couldn't pull up the line now, because the instruments at the end of it wouldn't fit through the small tube the line was currently occupying. The probe is durable, but I can't imagine we want to risk snapping it off and losing our only source of energy to a planet-sized ocean — if I hadn't done so already.
-
-<span class="words-section-break"></span>
+We had to figure out a way to shed the ice buildup. We couldn't pull up the line, because the instruments at the end of it wouldn't fit through the small tube that the line was currently occupying. The probe was durable, but I couldn't imagine we'd want to risk snapping it off and lose our only source of energy to a planet-sized ocean — if I hadn't done so already.
 
 "A quick idle burn of the engine?"
 
@@ -209,7 +205,7 @@ We had to figure out a way to shed the ice buildup. We couldn't pull up the line
 
 "And with what?"
 
-Fuck.
+<i>Fuck.</i>
 
 Cap stepped away to refill his tea and paced around the room, but this time it gave me an idea.
 
@@ -221,11 +217,7 @@ Cap stepped away to refill his tea and paced around the room, but this time it g
 
 "For what?"
 
-<span class="words-section-break"></span>
-
-My idea: boil as much water as we can and pour it down the side of the line. While we do, alternate between pulling the line up and releasing it again; to work the boiling water down between the line and the tube, and create friction to help prevent the water from refreezing. I know how dumb it sounds, but if it works, it works. Like burning our way through a kilometer of ice: sometimes the right solution sounds like a child came up with it.
-
-<span class="words-section-break"></span>
+My idea: boil as much water as we can and pour it down the side of the line. While we did that, alternate between pulling the line up and releasing it again; to work the boiling water down between the line and the tube, and create friction to help prevent the water from refreezing. I knew how dumb it sounded, but if it worked, it worked. Like burning our way through a kilometer of ice: sometimes the right solution sounds like a child came up with it.
 
 "That'll put a lot of strain on the motor."
 
