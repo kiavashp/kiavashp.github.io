@@ -647,6 +647,13 @@ a.list-preview-continuereading {
     line-height: 24px;
 }
 
+.words-quote-center {
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+    width: 60%;
+}
+
 .words-section-break {
     display: block;
     margin: 0 auto;
