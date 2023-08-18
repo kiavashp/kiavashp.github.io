@@ -656,14 +656,13 @@ a.list-preview-continuereading {
 
 .words-section-break {
     display: block;
-    margin: 0 auto;
+    margin: 30px auto;
     text-align: center;
-}
 
-.words-section-break:before {
-    content: "• • •";
-    font-size: 12px;
-    font-weight: normal;
+    background-image: url('/assets/words-section-break.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 22px;
 }
 
 .words-footer {
