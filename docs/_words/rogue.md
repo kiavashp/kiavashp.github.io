@@ -1,7 +1,7 @@
 ---
 layout: story
 category: story
-title: "Alterra 2 (Rogue)"
+title: "Alterra 2: Rogue"
 date: 2023-04-27
 summary: "Sheets of ice filled our view to the horizon in every direction. We threw on the thrusters and deployed the parachute to soften our descent."
 spotlight: true
@@ -27,7 +27,7 @@ You could have thought this was home, if you didn't know any better. The icy pla
 
 I steered us towards the little patch of undisturbed ice, my face firmly against the window. I wasn't going to miss a second of it.
 
-We had traveled billions of kilometers to get here, with our fair share of mishaps and emergencies — each followed by an "all crew" meeting where Cap floated around the room with his Persian tea, taking time to think. Relationships were formed and tried and broken, then formed again with the strength that comes from seeing someone's intentions as separate from their actions.
+We had traveled billions of kilometers to get here, with our fair share of mishaps and emergencies — each followed by an "all crew" meeting where Cap floated around the room, sipping his Persian tea, taking time to think. Relationships were formed and tried and broken, then formed again with the strength that comes from seeing someone's intentions as separate from their actions.
 
 Whether from the ice itself or what I saw in it, I felt a terrifying kind of excitement — a feeling so big I couldn't explain it. How could such a plain landscape be so awe inspiring?
 
