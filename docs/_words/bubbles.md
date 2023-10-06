@@ -13,7 +13,7 @@ Inflating with a gentle glide of the wrist, seeming to come alive as they floate
 
 When I thought to check the time, two hours had passed, since his floating films of soap first caught my eye. The awareness of how entranced I had become, how distracted from my evening walk, rose unexpectedly from the depths of my consciousness. Thoughts no longer encompassing me were becoming clear. How carefully I noted the distorted reflections in their surface. Wondering how much the apparent objects were formed by the bubbles shape, or by the streaks of clouds and burning sky contouring their bulbous planes.
 
-My feet moved to leave — to get home to my family, my book and tea. Then, I only later realized, found myself lost again in awe of this sorcerer of soap, this artist of light and air, transforming these elements to objects serene.
+My feet moved to leave — to get home to my family, to my book and tea. Then, some time later, I found myself lost again in awe of this Sorcerer of Soap, this Artist of Light and Air, conjuring, from the elements, these objects serene.
 
 As the light faded the bubbles dimmed, though somehow the objects manifested no less clear. The warm light of sunset now deep gradients of blue, speckled with glimmering stars and distant street lights.
 
