@@ -3,7 +3,7 @@ layout: story
 category: story
 title: "Alterra 2: Rogue"
 date: 2023-04-27
-summary: "Sheets of ice filled our view to the horizon in every direction. We threw on the thrusters and deployed the parachute to soften our descent."
+summary: "\"Sheets of ice filled our view to the horizon in every direction. We threw on the thrusters and deployed the parachute to soften our descent.\""
 spotlight: true
 list: true
 ---

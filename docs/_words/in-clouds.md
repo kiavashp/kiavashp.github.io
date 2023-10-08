@@ -3,7 +3,7 @@ layout: story
 category: story
 title: "In Clouds"
 date: 2023-08-17
-summary: "When he asked me about the craziest flight I’d ever been on, I assured him he wouldn’t believe me."
+summary: "\"When he asked me about the craziest flight I’d ever been on, I assured him he wouldn’t believe me.\""
 spotlight: true
 ---
 
