@@ -22,14 +22,14 @@ bound in recycled tires.
 With Papr pinched between our fingers
 we sit and think in dreams:
 of how the fibers felt to hold
-made warm in the windows beam.
+beneath the window's beams.
 
-Of forest filled with trees that
-had the chance to grow old.
+Of forests filled with trees
+with every chance to grow old.
 Of the shade and air and furrowed bark
 that wrapped their tender souls.
 
 Then our minds return, and we
 swipe our fingers across the screen.
 And watch as the page before
-— too quickly — fades into history.
+— too quickly — fades to history.
