@@ -41,7 +41,7 @@ I jumped out of the airlock — already in my suit — and started the inspectio
 
 "All good Cap!"
 
-How strange, I thought, noticing ripples in the ice beneath my feet. I followed the rings around the foot of the ship, feeling like an idiot when I realized. The thrusters. Of course. Fuel burning burning at a thousand degrees melted the ice, pushing the water — that didn't immediately evaporate — out in every direction. Which clearly re-froze the instant the burners were off, thanks to the planet's aggressive lack of atmosphere.
+How strange, I thought, noticing ripples in the ice beneath my feet. I followed the rings around the foot of the ship, feeling like an idiot when I realized. The thrusters. Of course. Fuel burning at a thousand degrees melted the ice, pushing the water — that didn't immediately evaporate — out in every direction. Which clearly re-froze the instant the burners were off, thanks to the planet's aggressive lack of atmosphere.
 
 <i>Focus. Damnit.</i>
 
@@ -79,15 +79,15 @@ We're drilling into an unvisited rogue planet, breaking through the ice to a pre
 
 I started pulsing the thrusters in hopes that the residual heat between burns would continue to melt and boil the ice to give us a bit more head room. A one or two percent efficiency boost was all I was hoping for, to make sure we had plenty of fuel, in the best case, or just barely made it there in the worst.
 
-Every time some problem arises it takes me back to my first years of teaching. When students were rowdy or started a fight. I'd look around for the adult in the room to step in and talk to them. Moments passed, becoming dissociated. Certain my being there was an oversight, some grave mistake. The realization never came gently.
+Every time some problem arises it takes me back to my first years of teaching. When students were rowdy or started to fight, I'd look around for the adult in the room to step in and talk to them. Moments passed, and dissociation crept in. Certainty that my being there was an oversight, some grave mistake. The realization never came gently.
 
 It worked. We were using significantly less fuel, and dropping almost as fast. I'd say it gave us a five percent efficiency boost at least. Which was good, because all that pulsing made our descent a living hell. The anchors shook and creaked as the ship jolted up with each quick burn of the engine, and shrieked as they slid back down in between. I stopped after fifteen minutes, returning to the constant minimum burn.
 
-I was looking out the window at the passing wall of ice, freshly melted and refrozen into a glossy sheen, mesmerized. Then I started to notice patches of ice that were ever so slightly darker than the surrounding, or had faint black marks across the surface. And I know the ship is airtight but I swear I could smell something too.
+I was looking out the window at the passing wall of ice, freshly melted and refrozen into a glossy sheen, mesmerized. I started to notice patches of ice that were ever so slightly darker than the surrounding, or had faint black marks across the surface. And I know the ship is airtight but I swear I could smell something too.
 
 <span class="words-section-break"></span>
 
-Okay, before I continue, I have to say: when I mentioned some hypothetical alien creature "chomping our line" before, I was totally kidding. Call it an overactive imagination from a childhood of sci-fi books; a self-deprecating joke to mask the fears I know to be irrational (or at least unhelpful). As far as I know the only life we've discovered outside of earth has been the equivalent of bacteria or fungus. Incredible, don't get me wrong, but a long way from the kind of "line chomping" monster my mind was so kindly conjuring.
+Okay, before I continue, I have to say: when I mentioned some hypothetical alien creature "chomping our line" before, I was totally kidding. Call it an overactive imagination from a childhood of sci-fi books, or a self-deprecating joke to mask the fears I know to be irrational (or at least unhelpful). As far as I know the only life we've discovered outside of earth has been the equivalent of bacteria or fungus. Incredible, don't get me wrong, but a long way from the kind of "line chomping" monster my mind was so kindly conjuring.
 
 <span class="words-section-break"></span>
 
