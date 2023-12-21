@@ -16,11 +16,11 @@
             {% assign cat_items = site.words | reverse | where: "category", category | where: "list", true %}
             {% assign cat_count = cat_items | size %}
             {% assign cat_link = "/" | append: site.category_paths[category] %}
-            {% assign cat_link_text = site.category_paths[category] | capitalize %}
+            {% assign cat_title = site.category_paths[category] | capitalize %}
 
             {% if cat_count > 0 %}
                 <div class="footer-section sitemap">
-                    <a href="{{ cat_link }}"><span class="footer-header">{{ cat_link_text }}</span></a>
+                    <span class="footer-header">{{ cat_title }}</span>
                     {% for item in cat_items | limit: max_sitemap_cat_links %}
                         <a class="sitemap-link" href="{{ item.url }}">{{ item.title }}</a>
                     {% endfor %}
