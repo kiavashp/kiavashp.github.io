@@ -1,3 +1,5 @@
+{% assign max_sitemap_cat_links = 5 %}
+
 <footer>
     <div class="footer-content">
         <div class="footer-section contact">
@@ -10,6 +12,8 @@
             <a class="footer-subscribe" href="{{ site.mailinglist-subscribe-url }}" target="_blank">Join Mailing List</a>
         </div>
 
+
+
         {% for category in site.category_names %}
             {% assign cat_items = site.words | reverse | where: "category", category | where: "list", true %}
             {% assign cat_count = cat_items | size %}
@@ -19,9 +23,12 @@
             {% if cat_count > 0 %}
                 <div class="footer-section sitemap">
                     <a href="{{ cat_link }}"><span class="footer-header">{{ cat_link_text }}</span></a>
-                    {% for item in cat_items %}
+                    {% for item in cat_items | limit: max_sitemap_cat_links %}
                         <a class="sitemap-link" href="{{ item.url }}">{{ item.title }}</a>
                     {% endfor %}
+                    {% if cat_count > max_sitemap_cat_links %}
+                        <a class="sitemap-link sitemap-link-category" href="{{ cat_link }}">See All ›</a>
+                    {% endif %}
                 </div>
             {% endif %}
         {% endfor %}

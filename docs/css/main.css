@@ -699,6 +699,8 @@ footer:before {
 .footer-social .social {
     display: block;
     line-height: 28px;
+    color: inherit;
+    font-size: 14px;
 }
 
 .footer-social .social:before {
@@ -710,7 +712,7 @@ footer:before {
     background-repeat: no-repeat;
     background-position: center;
     background-size: 20px 20px;
-    margin-right: 10px;
+    margin-right: 8px;
 }
 
 .footer-social .social-email:before {
@@ -730,8 +732,7 @@ a.footer-subscribe {
     padding: 6px 16px;
     border-radius: 5px;
     margin: 16px 0;
-    background-color: #3f5e73;
-    /* background-color: #a69e95; */
+    background-color: #466c87;
     color: #ffffff;
 }
 
@@ -740,6 +741,11 @@ a.sitemap-link {
     font-size: 14px;
     line-height: 150%;
     color: inherit;
+}
+
+a.sitemap-link-category {
+    padding: 5px 0;
+    text-decoration: underline;
 }
 
 .footer-copyright {
