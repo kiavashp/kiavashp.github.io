@@ -5,6 +5,7 @@ title: "McClellan Butte"
 image: mcclellan-butte.svg
 image-invertable: true
 date: 2020-08-19
+summary: "\"From an earth of molten stone<br>one juts into the great unknown...\""
 ---
 
 From an earth of molten stone

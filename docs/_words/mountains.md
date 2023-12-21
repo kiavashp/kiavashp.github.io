@@ -5,6 +5,7 @@ title: "Mountains"
 image: mountains.svg
 image-invertable: true
 date: 2020-06-24
+summary: "\"East of the western seaboard<br>grew Hawthornes and Cherry blossoms...\""
 ---
 
 East of the western seaboard

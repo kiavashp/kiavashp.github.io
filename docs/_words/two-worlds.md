@@ -11,7 +11,7 @@ When I'm with you, you're in my world—
 one you’ve become familiar
 
 In this place, you are the guest
-and I the humble guide
+and I the hesitant guide
 
 This is my most natural state
 the world how I see and breathe it
