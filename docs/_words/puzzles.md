@@ -6,7 +6,6 @@ image: puzzles.svg
 image-invertable: true
 date: 2022-12-27
 summary: "\"With the first piece made<br>I try forming the puzzle whole...\""
-spotlight: true
 ---
 
 With the first piece made

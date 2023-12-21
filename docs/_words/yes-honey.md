@@ -6,7 +6,6 @@ image: yes-honey.svg
 image-invertable: true
 date: 2021-09-04
 summary: "\"The clouds were orange<br>and the sky was red...\""
-spotlight: true
 ---
 
 The clouds were orange

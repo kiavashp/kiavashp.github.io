@@ -4,7 +4,6 @@ category: story
 title: "Wolf"
 date: 2021-06-24
 summary: "A man in the park makes a call to an old friend."
-spotlight: true
 ---
 
 The sun was beginning to set on a day that felt like a lifetime. The man sat on a boulder that bordered the park, with his phone pressed against his ear.

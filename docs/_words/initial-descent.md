@@ -4,7 +4,6 @@ category: story
 title: "Initial Descent"
 date: 2022-03-26
 summary: "A family lands at their first layover."
-spotlight: true
 ---
 
 William looks out the window, wide eyed, at the passing clouds.
