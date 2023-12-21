@@ -2,10 +2,12 @@
     <div class="footer-content">
         <div class="footer-section contact">
             <span class="footer-header">Contact</span>
+            <div class="footer-social">
+                <a class="social social-email" href="mailto:{{ site.contactemail }}">{{ site.contactemail }}</a>
+                <a class="social social-medium" href="https://kiavashp.medium.com">kiavashp</a>
+                <a class="social social-instagram" href="https://www.instagram.com/kiavash.page">@kiavash.page</a>
+            </div>
             <a class="footer-subscribe" href="{{ site.mailinglist-subscribe-url }}" target="_blank">Join Mailing List</a>
-            <a class="footer-unsubscribe" href="{{ site.mailinglist-unsubscribe-url }}" target="_blank">Unsubscribe</a>
-            <!-- <span class="footer-email"><a href="mailto:{{ site.contactemail }}">{{ site.contactemail }}</a></span> -->
-            <div class="footer-social">{% include social.html email=true %}</div>
         </div>
 
         {% for category in site.category_names %}

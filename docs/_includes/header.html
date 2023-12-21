@@ -7,12 +7,13 @@
 
     {% capture noscroll %}{% if include.noscroll == true %} noscroll{% endif %}{% endcapture %}
     {% capture nobreadcrumb %}{% if include.nobreadcrumb == true %} nobreadcrumb{% endif %}{% endcapture %}
+    {% capture noheadergradient %}{% unless include.headertype %} noheadergradient{% endunless %}{% endcapture %}
     {% capture navpath %}
         {% if include.category %}› <a href="/{{ site.category_paths[include.category] }}">{{ site.category_paths[include.category] | capitalize }}</a> {% endif %}
         {% if book %}› <a href="{{ book.url }}">{{ book.title }}</a>{% endif %}
     {% endcapture %}
 
-    <nav class="noselect{{ noscroll }}{{ nobreadcrumb }}">
+    <nav class="noselect{{ noscroll }}{{ nobreadcrumb }}{{noheadergradient}}">
         <div class="nav-content">
             <a class="nav-home" href="/">
                 <div class="nav-logo">
@@ -52,7 +53,7 @@
     {% if include.headertype == "hero" %}
 
         <div class="hero">
-            <div class="hero-top">
+            <div class="hero-content">
                 <div class="hero-text"><!--
                     --><div class="hero-title">{{ site.sitename }}</div><!--
                     --><div class="hero-bio">{{ site.bio }}</div><!--
@@ -66,9 +67,7 @@
                     --><img class="hero-logo-image" src="/assets/logo-hero.png"/><!--
                 --></div>
             </div>
-            <div class="hero-bottom">
-                <div class="hero-social">{% include social.html email=true %}</div>
-            </div>
+            <div class="hero-sep"></div>
         </div>
 
         {{ carousel }}
