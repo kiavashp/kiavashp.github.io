@@ -653,7 +653,7 @@ footer {
     box-sizing: border-box;
     width: inherit;
     min-height: 240px;
-    color: #606060;
+    color: #827667;
     font-size: 16px;
 }
 
@@ -746,6 +746,7 @@ a.sitemap-link {
 a.sitemap-link-category {
     padding: 5px 0;
     text-decoration: underline;
+    color: #c4b8b3;
 }
 
 .footer-copyright {
