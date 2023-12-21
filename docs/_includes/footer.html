@@ -12,8 +12,6 @@
             <a class="footer-subscribe" href="{{ site.mailinglist-subscribe-url }}" target="_blank">Join Mailing List</a>
         </div>
 
-
-
         {% for category in site.category_names %}
             {% assign cat_items = site.words | reverse | where: "category", category | where: "list", true %}
             {% assign cat_count = cat_items | size %}
