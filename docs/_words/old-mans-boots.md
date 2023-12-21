@@ -12,7 +12,7 @@ At the time it was no more than a timber frame, with a few beams that had rotted
 
 A third of my life I'd spent on that boat, and it was almost done. Just a couple more days and she'd be ready for sea. A thing of beauty she was. You should have seen her back then. Sweeping curves and pristine paint, blue like the summer sky.
 
-I was sitting on the pier when Mike walked up, watching my boat bob in the waves. The sky was glowing burnt orange across the upper decks. The light off her front window nearly blinded me. But damn if it wasn't dazzling.
+I was sitting on the pier when Mike walked up, watching my boat bob in the waves. The sky was glowing burnt orange across the upper decks. The sun off her front window nearly blinded me. But damn if it wasn't dazzling.
 
 "Hey there, Charlie." His words shook me, I suppose because I had forgotten about the world for a moment, if you know what I mean.
 
@@ -48,7 +48,7 @@ I couldn't have known at the time what lay before me, the challenges that would 
 
 Agnus wasn't too pleased with me when I got home. She thought I'd been out drinking like my old man used to, with those strange folk down at the pub – probably where he got those crazy ideas of hidden treasures from. She didn't believe I wasn't, maybe cause my face was still red.
 
-We got arguing, real good, like we had of late. I'd never lost my mind quite like that though. Seeing the fear in her really threw me. Hell even I was afraid of who I was.
+We got arguing real good, like we had of late. I'd never lost my mind quite like that though. Seeing the fear in her really threw me. Hell even I was afraid of who I was.
 
 I went to sleep on the floor that night, in front of the fireplace where my old man's boots sat. They'd been there ever since he left. But something came over me as I lay there. Maybe I was just fed up with the world – or myself, more like – but it did something funny to me. I felt like I was trying to escape myself, if ya know what I mean.
 
