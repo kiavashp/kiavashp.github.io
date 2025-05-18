@@ -1,10 +1,11 @@
 ---
 layout: poem
 category: poem
-title:  "Your Child"
+title: "Your Child"
 image: your-child.svg
 image-invertable: true
 date: 2020-08-24
+summary: "\"If your child is a bowling ball thrown down a lane<br>you are the faulty bumpers, merely guiding the game...\""
 ---
 
 If your child is a bowling ball thrown down a lane

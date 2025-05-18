@@ -1,12 +1,11 @@
 ---
 layout: poem
 category: poem
-title:  "Masked Bandits"
+title: "Masked Bandits"
 image: masked-bandits.svg
 image-invertable: true
 date: 2021-06-23
 summary: "\"Furniture moves beneath the floorboards<br>A thump, something scrapes the paper walls...\""
-spotlight: true
 ---
 
 A plane flies through the alley

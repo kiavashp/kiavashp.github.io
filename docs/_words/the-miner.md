@@ -1,7 +1,7 @@
 ---
 layout: poem
 category: poem
-title:  "The Miner"
+title: "The Miner"
 image: the-miner.svg
 image-invertable: true
 date: 2021-02-14

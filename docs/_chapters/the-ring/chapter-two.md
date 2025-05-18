@@ -1,7 +1,7 @@
 ---
 layout: chapter
 category: book
-title:  "Chapter Two"
+title: "Chapter Two"
 number: 2
 date: 2021-11-03
 summary: "Janet struggles with pregnancy sickness while they clean up from dinner. Tabitha is concerned for her mothers health."

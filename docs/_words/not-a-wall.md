@@ -1,7 +1,7 @@
 ---
 layout: poem
 category: poem
-title:  "Not a Wall"
+title: "Not a Wall"
 image: not-a-wall.svg
 image-invertable: true
 date: 2021-01-22

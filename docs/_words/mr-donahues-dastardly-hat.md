@@ -1,10 +1,9 @@
 ---
 layout: story
 category: story
-title:  "Mr. Donahue's Dastardly Hat"
+title: "Mr. Donahue's Dastardly Hat"
 date: 2021-09-09
-summary: "For the past several weeks Mr. Donahue's hat simply hasn't fit right. One day it would feel too big, and on another, too small."
-spotlight: true
+summary: "\"For the past several weeks Mr. Donahue's hat simply hasn't fit right. One day it would feel too big, and on another, too small.\""
 ---
 
 For the past several weeks Mr. Donahue's hat simply hasn't fit right. One day it would feel too big, and on another, too small. He had never washed his hat; no, not a hat like this, with its silk lining and custom initials embroidered on the inner brim. But he had come under the suspicion that his wife had and, to their dismay, he told the rest of the office so.

@@ -1,10 +1,9 @@
 ---
 layout: story
 category: story
-title:  "Seahurst Park"
+title: "Seahurst Park"
 date: 2020-12-25
 summary: "\"What if we are nothing but our minds?\" She started. \"What if our bodies exist only to make our minds more tangible, and...\""
-spotlight: true
 ---
 
 The sky was closing in a haze, and so was I.
@@ -43,19 +42,19 @@ The sky was closing in a haze, and so was I.
 
 <span class="words-section-break"></span>
 
-	I didn't play music on my way home — something I didn't realize at the time. Maybe my thoughts were loud enough. The rain and wind whipped and slapped in eddies through the missing window. My mind curled in on itself, away from a world it decided wasn't worth the effort, and recited propositions of further isolation. <i>This is what happens when you stray too far from home. What you get for having nice things: more to lose.</i>
+I didn't play music on my way home — something I didn't realize at the time. Maybe my thoughts were loud enough. The rain and wind whipped and slapped in eddies through the missing window. My mind curled in on itself, away from a world it decided wasn't worth the effort, and recited propositions of further isolation. <i>This is what happens when you stray too far from home. What you get for having nice things: more to lose.</i>
 	Shards of glass fell from the doorframe, like a gaping maw losing teeth. The growing pile of shattered remains rattled and scraped as the car shifted. A bitter breeze blew across the dark lake, leaving my fingers stiff and dry. I cracked a window to ease the thumping in my ear.
 	I recalled something she said as we'd stood on the shore, looking out at an object floating in the distance: a speck of darkness in the seamless backdrop of grey water fading to hazy skies.
 	"What if we are nothing but our minds?" She started. "And what if our bodies exist only to make our minds more tangible?"
     I looked over at her, my thoughts still on the darkness.
     "Then the physical world," she continued, "is like a mirror: existing only to help us see ourselves indirectly, from a new perspective?"
 	Silence returned as we stared at the smudge, pondering the view.
-	I saw a log, floating against desaturated ripples: a piece of former life, sinking ever so slowly into the waves. In that same silhouette she saw a couple of birds, enjoying each other's presence despite the monotonous gloom.
-    It was too hazy to tell for sure.
+	I saw a log, floating against desaturated ripples: a piece of former life, sinking ever so slowly into the waves. In that same silhouette she saw a couple of birds, enjoying each other's company despite the monotonous gloom.
+	It was too hazy to tell for sure.
 	I kept picturing that stain in the water, trying to see a beak, or the flap of a wing. A sign of life, or a sliver of meaning.
 	My fingers ached as I gripped the steering wheel tighter, not noticing that I was. At the realization, I eased my tightened shoulders, and plunged back into my pulsing thoughts.
 	It wasn't the backpack I was upset about — I could buy another — or the window — I could get it fixed. Maybe I was plagued by the feeling that this might have all been avoided. What if we had met a different day? Or left earlier, after the first lull in our conversation? Thoughts that I knew to be foolish, even then. It was more than that though. No, something else entirely. I was almost frustrated that it wasn't all a big deal. Like the record that was constantly looping in my head for months, driving me half insane, was all just an attempt to avoid this, such an insignificant misfortune. But it happened even still. Fear and pessimism, two old friends had conspired against me, telling my brain the world was something that it was not.
 	<i>It's okay</i>, I told myself for the first time I can remember, and started to breath again.
-	Eventually my mind eased away from those consuming thoughts, and a wave of calm washed over me with a truth I had forgotten. <i>This world is indifferent, I remember that now.</i> It was something I found strangely comforting. Like staring death in the face, and remembering that you are, in spite of its efforts, still alive.
+	Eventually my mind eased away from those consuming thoughts, and a wave of calm washed over me with a truth I had forgotten. <i>This world is indifferent, I remember that now.</i> Which was strangely comforting. Like staring death in the face and remembering that you are, in spite of its efforts, still alive.
 	She asked me if I got home safe. Yes, I said, I did — something else to be grateful for.
-	I had calls to make and appointments to schedule: the bureaucratic fallout of the day's events. That, on top of my neglected responsibilities that littered the space around me. But that same cluttered room I'd left just hours before felt different now. What had before seemed like too much to handle, now felt weightless; or I, immune to its crippling burden. I set down my keys and laid on the floor, gazing through the skylight at the moon's glow. My body sunk into the wooden boards, seeming to meld with the physical world, and my mind slowly rediscovered how to breathe.
+	I had calls to make and appointments to schedule: the bureaucratic fallout of the day's events. That, on top of my neglected responsibilities that littered the space around me. But that same cluttered room I'd left just hours before felt different now. What had seemed like too much to handle, now felt weightless; or I, immune to its crippling load. I set down my keys and laid on the floor, gazing through the skylight at the moon's glow. My body sunk into the wooden boards, seeming to meld with the physical world, and my mind slowly rediscovered how to breathe.

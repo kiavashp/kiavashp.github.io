@@ -92,41 +92,6 @@ main {
     padding-bottom: 120px;
 }
 
-/* social */
-
-.social-link {
-    display: inline-block;
-    vertical-align: top;
-    width: 40px;
-    height: 40px;
-    border-radius: 15px;
-    margin-right: 20px;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: 50px auto;
-    background-size: contain;
-    box-shadow: rgba(0, 0, 0, 0.2) 1px 1px 4px;
-}
-
-.social-link:last-child {
-    margin: 0;
-}
-
-.email-social {
-    background-image: url(/assets/social/email.svg);
-    background-color: #3f5e73;
-}
-
-.medium-social {
-    background-image: url(/assets/social/medium.svg);
-    background-color: #282828;
-}
-
-.wattpad-social {
-    background-image: url(/assets/social/wattpad.png);
-    background-color: #fafafa;
-}
-
 /* nav */
 
 nav {
@@ -137,6 +102,11 @@ nav {
     background-color: #6C98B5;
     background: linear-gradient(#75a0bd, #6C98B5);
     transition: box-shadow 0.1s ease-in-out;
+}
+
+nav.noheadergradient {
+    background: #6690ae;
+    background: linear-gradient(#75a0bd, #6690ae);
 }
 
 .nav-content {
@@ -253,11 +223,11 @@ header.shortgradient {
 .hero {
     display: block;
     max-width: 600px;
-    padding: 80px 80px 60px;
+    padding: 80px 80px 40px;
     margin: 0 auto;
 }
 
-.hero-top {
+.hero-content {
     display: flex;
 }
 
@@ -310,16 +280,9 @@ a.hero-subscribe {
     box-shadow: 2px 2px 0 0 #567d99;
 }
 
-.hero-bottom {
+.hero-sep {
     border-top: 1px solid rgba(255, 255, 255, 0.2);
     margin-top: 40px;
-    padding-top: 15px;
-}
-
-.hero-social {
-    padding-top: 25px;
-    text-align: center;
-    font-size: 0;
 }
 
 /* carousel */
@@ -647,16 +610,22 @@ a.list-preview-continuereading {
     line-height: 24px;
 }
 
-.words-section-break {
+.words-quote-center {
     display: block;
-    margin: 0 auto;
     text-align: center;
+    margin: 0 auto;
+    width: 60%;
 }
 
-.words-section-break:before {
-    content: "• • •";
-    font-size: 12px;
-    font-weight: normal;
+.words-section-break {
+    display: block;
+    margin: 30px auto;
+    text-align: center;
+
+    background-image: url('/assets/words-section-break.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 22px;
 }
 
 .words-footer {
@@ -684,7 +653,7 @@ footer {
     box-sizing: border-box;
     width: inherit;
     min-height: 240px;
-    color: #606060;
+    color: #827667;
     font-size: 16px;
 }
 
@@ -723,48 +692,48 @@ footer:before {
     color: #928677;
 }
 
-.footer-email {
-    display: block;
-    font-size: 16px;
-    margin: 20px 0;
-}
-
-.footer-email > a {
-    display: inline-block;
-    text-decoration: underline;
-    color: inherit;
-    padding: 10px 5px;
-}
-
 .footer-social {
-    margin: 5px 0;
-    font-size: 0;
+
 }
 
-.footer-social > .email-social {
-    background-color: #a59789;
+.footer-social .social {
+    display: block;
+    line-height: 28px;
+    color: inherit;
+    font-size: 14px;
+}
+
+.footer-social .social:before {
+    content: '';
+    display: inline-block;
+    vertical-align: middle;
+    width: 20px;
+    height: 20px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 20px 20px;
+    margin-right: 8px;
+}
+
+.footer-social .social-email:before {
+    background-image: url(/assets/social/email.svg);
+}
+
+.footer-social .social-medium:before {
+    background-image: url(/assets/social/medium.svg);
+}
+
+.footer-social .social-instagram:before {
+    background-image: url(/assets/social/instagram.svg);
 }
 
 a.footer-subscribe {
-    display: block;
-    box-sizing: border-box;
-    max-width: 220px;
-    border-radius: 10px;
+    display: inline-block;
+    padding: 6px 16px;
+    border-radius: 5px;
+    margin: 16px 0;
+    background-color: #567d99;
     color: #ffffff;
-    text-align: center;
-    padding: 8px 24px;
-    margin-bottom: 10px;
-    background: #567d99;
-    box-shadow: 2px 2px 0 0 #506778;
-}
-
-a.footer-unsubscribe {
-    display: block;
-    max-width: 220px;
-    text-align: center;
-    color: #c8c1bb;
-    font-size: 14px;
-    margin-bottom: 20px;
 }
 
 a.sitemap-link {
@@ -772,6 +741,12 @@ a.sitemap-link {
     font-size: 14px;
     line-height: 150%;
     color: inherit;
+}
+
+a.sitemap-link-category {
+    padding: 5px 0;
+    text-decoration: underline;
+    color: #c4b8b3;
 }
 
 .footer-copyright {
@@ -792,7 +767,7 @@ a.sitemap-link {
         text-align: center;
     }
 
-    .hero-top {
+    .hero-content {
         flex-direction: column-reverse;
     }
 

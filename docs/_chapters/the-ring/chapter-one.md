@@ -1,7 +1,7 @@
 ---
 layout: chapter
 category: book
-title:  "Chapter One"
+title: "Chapter One"
 number: 1
 date: 2021-11-01
 summary: "Julian wakes in a facility; his implant has been removed. His situation is serious, but not understood, and he must make a decision about the nature of his recovery."

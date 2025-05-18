@@ -1,7 +1,7 @@
 ---
 layout: chapter
 category: book
-title:  "Chapter Three"
+title: "Chapter Three"
 number: 3
 date: 2021-11-16
 summary: "Julian settles into facility life, and even makes some friends. He's feeling generally optimistic about his situation, but upon sharing this with the others he get a reaction he wasn't expecting."

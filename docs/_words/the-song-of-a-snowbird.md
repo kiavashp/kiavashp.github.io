@@ -1,7 +1,7 @@
 ---
 layout: story
 category: story
-title:  "The Song of a Snowbird"
+title: "The Song of a Snowbird"
 date: 2020-08-08
 summary: "Sarah had plenty of reasons to leave her city life, even before the turmoil of her parents divorce, which culminated in her complete withdrawal from society."
 ---

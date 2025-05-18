@@ -1,12 +1,11 @@
 ---
 layout: poem
 category: poem
-title:  "A Weapon in Love"
+title: "A Weapon in Love"
 image: a-weapon-in-love.svg
 image-invertable: true
 date: 2021-05-30
 summary: "\"And what if we find, after so many years<br>the Us we knew became the piles we feared...\""
-spotlight: true
 ---
 
 Upon these aching shoulders I hold
