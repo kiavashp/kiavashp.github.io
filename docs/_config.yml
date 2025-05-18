@@ -37,10 +37,10 @@ defaults:
 # global variables
 navtitle: "Kiavash Page"
 sitename: "Kiavash Page"
-sitedescription: "Kiavash Page: Author of fiction, poetry, and essays."
+sitedescription: "Kiavash Page: Author of fiction and poetry."
 contactemail: "contact@kiavash.page"
 author: "Kiavash Page"
-bio: "Writing helps remind me to stay present in life. That boredom is a choice, and there's always something new to see in familiar places.
+bio: "A collection of short stories and poems.
 <br><br>Join the mailing list below for updates on new content!"
 spotlighttitle: "Spotlight"
 mailinglist-subscribe-url: "https://forms.gle/GSKxepE7EPgGcGRC9"
